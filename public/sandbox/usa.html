@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+html, body {
+    background:black;
+    color:white;
+}
+
+.counties {
+    fill:none;
+    stroke: #eee;
+    stroke-linejoin: round;
+    cursor: pointer;
+}
+
+.states {
+  fill:none;
+  stroke: #aaa;
+  stroke-linejoin: round;
+  stroke-width:1.5;
+}
+
+</style>
+<body>
+    <div id="us-map"></div>
+    <div id="out"></div>
+<script src="/dist/scripts.js"></script>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="//d3js.org/queue.v1.min.js"></script>
+<script src="//d3js.org/topojson.v1.min.js"></script>
+<script src"https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+<script>
+
+  var aspect = 900 / 600;
+  var el = d3.select('#us-map');
+  var width = el.node().getBoundingClientRect().width;
+  var height = width / aspect;
+
+    var color = d3.scale.quantize()
+      .domain([0.2, 0, -0.2])
+      .range(['#238b45', '#74c476', '#bae4b3', '#edf8e9', '#fff', '#fee5d9', '#fcae91', '#fb6a4a', '#cb181d']);
+
+    var rateById = d3.map();
+
+    var fipsDict = {};
+
+    var max = 0.0, min = 0.0;
+
+    var projection = d3.geo.albersUsa()
+        .scale(width)
+        .translate([width / 2, height / 2]);
+
+    var path = d3.geo.path()
+        .projection(projection);
+
+    var svg = el.append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+    queue()
+        .defer(d3.json, "/data/us-counties.json")
+        .defer(d3.csv, "/data/with_rates.csv", function(d) {
+            if ( +d.rate > max ) {
+                max = +d.rate;
+            }
+            if ( +d.rate < min ) {
+                min = +d.rate;
+            }
+            var id = d.statefp + d.countyfp;
+            rateById.set(+id, +d.rate);
+            fipsDict[+id] = d;
+        })
+        .await(ready);
+
+    function ready(error, us) {
+      if (error) throw error;
+
+      var out = document.getElementById('out');
+
+      var counties = topojson.feature(us, us.objects.counties);
+      var states = topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; });
+
+      svg.append("g")
+          .attr("class", "counties")
+        .selectAll("path")
+          .data(counties.features)
+        .enter().append("path")
+          .style("fill", function(d) {
+              if(typeof fipsDict[+d.id] !== "undefined") {
+                    return color(fipsDict[+d.id].rate);
+              }
+          })
+          .attr("d", path)
+          .on('mouseover', function(d) {
+              if(typeof fipsDict[+d.id] !== "undefined") {
+                  var rec = fipsDict[+d.id];
+                  out.innerHTML = rec.countyname + ", " + rec.statename + ": " + (rec.rate * 100).toFixed(2) + "%";
+              }
+          });
+
+      svg.append("path")
+          .attr("class", "states")
+          .datum(states)
+          .attr("d", path);
+
+      	d3.select(window)
+          		.on("resize", _.debounce(resize, 500));
+
+          function resize() {
+            var width = el.node().getBoundingClientRect().width;
+            var height = width / aspect;
+
+            svg
+              .attr('width', width)
+              .attr('height', height);
+
+            projection
+                .scale(width)
+                .translate([width / 2, height / 2]);
+
+            d3.select('.states')
+              .attr('d', path);
+
+            d3.selectAll('.counties path')
+              .attr('d', path);
+
+          }
+    }
+
+</script>

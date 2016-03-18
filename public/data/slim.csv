@@ -1,0 +1,3194 @@
+STATE|COUNTY|STNAME|CTYNAME|CENSUS2010POP|POPESTIMATE2014
+01|000|Alabama|Alabama|4779736|4849377
+01|001|Alabama|Autauga County|54571|55395
+01|003|Alabama|Baldwin County|182265|200111
+01|005|Alabama|Barbour County|27457|26887
+01|007|Alabama|Bibb County|22915|22506
+01|009|Alabama|Blount County|57322|57719
+01|011|Alabama|Bullock County|10914|10764
+01|013|Alabama|Butler County|20947|20296
+01|015|Alabama|Calhoun County|118572|115916
+01|017|Alabama|Chambers County|34215|34076
+01|019|Alabama|Cherokee County|25989|26037
+01|021|Alabama|Chilton County|43643|43931
+01|023|Alabama|Choctaw County|13859|13323
+01|025|Alabama|Clarke County|25833|24945
+01|027|Alabama|Clay County|13932|13552
+01|029|Alabama|Cleburne County|14972|15080
+01|031|Alabama|Coffee County|49948|50909
+01|033|Alabama|Colbert County|54428|54543
+01|035|Alabama|Conecuh County|13228|12670
+01|037|Alabama|Coosa County|11539|10886
+01|039|Alabama|Covington County|37765|37914
+01|041|Alabama|Crenshaw County|13906|13977
+01|043|Alabama|Cullman County|80406|81289
+01|045|Alabama|Dale County|50251|49484
+01|047|Alabama|Dallas County|43820|41711
+01|049|Alabama|DeKalb County|71109|71065
+01|051|Alabama|Elmore County|79303|80977
+01|053|Alabama|Escambia County|38319|37733
+01|055|Alabama|Etowah County|104430|103531
+01|057|Alabama|Fayette County|17241|16874
+01|059|Alabama|Franklin County|31704|31601
+01|061|Alabama|Geneva County|26790|26712
+01|063|Alabama|Greene County|9045|8553
+01|065|Alabama|Hale County|15760|15184
+01|067|Alabama|Henry County|17302|17190
+01|069|Alabama|Houston County|101547|104193
+01|071|Alabama|Jackson County|53227|52665
+01|073|Alabama|Jefferson County|658466|660793
+01|075|Alabama|Lamar County|14564|14086
+01|077|Alabama|Lauderdale County|92709|93096
+01|079|Alabama|Lawrence County|34339|33477
+01|081|Alabama|Lee County|140247|154255
+01|083|Alabama|Limestone County|82782|90787
+01|085|Alabama|Lowndes County|11299|10580
+01|087|Alabama|Macon County|21452|19425
+01|089|Alabama|Madison County|334811|350299
+01|091|Alabama|Marengo County|21027|20110
+01|093|Alabama|Marion County|30776|30271
+01|095|Alabama|Marshall County|93019|94636
+01|097|Alabama|Mobile County|412992|415123
+01|099|Alabama|Monroe County|23068|21947
+01|101|Alabama|Montgomery County|229363|226189
+01|103|Alabama|Morgan County|119490|119607
+01|105|Alabama|Perry County|10591|9826
+01|107|Alabama|Pickens County|19746|20365
+01|109|Alabama|Pike County|32899|33389
+01|111|Alabama|Randolph County|22913|22539
+01|113|Alabama|Russell County|52947|59608
+01|115|Alabama|St. Clair County|83593|86697
+01|117|Alabama|Shelby County|195085|206655
+01|119|Alabama|Sumter County|13763|13166
+01|121|Alabama|Talladega County|82291|81322
+01|123|Alabama|Tallapoosa County|41616|41165
+01|125|Alabama|Tuscaloosa County|194656|202212
+01|127|Alabama|Walker County|67023|65471
+01|129|Alabama|Washington County|17581|16834
+01|131|Alabama|Wilcox County|11670|11098
+01|133|Alabama|Winston County|24484|24150
+02|000|Alaska|Alaska|710231|736732
+02|013|Alaska|Aleutians East Borough|3141|3360
+02|016|Alaska|Aleutians West Census Area|5561|5750
+02|020|Alaska|Anchorage Municipality|291826|301010
+02|050|Alaska|Bethel Census Area|17013|17868
+02|060|Alaska|Bristol Bay Borough|997|957
+02|068|Alaska|Denali Borough|1826|1921
+02|070|Alaska|Dillingham Census Area|4847|4988
+02|090|Alaska|Fairbanks North Star Borough|97581|99357
+02|100|Alaska|Haines Borough|2508|2566
+02|105|Alaska|Hoonah-Angoon Census Area|2150|2082
+02|110|Alaska|Juneau City and Borough|31275|32406
+02|122|Alaska|Kenai Peninsula Borough|55400|57477
+02|130|Alaska|Ketchikan Gateway Borough|13477|13787
+02|150|Alaska|Kodiak Island Borough|13592|13986
+02|164|Alaska|Lake and Peninsula Borough|1631|1631
+02|170|Alaska|Matanuska-Susitna Borough|88995|97882
+02|180|Alaska|Nome Census Area|9492|9817
+02|185|Alaska|North Slope Borough|9430|9703
+02|188|Alaska|Northwest Arctic Borough|7523|7717
+02|195|Alaska|Petersburg Borough|3815|3160
+02|198|Alaska|Prince of Wales-Hyder Census Area|5559|6396
+02|220|Alaska|Sitka City and Borough|8881|8900
+02|230|Alaska|Skagway Municipality|968|1036
+02|240|Alaska|Southeast Fairbanks Census Area|7029|6931
+02|261|Alaska|Valdez-Cordova Census Area|9636|9488
+02|270|Alaska|Wade Hampton Census Area|7459|8010
+02|275|Alaska|Wrangell City and Borough|2369|2364
+02|282|Alaska|Yakutat City and Borough|662|635
+02|290|Alaska|Yukon-Koyukuk Census Area|5588|5547
+04|000|Arizona|Arizona|6392017|6731484
+04|001|Arizona|Apache County|71518|71828
+04|003|Arizona|Cochise County|131346|127448
+04|005|Arizona|Coconino County|134421|137682
+04|007|Arizona|Gila County|53597|53119
+04|009|Arizona|Graham County|37220|37957
+04|011|Arizona|Greenlee County|8437|9346
+04|012|Arizona|La Paz County|20489|20231
+04|013|Arizona|Maricopa County|3817117|4087191
+04|015|Arizona|Mohave County|200186|203361
+04|017|Arizona|Navajo County|107449|108101
+04|019|Arizona|Pima County|980263|1004516
+04|021|Arizona|Pinal County|375770|401918
+04|023|Arizona|Santa Cruz County|47420|46695
+04|025|Arizona|Yavapai County|211033|218844
+04|027|Arizona|Yuma County|195751|203247
+05|000|Arkansas|Arkansas|2915918|2966369
+05|001|Arkansas|Arkansas County|19019|18594
+05|003|Arkansas|Ashley County|21853|20948
+05|005|Arkansas|Baxter County|41513|40857
+05|007|Arkansas|Benton County|221339|242321
+05|009|Arkansas|Boone County|36903|37196
+05|011|Arkansas|Bradley County|11508|11148
+05|013|Arkansas|Calhoun County|5368|5202
+05|015|Arkansas|Carroll County|27446|27744
+05|017|Arkansas|Chicot County|11800|11180
+05|019|Arkansas|Clark County|22995|22576
+05|021|Arkansas|Clay County|16083|15118
+05|023|Arkansas|Cleburne County|25970|25634
+05|025|Arkansas|Cleveland County|8689|8449
+05|027|Arkansas|Columbia County|24552|23933
+05|029|Arkansas|Conway County|21273|21083
+05|031|Arkansas|Craighead County|96443|102518
+05|033|Arkansas|Crawford County|61948|61697
+05|035|Arkansas|Crittenden County|50902|49548
+05|037|Arkansas|Cross County|17870|17227
+05|039|Arkansas|Dallas County|8116|7755
+05|041|Arkansas|Desha County|13008|12264
+05|043|Arkansas|Drew County|18509|18622
+05|045|Arkansas|Faulkner County|113237|120768
+05|047|Arkansas|Franklin County|18125|17805
+05|049|Arkansas|Fulton County|12245|12125
+05|051|Arkansas|Garland County|96024|97322
+05|053|Arkansas|Grant County|17853|18144
+05|055|Arkansas|Greene County|42090|43694
+05|057|Arkansas|Hempstead County|22609|22327
+05|059|Arkansas|Hot Spring County|32923|33368
+05|061|Arkansas|Howard County|13789|13500
+05|063|Arkansas|Independence County|36647|36959
+05|065|Arkansas|Izard County|13696|13486
+05|067|Arkansas|Jackson County|17997|17534
+05|069|Arkansas|Jefferson County|77435|72297
+05|071|Arkansas|Johnson County|25540|26005
+05|073|Arkansas|Lafayette County|7645|7111
+05|075|Arkansas|Lawrence County|17415|16931
+05|077|Arkansas|Lee County|10424|9860
+05|079|Arkansas|Lincoln County|14134|13970
+05|081|Arkansas|Little River County|13171|12532
+05|083|Arkansas|Logan County|22353|21958
+05|085|Arkansas|Lonoke County|68356|71557
+05|087|Arkansas|Madison County|15717|15740
+05|089|Arkansas|Marion County|16653|16367
+05|091|Arkansas|Miller County|43462|43428
+05|093|Arkansas|Mississippi County|46480|44235
+05|095|Arkansas|Monroe County|8149|7582
+05|097|Arkansas|Montgomery County|9487|9082
+05|099|Arkansas|Nevada County|8997|8723
+05|101|Arkansas|Newton County|8330|7904
+05|103|Arkansas|Ouachita County|26120|24828
+05|105|Arkansas|Perry County|10445|10245
+05|107|Arkansas|Phillips County|21757|19930
+05|109|Arkansas|Pike County|11291|11024
+05|111|Arkansas|Poinsett County|24583|24246
+05|113|Arkansas|Polk County|20662|20225
+05|115|Arkansas|Pope County|61754|63201
+05|117|Arkansas|Prairie County|8715|8304
+05|119|Arkansas|Pulaski County|382748|392702
+05|121|Arkansas|Randolph County|17969|17571
+05|123|Arkansas|St. Francis County|28258|26899
+05|125|Arkansas|Saline County|107118|115719
+05|127|Arkansas|Scott County|11233|10693
+05|129|Arkansas|Searcy County|8195|7929
+05|131|Arkansas|Sebastian County|125744|126776
+05|133|Arkansas|Sevier County|17058|17426
+05|135|Arkansas|Sharp County|17264|16906
+05|137|Arkansas|Stone County|12394|12494
+05|139|Arkansas|Union County|41639|40227
+05|141|Arkansas|Van Buren County|17295|16851
+05|143|Arkansas|Washington County|203065|220792
+05|145|Arkansas|White County|77076|78592
+05|147|Arkansas|Woodruff County|7260|6910
+05|149|Arkansas|Yell County|22185|21951
+06|000|California|California|37253956|38802500
+06|001|California|Alameda County|1510271|1610921
+06|003|California|Alpine County|1175|1116
+06|005|California|Amador County|38091|36742
+06|007|California|Butte County|220000|224241
+06|009|California|Calaveras County|45578|44624
+06|011|California|Colusa County|21419|21419
+06|013|California|Contra Costa County|1049025|1111339
+06|015|California|Del Norte County|28610|27212
+06|017|California|El Dorado County|181058|183087
+06|019|California|Fresno County|930450|965974
+06|021|California|Glenn County|28122|27955
+06|023|California|Humboldt County|134623|134809
+06|025|California|Imperial County|174528|179091
+06|027|California|Inyo County|18546|18410
+06|029|California|Kern County|839631|874589
+06|031|California|Kings County|152982|150269
+06|033|California|Lake County|64665|64184
+06|035|California|Lassen County|34895|31749
+06|037|California|Los Angeles County|9818605|10116705
+06|039|California|Madera County|150865|154548
+06|041|California|Marin County|252409|260750
+06|043|California|Mariposa County|18251|17682
+06|045|California|Mendocino County|87841|87869
+06|047|California|Merced County|255793|266353
+06|049|California|Modoc County|9686|9023
+06|051|California|Mono County|14202|13997
+06|053|California|Monterey County|415057|431344
+06|055|California|Napa County|136484|141667
+06|057|California|Nevada County|98764|98893
+06|059|California|Orange County|3010232|3145515
+06|061|California|Placer County|348432|371694
+06|063|California|Plumas County|20007|18606
+06|065|California|Riverside County|2189641|2329271
+06|067|California|Sacramento County|1418788|1482026
+06|069|California|San Benito County|55269|58267
+06|071|California|San Bernardino County|2035210|2112619
+06|073|California|San Diego County|3095313|3263431
+06|075|California|San Francisco County|805235|852469
+06|077|California|San Joaquin County|685306|715597
+06|079|California|San Luis Obispo County|269637|279083
+06|081|California|San Mateo County|718451|758581
+06|083|California|Santa Barbara County|423895|440668
+06|085|California|Santa Clara County|1781642|1894605
+06|087|California|Santa Cruz County|262382|271804
+06|089|California|Shasta County|177223|179804
+06|091|California|Sierra County|3240|3003
+06|093|California|Siskiyou County|44900|43628
+06|095|California|Solano County|413344|431131
+06|097|California|Sonoma County|483878|500292
+06|099|California|Stanislaus County|514453|531997
+06|101|California|Sutter County|94737|95847
+06|103|California|Tehama County|63463|63067
+06|105|California|Trinity County|13786|13170
+06|107|California|Tulare County|442179|458198
+06|109|California|Tuolumne County|55365|53831
+06|111|California|Ventura County|823318|846178
+06|113|California|Yolo County|200849|207590
+06|115|California|Yuba County|72155|73966
+08|000|Colorado|Colorado|5029196|5355866
+08|001|Colorado|Adams County|441603|480718
+08|003|Colorado|Alamosa County|15445|16177
+08|005|Colorado|Arapahoe County|572003|618821
+08|007|Colorado|Archuleta County|12084|12244
+08|009|Colorado|Baca County|3788|3645
+08|011|Colorado|Bent County|6499|5630
+08|013|Colorado|Boulder County|294567|313333
+08|014|Colorado|Broomfield County|55889|62138
+08|015|Colorado|Chaffee County|17809|18363
+08|017|Colorado|Cheyenne County|1836|1871
+08|019|Colorado|Clear Creek County|9088|9187
+08|021|Colorado|Conejos County|8256|8265
+08|023|Colorado|Costilla County|3524|3568
+08|025|Colorado|Crowley County|5823|5360
+08|027|Colorado|Custer County|4255|4361
+08|029|Colorado|Delta County|30952|29870
+08|031|Colorado|Denver County|600158|663862
+08|033|Colorado|Dolores County|2064|1978
+08|035|Colorado|Douglas County|285465|314638
+08|037|Colorado|Eagle County|52197|52921
+08|039|Colorado|Elbert County|23086|24195
+08|041|Colorado|El Paso County|622263|663519
+08|043|Colorado|Fremont County|46824|46502
+08|045|Colorado|Garfield County|56389|57461
+08|047|Colorado|Gilpin County|5441|5851
+08|049|Colorado|Grand County|14843|14546
+08|051|Colorado|Gunnison County|15324|15725
+08|053|Colorado|Hinsdale County|843|786
+08|055|Colorado|Huerfano County|6711|6462
+08|057|Colorado|Jackson County|1394|1396
+08|059|Colorado|Jefferson County|534543|558503
+08|061|Colorado|Kiowa County|1398|1402
+08|063|Colorado|Kit Carson County|8270|8072
+08|065|Colorado|Lake County|7310|7357
+08|067|Colorado|La Plata County|51334|53989
+08|069|Colorado|Larimer County|299630|324122
+08|071|Colorado|Las Animas County|15507|14052
+08|073|Colorado|Lincoln County|5467|5510
+08|075|Colorado|Logan County|22709|22524
+08|077|Colorado|Mesa County|146723|148255
+08|079|Colorado|Mineral County|712|698
+08|081|Colorado|Moffat County|13795|12928
+08|083|Colorado|Montezuma County|25535|25772
+08|085|Colorado|Montrose County|41276|40873
+08|087|Colorado|Morgan County|28159|28328
+08|089|Colorado|Otero County|18831|18488
+08|091|Colorado|Ouray County|4436|4629
+08|093|Colorado|Park County|16206|16345
+08|095|Colorado|Phillips County|4442|4363
+08|097|Colorado|Pitkin County|17148|17626
+08|099|Colorado|Prowers County|12551|12034
+08|101|Colorado|Pueblo County|159063|161875
+08|103|Colorado|Rio Blanco County|6666|6707
+08|105|Colorado|Rio Grande County|11982|11607
+08|107|Colorado|Routt County|23509|23865
+08|109|Colorado|Saguache County|6108|6196
+08|111|Colorado|San Juan County|699|720
+08|113|Colorado|San Miguel County|7359|7840
+08|115|Colorado|Sedgwick County|2379|2348
+08|117|Colorado|Summit County|27994|29404
+08|119|Colorado|Teller County|23350|23389
+08|121|Colorado|Washington County|4814|4780
+08|123|Colorado|Weld County|252825|277670
+08|125|Colorado|Yuma County|10043|10202
+09|000|Connecticut|Connecticut|3574097|3596677
+09|001|Connecticut|Fairfield County|916829|945438
+09|003|Connecticut|Hartford County|894014|897985
+09|005|Connecticut|Litchfield County|189927|184993
+09|007|Connecticut|Middlesex County|165676|164943
+09|009|Connecticut|New Haven County|862477|861277
+09|011|Connecticut|New London County|274055|273676
+09|013|Connecticut|Tolland County|152691|151367
+09|015|Connecticut|Windham County|118428|116998
+10|000|Delaware|Delaware|897934|935614
+10|001|Delaware|Kent County|162310|171987
+10|003|Delaware|New Castle County|538479|552778
+10|005|Delaware|Sussex County|197145|210849
+11|000|District of Columbia|District of Columbia|601723|658893
+11|001|District of Columbia|District of Columbia|601723|658893
+12|000|Florida|Florida|18801310|19893297
+12|001|Florida|Alachua County|247336|256380
+12|003|Florida|Baker County|27115|27093
+12|005|Florida|Bay County|168852|178985
+12|007|Florida|Bradford County|28520|26702
+12|009|Florida|Brevard County|543376|556885
+12|011|Florida|Broward County|1748066|1869235
+12|013|Florida|Calhoun County|14625|14532
+12|015|Florida|Charlotte County|159978|168474
+12|017|Florida|Citrus County|141236|139377
+12|019|Florida|Clay County|190865|199798
+12|021|Florida|Collier County|321520|348777
+12|023|Florida|Columbia County|67531|67857
+12|027|Florida|DeSoto County|34862|35012
+12|029|Florida|Dixie County|16422|15907
+12|031|Florida|Duval County|864263|897698
+12|033|Florida|Escambia County|297619|310659
+12|035|Florida|Flagler County|95696|102408
+12|037|Florida|Franklin County|11549|11815
+12|039|Florida|Gadsden County|46389|46281
+12|041|Florida|Gilchrist County|16939|16997
+12|043|Florida|Glades County|12884|13635
+12|045|Florida|Gulf County|15863|15944
+12|047|Florida|Hamilton County|14799|14048
+12|049|Florida|Hardee County|27731|27469
+12|051|Florida|Hendry County|39140|38505
+12|053|Florida|Hernando County|172778|175855
+12|055|Florida|Highlands County|98786|98236
+12|057|Florida|Hillsborough County|1229226|1316298
+12|059|Florida|Holmes County|19927|19650
+12|061|Florida|Indian River County|138028|144755
+12|063|Florida|Jackson County|49746|48801
+12|065|Florida|Jefferson County|14761|14050
+12|067|Florida|Lafayette County|8870|8835
+12|069|Florida|Lake County|297052|315690
+12|071|Florida|Lee County|618754|679513
+12|073|Florida|Leon County|275487|283988
+12|075|Florida|Levy County|40801|39613
+12|077|Florida|Liberty County|8365|8360
+12|079|Florida|Madison County|19224|18518
+12|081|Florida|Manatee County|322833|351746
+12|083|Florida|Marion County|331298|339167
+12|085|Florida|Martin County|146318|153392
+12|086|Florida|Miami-Dade County|2496435|2662874
+12|087|Florida|Monroe County|73090|77136
+12|089|Florida|Nassau County|73314|76619
+12|091|Florida|Okaloosa County|180822|196512
+12|093|Florida|Okeechobee County|39996|39149
+12|095|Florida|Orange County|1145956|1253001
+12|097|Florida|Osceola County|268685|310211
+12|099|Florida|Palm Beach County|1320134|1397710
+12|101|Florida|Pasco County|464697|485331
+12|103|Florida|Pinellas County|916542|938098
+12|105|Florida|Polk County|602095|634638
+12|107|Florida|Putnam County|74364|72143
+12|109|Florida|St. Johns County|190039|217919
+12|111|Florida|St. Lucie County|277789|291028
+12|113|Florida|Santa Rosa County|151372|163422
+12|115|Florida|Sarasota County|379448|396962
+12|117|Florida|Seminole County|422718|442516
+12|119|Florida|Sumter County|93420|114350
+12|121|Florida|Suwannee County|41551|44022
+12|123|Florida|Taylor County|22570|22582
+12|125|Florida|Union County|15535|15190
+12|127|Florida|Volusia County|494593|507531
+12|129|Florida|Wakulla County|30776|31432
+12|131|Florida|Walton County|55043|61530
+12|133|Florida|Washington County|24896|24451
+13|000|Georgia|Georgia|9687653|10097343
+13|001|Georgia|Appling County|18236|18540
+13|003|Georgia|Atkinson County|8375|8223
+13|005|Georgia|Bacon County|11096|11281
+13|007|Georgia|Baker County|3451|3255
+13|009|Georgia|Baldwin County|45720|45909
+13|011|Georgia|Banks County|18395|18295
+13|013|Georgia|Barrow County|69367|73240
+13|015|Georgia|Bartow County|100157|101736
+13|017|Georgia|Ben Hill County|17634|17464
+13|019|Georgia|Berrien County|19286|18700
+13|021|Georgia|Bibb County|155547|153905
+13|023|Georgia|Bleckley County|13063|12795
+13|025|Georgia|Brantley County|18411|18417
+13|027|Georgia|Brooks County|16243|15418
+13|029|Georgia|Bryan County|30233|33906
+13|031|Georgia|Bulloch County|70217|72087
+13|033|Georgia|Burke County|23316|22709
+13|035|Georgia|Butts County|23655|23368
+13|037|Georgia|Calhoun County|6694|6463
+13|039|Georgia|Camden County|50513|52027
+13|043|Georgia|Candler County|10998|10888
+13|045|Georgia|Carroll County|110527|114093
+13|047|Georgia|Catoosa County|63942|65621
+13|049|Georgia|Charlton County|12171|12897
+13|051|Georgia|Chatham County|265128|283379
+13|053|Georgia|Chattahoochee County|11267|11837
+13|055|Georgia|Chattooga County|26015|24939
+13|057|Georgia|Cherokee County|214346|230985
+13|059|Georgia|Clarke County|116714|120938
+13|061|Georgia|Clay County|3183|3102
+13|063|Georgia|Clayton County|259424|267542
+13|065|Georgia|Clinch County|6798|6831
+13|067|Georgia|Cobb County|688078|730981
+13|069|Georgia|Coffee County|42356|42811
+13|071|Georgia|Colquitt County|45498|46102
+13|073|Georgia|Columbia County|124053|139257
+13|075|Georgia|Cook County|17212|17214
+13|077|Georgia|Coweta County|127317|135571
+13|079|Georgia|Crawford County|12630|12387
+13|081|Georgia|Crisp County|23439|22934
+13|083|Georgia|Dade County|16633|16389
+13|085|Georgia|Dawson County|22330|22957
+13|087|Georgia|Decatur County|27842|27220
+13|089|Georgia|DeKalb County|691893|722161
+13|091|Georgia|Dodge County|21796|20976
+13|093|Georgia|Dooly County|14918|14188
+13|095|Georgia|Dougherty County|94565|92407
+13|097|Georgia|Douglas County|132403|138776
+13|099|Georgia|Early County|11008|10491
+13|101|Georgia|Echols County|4034|4003
+13|103|Georgia|Effingham County|52250|55423
+13|105|Georgia|Elbert County|20166|19438
+13|107|Georgia|Emanuel County|22598|22755
+13|109|Georgia|Evans County|11000|10898
+13|111|Georgia|Fannin County|23682|23753
+13|113|Georgia|Fayette County|106567|109664
+13|115|Georgia|Floyd County|96317|96063
+13|117|Georgia|Forsyth County|175511|204302
+13|119|Georgia|Franklin County|22084|22264
+13|121|Georgia|Fulton County|920581|996319
+13|123|Georgia|Gilmer County|28292|28829
+13|125|Georgia|Glascock County|3082|3053
+13|127|Georgia|Glynn County|79626|82175
+13|129|Georgia|Gordon County|55186|56047
+13|131|Georgia|Grady County|25011|25359
+13|133|Georgia|Greene County|15994|16490
+13|135|Georgia|Gwinnett County|805321|877922
+13|137|Georgia|Habersham County|43041|43752
+13|139|Georgia|Hall County|179684|190761
+13|141|Georgia|Hancock County|9429|8509
+13|143|Georgia|Haralson County|28780|28641
+13|145|Georgia|Harris County|32024|32876
+13|147|Georgia|Hart County|25213|25377
+13|149|Georgia|Heard County|11834|11603
+13|151|Georgia|Henry County|203922|213869
+13|153|Georgia|Houston County|139900|149111
+13|155|Georgia|Irwin County|9538|9104
+13|157|Georgia|Jackson County|60485|61870
+13|159|Georgia|Jasper County|13900|13432
+13|161|Georgia|Jeff Davis County|15068|14859
+13|163|Georgia|Jefferson County|16930|16272
+13|165|Georgia|Jenkins County|8340|9125
+13|167|Georgia|Johnson County|9980|9701
+13|169|Georgia|Jones County|28669|28787
+13|171|Georgia|Lamar County|18317|18207
+13|173|Georgia|Lanier County|10078|10373
+13|175|Georgia|Laurens County|48434|47851
+13|177|Georgia|Lee County|28298|29191
+13|179|Georgia|Liberty County|63453|65198
+13|181|Georgia|Lincoln County|7996|7622
+13|183|Georgia|Long County|14464|17113
+13|185|Georgia|Lowndes County|109233|113523
+13|187|Georgia|Lumpkin County|29966|31176
+13|189|Georgia|McDuffie County|21875|21370
+13|191|Georgia|McIntosh County|14333|14214
+13|193|Georgia|Macon County|14740|13792
+13|195|Georgia|Madison County|28120|28312
+13|197|Georgia|Marion County|8742|8797
+13|199|Georgia|Meriwether County|21992|21198
+13|201|Georgia|Miller County|6125|5958
+13|205|Georgia|Mitchell County|23498|22771
+13|207|Georgia|Monroe County|26424|27051
+13|209|Georgia|Montgomery County|9123|8991
+13|211|Georgia|Morgan County|17868|17956
+13|213|Georgia|Murray County|39628|39410
+13|215|Georgia|Muscogee County|189885|200887
+13|217|Georgia|Newton County|99958|103675
+13|219|Georgia|Oconee County|32808|35093
+13|221|Georgia|Oglethorpe County|14899|14673
+13|223|Georgia|Paulding County|142324|148987
+13|225|Georgia|Peach County|27695|26922
+13|227|Georgia|Pickens County|29431|29997
+13|229|Georgia|Pierce County|18758|18991
+13|231|Georgia|Pike County|17869|17784
+13|233|Georgia|Polk County|41475|41133
+13|235|Georgia|Pulaski County|12010|11483
+13|237|Georgia|Putnam County|21218|21192
+13|239|Georgia|Quitman County|2513|2315
+13|241|Georgia|Rabun County|16276|16243
+13|243|Georgia|Randolph County|7719|7313
+13|245|Georgia|Richmond County|200549|201368
+13|247|Georgia|Rockdale County|85215|87754
+13|249|Georgia|Schley County|5010|5163
+13|251|Georgia|Screven County|14593|14085
+13|253|Georgia|Seminole County|8729|8686
+13|255|Georgia|Spalding County|64073|63988
+13|257|Georgia|Stephens County|26175|25480
+13|259|Georgia|Stewart County|6058|5744
+13|261|Georgia|Sumter County|32819|31232
+13|263|Georgia|Talbot County|6865|6390
+13|265|Georgia|Taliaferro County|1717|1693
+13|267|Georgia|Tattnall County|25520|25224
+13|269|Georgia|Taylor County|8906|8442
+13|271|Georgia|Telfair County|16500|16518
+13|273|Georgia|Terrell County|9315|9132
+13|275|Georgia|Thomas County|44720|44959
+13|277|Georgia|Tift County|40118|40704
+13|279|Georgia|Toombs County|27223|27282
+13|281|Georgia|Towns County|10471|11098
+13|283|Georgia|Treutlen County|6885|6778
+13|285|Georgia|Troup County|67044|69469
+13|287|Georgia|Turner County|8930|8153
+13|289|Georgia|Twiggs County|9023|8320
+13|291|Georgia|Union County|21356|21984
+13|293|Georgia|Upson County|27153|26256
+13|295|Georgia|Walker County|68756|68218
+13|297|Georgia|Walton County|83768|87615
+13|299|Georgia|Ware County|36312|35515
+13|301|Georgia|Warren County|5834|5520
+13|303|Georgia|Washington County|21187|20635
+13|305|Georgia|Wayne County|30099|29949
+13|307|Georgia|Webster County|2799|2649
+13|309|Georgia|Wheeler County|7421|7995
+13|311|Georgia|White County|27144|27970
+13|313|Georgia|Whitfield County|102599|103542
+13|315|Georgia|Wilcox County|9255|8847
+13|317|Georgia|Wilkes County|10593|9940
+13|319|Georgia|Wilkinson County|9563|9326
+13|321|Georgia|Worth County|21679|20940
+15|000|Hawaii|Hawaii|1360301|1419561
+15|001|Hawaii|Hawaii County|185079|194190
+15|003|Hawaii|Honolulu County|953207|991788
+15|005|Hawaii|Kalawao County|90|89
+15|007|Hawaii|Kauai County|67091|70475
+15|009|Hawaii|Maui County|154834|163019
+16|000|Idaho|Idaho|1567582|1634464
+16|001|Idaho|Ada County|392365|426236
+16|003|Idaho|Adams County|3976|3861
+16|005|Idaho|Bannock County|82839|83347
+16|007|Idaho|Bear Lake County|5986|5957
+16|009|Idaho|Benewah County|9285|9118
+16|011|Idaho|Bingham County|45607|45269
+16|013|Idaho|Blaine County|21376|21482
+16|015|Idaho|Boise County|7028|6824
+16|017|Idaho|Bonner County|40877|41585
+16|019|Idaho|Bonneville County|104234|108623
+16|021|Idaho|Boundary County|10972|10979
+16|023|Idaho|Butte County|2891|2622
+16|025|Idaho|Camas County|1117|1039
+16|027|Idaho|Canyon County|188923|203143
+16|029|Idaho|Caribou County|6963|6837
+16|031|Idaho|Cassia County|22952|23540
+16|033|Idaho|Clark County|982|867
+16|035|Idaho|Clearwater County|8761|8562
+16|037|Idaho|Custer County|4368|4140
+16|039|Idaho|Elmore County|27038|26094
+16|041|Idaho|Franklin County|12786|13021
+16|043|Idaho|Fremont County|13242|12867
+16|045|Idaho|Gem County|16719|16866
+16|047|Idaho|Gooding County|15464|15064
+16|049|Idaho|Idaho County|16267|16215
+16|051|Idaho|Jefferson County|26140|27021
+16|053|Idaho|Jerome County|22374|22818
+16|055|Idaho|Kootenai County|138494|147326
+16|057|Idaho|Latah County|37244|38411
+16|059|Idaho|Lemhi County|7936|7726
+16|061|Idaho|Lewis County|3821|3838
+16|063|Idaho|Lincoln County|5208|5316
+16|065|Idaho|Madison County|37536|38038
+16|067|Idaho|Minidoka County|20069|20323
+16|069|Idaho|Nez Perce County|39265|40007
+16|071|Idaho|Oneida County|4286|4184
+16|073|Idaho|Owyhee County|11526|11353
+16|075|Idaho|Payette County|22623|22836
+16|077|Idaho|Power County|7817|7617
+16|079|Idaho|Shoshone County|12765|12390
+16|081|Idaho|Teton County|10170|10341
+16|083|Idaho|Twin Falls County|77230|80914
+16|085|Idaho|Valley County|9862|9826
+16|087|Idaho|Washington County|10198|10021
+17|000|Illinois|Illinois|12830632|12880580
+17|001|Illinois|Adams County|67103|66988
+17|003|Illinois|Alexander County|8238|7492
+17|005|Illinois|Bond County|17768|17269
+17|007|Illinois|Boone County|54165|53869
+17|009|Illinois|Brown County|6937|6832
+17|011|Illinois|Bureau County|34978|33840
+17|013|Illinois|Calhoun County|5089|4956
+17|015|Illinois|Carroll County|15387|14715
+17|017|Illinois|Cass County|13642|13156
+17|019|Illinois|Champaign County|201081|207133
+17|021|Illinois|Christian County|34800|33892
+17|023|Illinois|Clark County|16335|16180
+17|025|Illinois|Clay County|13815|13520
+17|027|Illinois|Clinton County|37762|37857
+17|029|Illinois|Coles County|53873|53320
+17|031|Illinois|Cook County|5194675|5246456
+17|033|Illinois|Crawford County|19817|19393
+17|035|Illinois|Cumberland County|11048|10833
+17|037|Illinois|DeKalb County|105160|105462
+17|039|Illinois|De Witt County|16561|16284
+17|041|Illinois|Douglas County|19980|19889
+17|043|Illinois|DuPage County|916924|932708
+17|045|Illinois|Edgar County|18576|17841
+17|047|Illinois|Edwards County|6721|6617
+17|049|Illinois|Effingham County|34242|34320
+17|051|Illinois|Fayette County|22140|21870
+17|053|Illinois|Ford County|14081|13688
+17|055|Illinois|Franklin County|39561|39411
+17|057|Illinois|Fulton County|37069|36007
+17|059|Illinois|Gallatin County|5589|5291
+17|061|Illinois|Greene County|13886|13434
+17|063|Illinois|Grundy County|50063|50425
+17|065|Illinois|Hamilton County|8457|8296
+17|067|Illinois|Hancock County|19104|18564
+17|069|Illinois|Hardin County|4320|4129
+17|071|Illinois|Henderson County|7331|6916
+17|073|Illinois|Henry County|50486|49635
+17|075|Illinois|Iroquois County|29718|28879
+17|077|Illinois|Jackson County|60218|59677
+17|079|Illinois|Jasper County|9698|9623
+17|081|Illinois|Jefferson County|38827|38534
+17|083|Illinois|Jersey County|22985|22571
+17|085|Illinois|Jo Daviess County|22678|22254
+17|087|Illinois|Johnson County|12582|12601
+17|089|Illinois|Kane County|515269|527306
+17|091|Illinois|Kankakee County|113449|111375
+17|093|Illinois|Kendall County|114736|121350
+17|095|Illinois|Knox County|52919|52069
+17|097|Illinois|Lake County|703462|705186
+17|099|Illinois|LaSalle County|113924|111241
+17|101|Illinois|Lawrence County|16833|16519
+17|103|Illinois|Lee County|36031|34735
+17|105|Illinois|Livingston County|38950|37903
+17|107|Illinois|Logan County|30305|29746
+17|109|Illinois|McDonough County|32612|31880
+17|111|Illinois|McHenry County|308760|307283
+17|113|Illinois|McLean County|169572|174061
+17|115|Illinois|Macon County|110768|108350
+17|117|Illinois|Macoupin County|47765|46453
+17|119|Illinois|Madison County|269282|266560
+17|121|Illinois|Marion County|39437|38571
+17|123|Illinois|Marshall County|12640|12014
+17|125|Illinois|Mason County|14666|13898
+17|127|Illinois|Massac County|15429|14905
+17|129|Illinois|Menard County|12705|12570
+17|131|Illinois|Mercer County|16434|15945
+17|133|Illinois|Monroe County|32957|33722
+17|135|Illinois|Montgomery County|30104|29359
+17|137|Illinois|Morgan County|35547|34929
+17|139|Illinois|Moultrie County|14846|14837
+17|141|Illinois|Ogle County|53497|52085
+17|143|Illinois|Peoria County|186494|187319
+17|145|Illinois|Perry County|22350|21672
+17|147|Illinois|Piatt County|16729|16431
+17|149|Illinois|Pike County|16430|16022
+17|151|Illinois|Pope County|4470|4276
+17|153|Illinois|Pulaski County|6161|5815
+17|155|Illinois|Putnam County|6006|5814
+17|157|Illinois|Randolph County|33476|32869
+17|159|Illinois|Richland County|16233|16061
+17|161|Illinois|Rock Island County|147546|146063
+17|163|Illinois|St. Clair County|270056|265729
+17|165|Illinois|Saline County|24913|24612
+17|167|Illinois|Sangamon County|197465|198997
+17|169|Illinois|Schuyler County|7544|7330
+17|171|Illinois|Scott County|5355|5204
+17|173|Illinois|Shelby County|22363|22048
+17|175|Illinois|Stark County|5994|5813
+17|177|Illinois|Stephenson County|47711|46435
+17|179|Illinois|Tazewell County|135394|135707
+17|181|Illinois|Union County|17808|17447
+17|183|Illinois|Vermilion County|81625|79728
+17|185|Illinois|Wabash County|11947|11549
+17|187|Illinois|Warren County|17707|17874
+17|189|Illinois|Washington County|14716|14337
+17|191|Illinois|Wayne County|16760|16543
+17|193|Illinois|White County|14665|14374
+17|195|Illinois|Whiteside County|58498|56876
+17|197|Illinois|Will County|677560|685419
+17|199|Illinois|Williamson County|66357|67008
+17|201|Illinois|Winnebago County|295266|288542
+17|203|Illinois|Woodford County|38664|39187
+18|000|Indiana|Indiana|6483802|6596855
+18|001|Indiana|Adams County|34387|34791
+18|003|Indiana|Allen County|355329|365918
+18|005|Indiana|Bartholomew County|76794|80217
+18|007|Indiana|Benton County|8854|8700
+18|009|Indiana|Blackford County|12766|12401
+18|011|Indiana|Boone County|56640|61915
+18|013|Indiana|Brown County|15242|14962
+18|015|Indiana|Carroll County|20155|19923
+18|017|Indiana|Cass County|38966|38438
+18|019|Indiana|Clark County|110232|114262
+18|021|Indiana|Clay County|26890|26562
+18|023|Indiana|Clinton County|33224|32776
+18|025|Indiana|Crawford County|10713|10655
+18|027|Indiana|Daviess County|31648|32729
+18|029|Indiana|Dearborn County|50047|49506
+18|031|Indiana|Decatur County|25740|26524
+18|033|Indiana|DeKalb County|42223|42383
+18|035|Indiana|Delaware County|117671|117074
+18|037|Indiana|Dubois County|41889|42345
+18|039|Indiana|Elkhart County|197559|201971
+18|041|Indiana|Fayette County|24277|23468
+18|043|Indiana|Floyd County|74578|76179
+18|045|Indiana|Fountain County|17240|16658
+18|047|Indiana|Franklin County|23087|22934
+18|049|Indiana|Fulton County|20836|20500
+18|051|Indiana|Gibson County|33503|33759
+18|053|Indiana|Grant County|70061|68569
+18|055|Indiana|Greene County|33165|32726
+18|057|Indiana|Hamilton County|274569|302623
+18|059|Indiana|Hancock County|70002|71978
+18|061|Indiana|Harrison County|39364|39299
+18|063|Indiana|Hendricks County|145448|156056
+18|065|Indiana|Henry County|49462|48995
+18|067|Indiana|Howard County|82752|82982
+18|069|Indiana|Huntington County|37124|36706
+18|071|Indiana|Jackson County|42376|43705
+18|073|Indiana|Jasper County|33478|33475
+18|075|Indiana|Jay County|21253|21179
+18|077|Indiana|Jefferson County|32428|32494
+18|079|Indiana|Jennings County|28525|28000
+18|081|Indiana|Johnson County|139654|147538
+18|083|Indiana|Knox County|38440|37938
+18|085|Indiana|Kosciusko County|77358|78564
+18|087|Indiana|LaGrange County|37128|38436
+18|089|Indiana|Lake County|496005|490228
+18|091|Indiana|LaPorte County|111467|111444
+18|093|Indiana|Lawrence County|46134|45704
+18|095|Indiana|Madison County|131636|130069
+18|097|Indiana|Marion County|903393|934243
+18|099|Indiana|Marshall County|47051|47107
+18|101|Indiana|Martin County|10334|10203
+18|103|Indiana|Miami County|36903|35954
+18|105|Indiana|Monroe County|137974|143339
+18|107|Indiana|Montgomery County|38124|38146
+18|109|Indiana|Morgan County|68894|69693
+18|111|Indiana|Newton County|14244|14156
+18|113|Indiana|Noble County|47536|47618
+18|115|Indiana|Ohio County|6128|6035
+18|117|Indiana|Orange County|19840|19626
+18|119|Indiana|Owen County|21575|20969
+18|121|Indiana|Parke County|17339|17233
+18|123|Indiana|Perry County|19338|19454
+18|125|Indiana|Pike County|12845|12624
+18|127|Indiana|Porter County|164343|167076
+18|129|Indiana|Posey County|25910|25540
+18|131|Indiana|Pulaski County|13402|12967
+18|133|Indiana|Putnam County|37963|37618
+18|135|Indiana|Randolph County|26171|25384
+18|137|Indiana|Ripley County|28818|28497
+18|139|Indiana|Rush County|17392|16892
+18|141|Indiana|St. Joseph County|266931|267618
+18|143|Indiana|Scott County|24181|23712
+18|145|Indiana|Shelby County|44436|44579
+18|147|Indiana|Spencer County|20952|20801
+18|149|Indiana|Starke County|23363|23074
+18|151|Indiana|Steuben County|34185|34308
+18|153|Indiana|Sullivan County|21475|21050
+18|155|Indiana|Switzerland County|10613|10452
+18|157|Indiana|Tippecanoe County|172780|183074
+18|159|Indiana|Tipton County|15936|15415
+18|161|Indiana|Union County|7516|7246
+18|163|Indiana|Vanderburgh County|179703|182006
+18|165|Indiana|Vermillion County|16212|15693
+18|167|Indiana|Vigo County|107848|108175
+18|169|Indiana|Wabash County|32888|32252
+18|171|Indiana|Warren County|8508|8352
+18|173|Indiana|Warrick County|59689|61149
+18|175|Indiana|Washington County|28262|27878
+18|177|Indiana|Wayne County|68917|67671
+18|179|Indiana|Wells County|27636|27862
+18|181|Indiana|White County|24643|24453
+18|183|Indiana|Whitley County|33292|33403
+19|000|Iowa|Iowa|3046355|3107126
+19|001|Iowa|Adair County|7682|7454
+19|003|Iowa|Adams County|4029|3875
+19|005|Iowa|Allamakee County|14330|14038
+19|007|Iowa|Appanoose County|12887|12661
+19|009|Iowa|Audubon County|6119|5794
+19|011|Iowa|Benton County|26076|25680
+19|013|Iowa|Black Hawk County|131090|132897
+19|015|Iowa|Boone County|26306|26433
+19|017|Iowa|Bremer County|24276|24721
+19|019|Iowa|Buchanan County|20958|21038
+19|021|Iowa|Buena Vista County|20260|20578
+19|023|Iowa|Butler County|14867|15006
+19|025|Iowa|Calhoun County|9670|9866
+19|027|Iowa|Carroll County|20816|20562
+19|029|Iowa|Cass County|13956|13448
+19|031|Iowa|Cedar County|18499|18411
+19|033|Iowa|Cerro Gordo County|44151|43254
+19|035|Iowa|Cherokee County|12072|11836
+19|037|Iowa|Chickasaw County|12439|12264
+19|039|Iowa|Clarke County|9286|9217
+19|041|Iowa|Clay County|16667|16515
+19|043|Iowa|Clayton County|18129|17692
+19|045|Iowa|Clinton County|49116|48051
+19|047|Iowa|Crawford County|17096|17228
+19|049|Iowa|Dallas County|66135|77400
+19|051|Iowa|Davis County|8753|8781
+19|053|Iowa|Decatur County|8457|8263
+19|055|Iowa|Delaware County|17764|17398
+19|057|Iowa|Des Moines County|40325|40255
+19|059|Iowa|Dickinson County|16667|16935
+19|061|Iowa|Dubuque County|93653|96370
+19|063|Iowa|Emmet County|10302|9990
+19|065|Iowa|Fayette County|20880|20343
+19|067|Iowa|Floyd County|16303|16077
+19|069|Iowa|Franklin County|10680|10436
+19|071|Iowa|Fremont County|7441|7022
+19|073|Iowa|Greene County|9336|9200
+19|075|Iowa|Grundy County|12453|12375
+19|077|Iowa|Guthrie County|10954|10722
+19|079|Iowa|Hamilton County|15673|15117
+19|081|Iowa|Hancock County|11341|11027
+19|083|Iowa|Hardin County|17534|17311
+19|085|Iowa|Harrison County|14928|14324
+19|087|Iowa|Henry County|20145|20217
+19|089|Iowa|Howard County|9566|9449
+19|091|Iowa|Humboldt County|9815|9640
+19|093|Iowa|Ida County|7089|7042
+19|095|Iowa|Iowa County|16355|16375
+19|097|Iowa|Jackson County|19848|19482
+19|099|Iowa|Jasper County|36842|36872
+19|101|Iowa|Jefferson County|16843|17325
+19|103|Iowa|Johnson County|130882|142287
+19|105|Iowa|Jones County|20638|20454
+19|107|Iowa|Keokuk County|10511|10231
+19|109|Iowa|Kossuth County|15543|15222
+19|111|Iowa|Lee County|35862|35286
+19|113|Iowa|Linn County|211226|217751
+19|115|Iowa|Louisa County|11387|11161
+19|117|Iowa|Lucas County|8898|8701
+19|119|Iowa|Lyon County|11581|11683
+19|121|Iowa|Madison County|15679|15609
+19|123|Iowa|Mahaska County|22381|22370
+19|125|Iowa|Marion County|33309|33365
+19|127|Iowa|Marshall County|40648|40866
+19|129|Iowa|Mills County|15059|14831
+19|131|Iowa|Mitchell County|10776|10779
+19|133|Iowa|Monona County|9243|8996
+19|135|Iowa|Monroe County|7970|8001
+19|137|Iowa|Montgomery County|10740|10421
+19|139|Iowa|Muscatine County|42745|42903
+19|141|Iowa|O'Brien County|14398|14056
+19|143|Iowa|Osceola County|6462|6218
+19|145|Iowa|Page County|15932|15496
+19|147|Iowa|Palo Alto County|9421|9099
+19|149|Iowa|Plymouth County|24986|24874
+19|151|Iowa|Pocahontas County|7310|7138
+19|153|Iowa|Polk County|430640|459862
+19|155|Iowa|Pottawattamie County|93158|93128
+19|157|Iowa|Poweshiek County|18914|18668
+19|159|Iowa|Ringgold County|5131|5051
+19|161|Iowa|Sac County|10350|10035
+19|163|Iowa|Scott County|165224|171387
+19|165|Iowa|Shelby County|12167|11948
+19|167|Iowa|Sioux County|33704|34681
+19|169|Iowa|Story County|89542|94073
+19|171|Iowa|Tama County|17767|17451
+19|173|Iowa|Taylor County|6317|6143
+19|175|Iowa|Union County|12534|12516
+19|177|Iowa|Van Buren County|7570|7468
+19|179|Iowa|Wapello County|35625|35212
+19|181|Iowa|Warren County|46225|47956
+19|183|Iowa|Washington County|21704|22070
+19|185|Iowa|Wayne County|6403|6395
+19|187|Iowa|Webster County|38013|36955
+19|189|Iowa|Winnebago County|10866|10559
+19|191|Iowa|Winneshiek County|21056|20768
+19|193|Iowa|Woodbury County|102172|102271
+19|195|Iowa|Worth County|7598|7624
+19|197|Iowa|Wright County|13229|12840
+20|000|Kansas|Kansas|2853118|2904021
+20|001|Kansas|Allen County|13371|12909
+20|003|Kansas|Anderson County|8102|7883
+20|005|Kansas|Atchison County|16924|16513
+20|007|Kansas|Barber County|4861|4897
+20|009|Kansas|Barton County|27674|27385
+20|011|Kansas|Bourbon County|15173|14772
+20|013|Kansas|Brown County|9984|9815
+20|015|Kansas|Butler County|65880|66227
+20|017|Kansas|Chase County|2790|2692
+20|019|Kansas|Chautauqua County|3669|3481
+20|021|Kansas|Cherokee County|21603|20787
+20|023|Kansas|Cheyenne County|2726|2693
+20|025|Kansas|Clark County|2215|2144
+20|027|Kansas|Clay County|8535|8317
+20|029|Kansas|Cloud County|9533|9385
+20|031|Kansas|Coffey County|8601|8433
+20|033|Kansas|Comanche County|1891|1954
+20|035|Kansas|Cowley County|36311|35963
+20|037|Kansas|Crawford County|39134|39290
+20|039|Kansas|Decatur County|2961|2908
+20|041|Kansas|Dickinson County|19754|19394
+20|043|Kansas|Doniphan County|7945|7874
+20|045|Kansas|Douglas County|110826|116585
+20|047|Kansas|Edwards County|3037|3030
+20|049|Kansas|Elk County|2882|2694
+20|051|Kansas|Ellis County|28452|29013
+20|053|Kansas|Ellsworth County|6497|6392
+20|055|Kansas|Finney County|36776|37184
+20|057|Kansas|Ford County|33848|34795
+20|059|Kansas|Franklin County|25992|25611
+20|061|Kansas|Geary County|34362|36713
+20|063|Kansas|Gove County|2695|2727
+20|065|Kansas|Graham County|2597|2566
+20|067|Kansas|Grant County|7829|7816
+20|069|Kansas|Gray County|6006|6082
+20|071|Kansas|Greeley County|1247|1301
+20|073|Kansas|Greenwood County|6689|6328
+20|075|Kansas|Hamilton County|2690|2603
+20|077|Kansas|Harper County|6034|5818
+20|079|Kansas|Harvey County|34684|34820
+20|081|Kansas|Haskell County|4256|4106
+20|083|Kansas|Hodgeman County|1916|1916
+20|085|Kansas|Jackson County|13462|13539
+20|087|Kansas|Jefferson County|19126|18855
+20|089|Kansas|Jewell County|3077|3043
+20|091|Kansas|Johnson County|544179|574272
+20|093|Kansas|Kearny County|3977|3915
+20|095|Kansas|Kingman County|7858|7698
+20|097|Kansas|Kiowa County|2553|2513
+20|099|Kansas|Labette County|21607|20960
+20|101|Kansas|Lane County|1750|1687
+20|103|Kansas|Leavenworth County|76227|78797
+20|105|Kansas|Lincoln County|3241|3167
+20|107|Kansas|Linn County|9656|9502
+20|109|Kansas|Logan County|2756|2794
+20|111|Kansas|Lyon County|33690|33212
+20|113|Kansas|McPherson County|29180|29241
+20|115|Kansas|Marion County|12660|12208
+20|117|Kansas|Marshall County|10117|10006
+20|119|Kansas|Meade County|4575|4357
+20|121|Kansas|Miami County|32787|32822
+20|123|Kansas|Mitchell County|6373|6284
+20|125|Kansas|Montgomery County|35471|34065
+20|127|Kansas|Morris County|5923|5698
+20|129|Kansas|Morton County|3233|3110
+20|131|Kansas|Nemaha County|10178|10148
+20|133|Kansas|Neosho County|16512|16416
+20|135|Kansas|Ness County|3107|3105
+20|137|Kansas|Norton County|5671|5560
+20|139|Kansas|Osage County|16295|15936
+20|141|Kansas|Osborne County|3858|3756
+20|143|Kansas|Ottawa County|6091|6065
+20|145|Kansas|Pawnee County|6973|6916
+20|147|Kansas|Phillips County|5642|5533
+20|149|Kansas|Pottawatomie County|21604|22897
+20|151|Kansas|Pratt County|9656|9850
+20|153|Kansas|Rawlins County|2519|2584
+20|155|Kansas|Reno County|64511|63794
+20|157|Kansas|Republic County|4980|4803
+20|159|Kansas|Rice County|10083|10015
+20|161|Kansas|Riley County|71115|75194
+20|163|Kansas|Rooks County|5181|5155
+20|165|Kansas|Rush County|3307|3197
+20|167|Kansas|Russell County|6970|6956
+20|169|Kansas|Saline County|55606|55755
+20|171|Kansas|Scott County|4936|5080
+20|173|Kansas|Sedgwick County|498365|508803
+20|175|Kansas|Seward County|22952|23465
+20|177|Kansas|Shawnee County|177934|178406
+20|179|Kansas|Sheridan County|2556|2539
+20|181|Kansas|Sherman County|6010|6110
+20|183|Kansas|Smith County|3853|3769
+20|185|Kansas|Stafford County|4437|4297
+20|187|Kansas|Stanton County|2235|2111
+20|189|Kansas|Stevens County|5724|5801
+20|191|Kansas|Sumner County|24132|23528
+20|193|Kansas|Thomas County|7900|7891
+20|195|Kansas|Trego County|3001|2902
+20|197|Kansas|Wabaunsee County|7053|7022
+20|199|Kansas|Wallace County|1485|1506
+20|201|Kansas|Washington County|5799|5598
+20|203|Kansas|Wichita County|2234|2176
+20|205|Kansas|Wilson County|9409|9028
+20|207|Kansas|Woodson County|3309|3157
+20|209|Kansas|Wyandotte County|157505|161636
+21|000|Kentucky|Kentucky|4339367|4413457
+21|001|Kentucky|Adair County|18656|19204
+21|003|Kentucky|Allen County|19956|20384
+21|005|Kentucky|Anderson County|21421|21888
+21|007|Kentucky|Ballard County|8249|8240
+21|009|Kentucky|Barren County|42173|43148
+21|011|Kentucky|Bath County|11591|12206
+21|013|Kentucky|Bell County|28691|27778
+21|015|Kentucky|Boone County|118811|126413
+21|017|Kentucky|Bourbon County|19985|19972
+21|019|Kentucky|Boyd County|49542|48832
+21|021|Kentucky|Boyle County|28432|29706
+21|023|Kentucky|Bracken County|8488|8406
+21|025|Kentucky|Breathitt County|13878|13409
+21|027|Kentucky|Breckinridge County|20059|19888
+21|029|Kentucky|Bullitt County|74319|77955
+21|031|Kentucky|Butler County|12690|12875
+21|033|Kentucky|Caldwell County|12984|12725
+21|035|Kentucky|Calloway County|37191|38282
+21|037|Kentucky|Campbell County|90336|91833
+21|039|Kentucky|Carlisle County|5104|4978
+21|041|Kentucky|Carroll County|10811|10815
+21|043|Kentucky|Carter County|27720|27223
+21|045|Kentucky|Casey County|15955|15891
+21|047|Kentucky|Christian County|73955|74250
+21|049|Kentucky|Clark County|35613|35758
+21|051|Kentucky|Clay County|21730|21147
+21|053|Kentucky|Clinton County|10272|10165
+21|055|Kentucky|Crittenden County|9315|9224
+21|057|Kentucky|Cumberland County|6856|6745
+21|059|Kentucky|Daviess County|96656|98275
+21|061|Kentucky|Edmonson County|12161|12013
+21|063|Kentucky|Elliott County|7852|7672
+21|065|Kentucky|Estill County|14672|14447
+21|067|Kentucky|Fayette County|295803|310797
+21|069|Kentucky|Fleming County|14348|14545
+21|071|Kentucky|Floyd County|39451|38108
+21|073|Kentucky|Franklin County|49285|49880
+21|075|Kentucky|Fulton County|6813|6265
+21|077|Kentucky|Gallatin County|8589|8589
+21|079|Kentucky|Garrard County|16912|16858
+21|081|Kentucky|Grant County|24662|24875
+21|083|Kentucky|Graves County|37121|37618
+21|085|Kentucky|Grayson County|25746|26194
+21|087|Kentucky|Green County|11258|11043
+21|089|Kentucky|Greenup County|36910|36308
+21|091|Kentucky|Hancock County|8565|8753
+21|093|Kentucky|Hardin County|105543|108266
+21|095|Kentucky|Harlan County|29278|28163
+21|097|Kentucky|Harrison County|18846|18592
+21|099|Kentucky|Hart County|18199|18597
+21|101|Kentucky|Henderson County|46250|46467
+21|103|Kentucky|Henry County|15416|15572
+21|105|Kentucky|Hickman County|4902|4734
+21|107|Kentucky|Hopkins County|46920|46376
+21|109|Kentucky|Jackson County|13494|13289
+21|111|Kentucky|Jefferson County|741096|760026
+21|113|Kentucky|Jessamine County|48586|50815
+21|115|Kentucky|Johnson County|23356|23262
+21|117|Kentucky|Kenton County|159720|163929
+21|119|Kentucky|Knott County|16346|15892
+21|121|Kentucky|Knox County|31883|31798
+21|123|Kentucky|Larue County|14193|14180
+21|125|Kentucky|Laurel County|58849|60015
+21|127|Kentucky|Lawrence County|15860|15804
+21|129|Kentucky|Lee County|7887|7594
+21|131|Kentucky|Leslie County|11310|10918
+21|133|Kentucky|Letcher County|24519|23359
+21|135|Kentucky|Lewis County|13870|13880
+21|137|Kentucky|Lincoln County|24742|24445
+21|139|Kentucky|Livingston County|9519|9359
+21|141|Kentucky|Logan County|26835|26867
+21|143|Kentucky|Lyon County|8314|8430
+21|145|Kentucky|McCracken County|65565|65316
+21|147|Kentucky|McCreary County|18306|17863
+21|149|Kentucky|McLean County|9531|9478
+21|151|Kentucky|Madison County|82916|87340
+21|153|Kentucky|Magoffin County|13333|12913
+21|155|Kentucky|Marion County|19820|20007
+21|157|Kentucky|Marshall County|31448|30953
+21|159|Kentucky|Martin County|12929|12537
+21|161|Kentucky|Mason County|17490|17166
+21|163|Kentucky|Meade County|28602|29139
+21|165|Kentucky|Menifee County|6306|6287
+21|167|Kentucky|Mercer County|21331|21319
+21|169|Kentucky|Metcalfe County|10099|9990
+21|171|Kentucky|Monroe County|10963|10704
+21|173|Kentucky|Montgomery County|26499|27474
+21|175|Kentucky|Morgan County|13923|13303
+21|177|Kentucky|Muhlenberg County|31499|31207
+21|179|Kentucky|Nelson County|43437|44812
+21|181|Kentucky|Nicholas County|7135|7041
+21|183|Kentucky|Ohio County|23842|23977
+21|185|Kentucky|Oldham County|60316|63490
+21|187|Kentucky|Owen County|10841|10645
+21|189|Kentucky|Owsley County|4755|4508
+21|191|Kentucky|Pendleton County|14877|14493
+21|193|Kentucky|Perry County|28712|27597
+21|195|Kentucky|Pike County|65024|63034
+21|197|Kentucky|Powell County|12613|12434
+21|199|Kentucky|Pulaski County|63063|63825
+21|201|Kentucky|Robertson County|2282|2197
+21|203|Kentucky|Rockcastle County|17056|16826
+21|205|Kentucky|Rowan County|23333|23655
+21|207|Kentucky|Russell County|17565|17774
+21|209|Kentucky|Scott County|47173|51284
+21|211|Kentucky|Shelby County|42074|44875
+21|213|Kentucky|Simpson County|17327|17826
+21|215|Kentucky|Spencer County|17061|17668
+21|217|Kentucky|Taylor County|24512|25257
+21|219|Kentucky|Todd County|12460|12520
+21|221|Kentucky|Trigg County|14339|14142
+21|223|Kentucky|Trimble County|8809|8786
+21|225|Kentucky|Union County|15007|15165
+21|227|Kentucky|Warren County|113792|120460
+21|229|Kentucky|Washington County|11717|11959
+21|231|Kentucky|Wayne County|20813|20486
+21|233|Kentucky|Webster County|13621|13236
+21|235|Kentucky|Whitley County|35637|35503
+21|237|Kentucky|Wolfe County|7355|7214
+21|239|Kentucky|Woodford County|24939|25563
+22|000|Louisiana|Louisiana|4533372|4649676
+22|001|Louisiana|Acadia Parish|61773|62486
+22|003|Louisiana|Allen Parish|25764|25713
+22|005|Louisiana|Ascension Parish|107215|117029
+22|007|Louisiana|Assumption Parish|23421|23034
+22|009|Louisiana|Avoyelles Parish|42073|41145
+22|011|Louisiana|Beauregard Parish|35654|36198
+22|013|Louisiana|Bienville Parish|14353|13885
+22|015|Louisiana|Bossier Parish|116979|125064
+22|017|Louisiana|Caddo Parish|254969|252603
+22|019|Louisiana|Calcasieu Parish|192768|197204
+22|021|Louisiana|Caldwell Parish|10132|9894
+22|023|Louisiana|Cameron Parish|6839|6679
+22|025|Louisiana|Catahoula Parish|10407|10151
+22|027|Louisiana|Claiborne Parish|17195|16412
+22|029|Louisiana|Concordia Parish|20822|20466
+22|031|Louisiana|De Soto Parish|26656|27142
+22|033|Louisiana|East Baton Rouge Parish|440171|446042
+22|035|Louisiana|East Carroll Parish|7759|7487
+22|037|Louisiana|East Feliciana Parish|20267|19813
+22|039|Louisiana|Evangeline Parish|33984|33700
+22|041|Louisiana|Franklin Parish|20767|20441
+22|043|Louisiana|Grant Parish|22309|22384
+22|045|Louisiana|Iberia Parish|73240|73913
+22|047|Louisiana|Iberville Parish|33387|33327
+22|049|Louisiana|Jackson Parish|16274|15994
+22|051|Louisiana|Jefferson Parish|432552|435716
+22|053|Louisiana|Jefferson Davis Parish|31594|31477
+22|055|Louisiana|Lafayette Parish|221578|235644
+22|057|Louisiana|Lafourche Parish|96318|98020
+22|059|Louisiana|LaSalle Parish|14890|14839
+22|061|Louisiana|Lincoln Parish|46735|47617
+22|063|Louisiana|Livingston Parish|128026|135751
+22|065|Louisiana|Madison Parish|12093|11843
+22|067|Louisiana|Morehouse Parish|27979|26760
+22|069|Louisiana|Natchitoches Parish|39566|39166
+22|071|Louisiana|Orleans Parish|343829|384320
+22|073|Louisiana|Ouachita Parish|153720|156325
+22|075|Louisiana|Plaquemines Parish|23042|23447
+22|077|Louisiana|Pointe Coupee Parish|22802|22406
+22|079|Louisiana|Rapides Parish|131613|132488
+22|081|Louisiana|Red River Parish|9091|8669
+22|083|Louisiana|Richland Parish|20725|20740
+22|085|Louisiana|Sabine Parish|24233|24199
+22|087|Louisiana|St. Bernard Parish|35897|44409
+22|089|Louisiana|St. Charles Parish|52780|52745
+22|091|Louisiana|St. Helena Parish|11203|10619
+22|093|Louisiana|St. James Parish|22102|21638
+22|095|Louisiana|St. John the Baptist Parish|45924|43745
+22|097|Louisiana|St. Landry Parish|83384|83709
+22|099|Louisiana|St. Martin Parish|52160|53315
+22|101|Louisiana|St. Mary Parish|54650|53162
+22|103|Louisiana|St. Tammany Parish|233740|245829
+22|105|Louisiana|Tangipahoa Parish|121097|127049
+22|107|Louisiana|Tensas Parish|5252|4830
+22|109|Louisiana|Terrebonne Parish|111860|113328
+22|111|Louisiana|Union Parish|22721|22539
+22|113|Louisiana|Vermilion Parish|57999|59616
+22|115|Louisiana|Vernon Parish|52334|52132
+22|117|Louisiana|Washington Parish|47168|46286
+22|119|Louisiana|Webster Parish|41207|40333
+22|121|Louisiana|West Baton Rouge Parish|23788|25085
+22|123|Louisiana|West Carroll Parish|11604|11525
+22|125|Louisiana|West Feliciana Parish|15625|15406
+22|127|Louisiana|Winn Parish|15313|14743
+23|000|Maine|Maine|1328361|1330089
+23|001|Maine|Androscoggin County|107702|107440
+23|003|Maine|Aroostook County|71870|69447
+23|005|Maine|Cumberland County|281674|287797
+23|007|Maine|Franklin County|30768|30296
+23|009|Maine|Hancock County|54418|54696
+23|011|Maine|Kennebec County|122151|121112
+23|013|Maine|Knox County|39736|39676
+23|015|Maine|Lincoln County|34457|34170
+23|017|Maine|Oxford County|57833|57238
+23|019|Maine|Penobscot County|153923|153414
+23|021|Maine|Piscataquis County|17535|17026
+23|023|Maine|Sagadahoc County|35293|35045
+23|025|Maine|Somerset County|52228|51163
+23|027|Maine|Waldo County|38786|39051
+23|029|Maine|Washington County|32856|31808
+23|031|Maine|York County|197131|200710
+24|000|Maryland|Maryland|5773552|5976407
+24|001|Maryland|Allegany County|75087|72952
+24|003|Maryland|Anne Arundel County|537656|560133
+24|005|Maryland|Baltimore County|805029|826925
+24|009|Maryland|Calvert County|88737|90613
+24|011|Maryland|Caroline County|33066|32538
+24|013|Maryland|Carroll County|167134|167830
+24|015|Maryland|Cecil County|101108|102383
+24|017|Maryland|Charles County|146551|154747
+24|019|Maryland|Dorchester County|32618|32578
+24|021|Maryland|Frederick County|233385|243675
+24|023|Maryland|Garrett County|30097|29679
+24|025|Maryland|Harford County|244826|250105
+24|027|Maryland|Howard County|287085|309284
+24|029|Maryland|Kent County|20197|19820
+24|031|Maryland|Montgomery County|971777|1030447
+24|033|Maryland|Prince George's County|863420|904430
+24|035|Maryland|Queen Anne's County|47798|48804
+24|037|Maryland|St. Mary's County|105151|110382
+24|039|Maryland|Somerset County|26470|25859
+24|041|Maryland|Talbot County|37782|37643
+24|043|Maryland|Washington County|147430|149573
+24|045|Maryland|Wicomico County|98733|101539
+24|047|Maryland|Worcester County|51454|51675
+24|510|Maryland|Baltimore city|620961|622793
+25|000|Massachusetts|Massachusetts|6547629|6745408
+25|001|Massachusetts|Barnstable County|215888|214914
+25|003|Massachusetts|Berkshire County|131219|128715
+25|005|Massachusetts|Bristol County|548285|554194
+25|007|Massachusetts|Dukes County|16535|17356
+25|009|Massachusetts|Essex County|743159|769091
+25|011|Massachusetts|Franklin County|71372|70862
+25|013|Massachusetts|Hampden County|463490|468161
+25|015|Massachusetts|Hampshire County|158080|160939
+25|017|Massachusetts|Middlesex County|1503085|1570315
+25|019|Massachusetts|Nantucket County|10172|10856
+25|021|Massachusetts|Norfolk County|670850|692254
+25|023|Massachusetts|Plymouth County|494919|507022
+25|025|Massachusetts|Suffolk County|722023|767254
+25|027|Massachusetts|Worcester County|798552|813475
+26|000|Michigan|Michigan|9883640|9909877
+26|001|Michigan|Alcona County|10942|10454
+26|003|Michigan|Alger County|9601|9459
+26|005|Michigan|Allegan County|111408|113847
+26|007|Michigan|Alpena County|29598|28988
+26|009|Michigan|Antrim County|23580|23267
+26|011|Michigan|Arenac County|15899|15353
+26|013|Michigan|Baraga County|8860|8654
+26|015|Michigan|Barry County|59173|59281
+26|017|Michigan|Bay County|107771|106179
+26|019|Michigan|Benzie County|17525|17519
+26|021|Michigan|Berrien County|156813|155233
+26|023|Michigan|Branch County|45248|43545
+26|025|Michigan|Calhoun County|136146|134878
+26|027|Michigan|Cass County|52293|51608
+26|029|Michigan|Charlevoix County|25949|26121
+26|031|Michigan|Cheboygan County|26152|25675
+26|033|Michigan|Chippewa County|38520|38321
+26|035|Michigan|Clare County|30926|30652
+26|037|Michigan|Clinton County|75382|77297
+26|039|Michigan|Crawford County|14074|13745
+26|041|Michigan|Delta County|37069|36559
+26|043|Michigan|Dickinson County|26168|25957
+26|045|Michigan|Eaton County|107759|108579
+26|047|Michigan|Emmet County|32694|33204
+26|049|Michigan|Genesee County|425790|412895
+26|051|Michigan|Gladwin County|25692|25411
+26|053|Michigan|Gogebic County|16427|15737
+26|055|Michigan|Grand Traverse County|86986|90782
+26|057|Michigan|Gratiot County|42476|41665
+26|059|Michigan|Hillsdale County|46688|45830
+26|061|Michigan|Houghton County|36628|36495
+26|063|Michigan|Huron County|33118|32065
+26|065|Michigan|Ingham County|280895|284582
+26|067|Michigan|Ionia County|63905|64294
+26|069|Michigan|Iosco County|25887|25420
+26|071|Michigan|Iron County|11817|11387
+26|073|Michigan|Isabella County|70311|70616
+26|075|Michigan|Jackson County|160248|159741
+26|077|Michigan|Kalamazoo County|250331|258818
+26|079|Michigan|Kalkaska County|17153|17394
+26|081|Michigan|Kent County|602622|629237
+26|083|Michigan|Keweenaw County|2156|2217
+26|085|Michigan|Lake County|11539|11341
+26|087|Michigan|Lapeer County|88319|88153
+26|089|Michigan|Leelanau County|21708|21915
+26|091|Michigan|Lenawee County|99892|99047
+26|093|Michigan|Livingston County|180967|185596
+26|095|Michigan|Luce County|6631|6426
+26|097|Michigan|Mackinac County|11113|11042
+26|099|Michigan|Macomb County|840978|860112
+26|101|Michigan|Manistee County|24733|24420
+26|103|Michigan|Marquette County|67077|67676
+26|105|Michigan|Mason County|28705|28824
+26|107|Michigan|Mecosta County|42798|43186
+26|109|Michigan|Menominee County|24029|23714
+26|111|Michigan|Midland County|83629|83427
+26|113|Michigan|Missaukee County|14849|15037
+26|115|Michigan|Monroe County|152021|149824
+26|117|Michigan|Montcalm County|63342|62893
+26|119|Michigan|Montmorency County|9765|9300
+26|121|Michigan|Muskegon County|172188|172344
+26|123|Michigan|Newaygo County|48460|47900
+26|125|Michigan|Oakland County|1202362|1237868
+26|127|Michigan|Oceana County|26570|26221
+26|129|Michigan|Ogemaw County|21699|21039
+26|131|Michigan|Ontonagon County|6780|6172
+26|133|Michigan|Osceola County|23528|23169
+26|135|Michigan|Oscoda County|8640|8371
+26|137|Michigan|Otsego County|24164|24158
+26|139|Michigan|Ottawa County|263801|276292
+26|141|Michigan|Presque Isle County|13376|13004
+26|143|Michigan|Roscommon County|24449|23955
+26|145|Michigan|Saginaw County|200169|195012
+26|147|Michigan|St. Clair County|163040|160078
+26|149|Michigan|St. Joseph County|61295|60946
+26|151|Michigan|Sanilac County|43114|41587
+26|153|Michigan|Schoolcraft County|8485|8171
+26|155|Michigan|Shiawassee County|70648|68933
+26|157|Michigan|Tuscola County|55729|54000
+26|159|Michigan|Van Buren County|76258|75199
+26|161|Michigan|Washtenaw County|344791|356874
+26|163|Michigan|Wayne County|1820584|1764804
+26|165|Michigan|Wexford County|32735|32886
+27|000|Minnesota|Minnesota|5303925|5457173
+27|001|Minnesota|Aitkin County|16202|15771
+27|003|Minnesota|Anoka County|330844|341864
+27|005|Minnesota|Becker County|32504|33259
+27|007|Minnesota|Beltrami County|44442|45664
+27|009|Minnesota|Benton County|38451|39506
+27|011|Minnesota|Big Stone County|5269|5127
+27|013|Minnesota|Blue Earth County|64013|65385
+27|015|Minnesota|Brown County|25893|25292
+27|017|Minnesota|Carlton County|35386|35571
+27|019|Minnesota|Carver County|91042|97338
+27|021|Minnesota|Cass County|28567|28559
+27|023|Minnesota|Chippewa County|12441|12110
+27|025|Minnesota|Chisago County|53887|54025
+27|027|Minnesota|Clay County|58999|61286
+27|029|Minnesota|Clearwater County|8695|8791
+27|031|Minnesota|Cook County|5176|5233
+27|033|Minnesota|Cottonwood County|11687|11633
+27|035|Minnesota|Crow Wing County|62500|63265
+27|037|Minnesota|Dakota County|398552|412529
+27|039|Minnesota|Dodge County|20087|20353
+27|041|Minnesota|Douglas County|36009|36790
+27|043|Minnesota|Faribault County|14553|14192
+27|045|Minnesota|Fillmore County|20866|20776
+27|047|Minnesota|Freeborn County|31255|30840
+27|049|Minnesota|Goodhue County|46183|46423
+27|051|Minnesota|Grant County|6018|5956
+27|053|Minnesota|Hennepin County|1152425|1212064
+27|055|Minnesota|Houston County|19027|18738
+27|057|Minnesota|Hubbard County|20428|20573
+27|059|Minnesota|Isanti County|37816|38413
+27|061|Minnesota|Itasca County|45058|45589
+27|063|Minnesota|Jackson County|10266|10269
+27|065|Minnesota|Kanabec County|16239|15930
+27|067|Minnesota|Kandiyohi County|42239|42285
+27|069|Minnesota|Kittson County|4552|4435
+27|071|Minnesota|Koochiching County|13311|12856
+27|073|Minnesota|Lac qui Parle County|7259|6891
+27|075|Minnesota|Lake County|10866|10680
+27|077|Minnesota|Lake of the Woods County|4045|3918
+27|079|Minnesota|Le Sueur County|27703|27770
+27|081|Minnesota|Lincoln County|5896|5788
+27|083|Minnesota|Lyon County|25857|25665
+27|085|Minnesota|McLeod County|36651|35882
+27|087|Minnesota|Mahnomen County|5413|5505
+27|089|Minnesota|Marshall County|9439|9417
+27|091|Minnesota|Martin County|20840|20220
+27|093|Minnesota|Meeker County|23300|23107
+27|095|Minnesota|Mille Lacs County|26097|25884
+27|097|Minnesota|Morrison County|33198|32810
+27|099|Minnesota|Mower County|39163|39323
+27|101|Minnesota|Murray County|8725|8470
+27|103|Minnesota|Nicollet County|32727|33093
+27|105|Minnesota|Nobles County|21378|21590
+27|107|Minnesota|Norman County|6852|6639
+27|109|Minnesota|Olmsted County|144248|150287
+27|111|Minnesota|Otter Tail County|57303|57635
+27|113|Minnesota|Pennington County|13930|14058
+27|115|Minnesota|Pine County|29750|29095
+27|117|Minnesota|Pipestone County|9596|9281
+27|119|Minnesota|Polk County|31600|31704
+27|121|Minnesota|Pope County|10995|10984
+27|123|Minnesota|Ramsey County|508640|532655
+27|125|Minnesota|Red Lake County|4089|4043
+27|127|Minnesota|Redwood County|16059|15515
+27|129|Minnesota|Renville County|15730|15025
+27|131|Minnesota|Rice County|64142|65151
+27|133|Minnesota|Rock County|9687|9553
+27|135|Minnesota|Roseau County|15629|15679
+27|137|Minnesota|St. Louis County|200226|200949
+27|139|Minnesota|Scott County|129928|139672
+27|141|Minnesota|Sherburne County|88499|91126
+27|143|Minnesota|Sibley County|15226|14918
+27|145|Minnesota|Stearns County|150642|152912
+27|147|Minnesota|Steele County|36576|36573
+27|149|Minnesota|Stevens County|9726|9800
+27|151|Minnesota|Swift County|9783|9436
+27|153|Minnesota|Todd County|24895|24264
+27|155|Minnesota|Traverse County|3558|3387
+27|157|Minnesota|Wabasha County|21676|21362
+27|159|Minnesota|Wadena County|13843|13757
+27|161|Minnesota|Waseca County|19136|19025
+27|163|Minnesota|Washington County|238136|249283
+27|165|Minnesota|Watonwan County|11211|11083
+27|167|Minnesota|Wilkin County|6576|6495
+27|169|Minnesota|Winona County|51461|51097
+27|171|Minnesota|Wright County|124700|129918
+27|173|Minnesota|Yellow Medicine County|10438|10109
+28|000|Mississippi|Mississippi|2967297|2994079
+28|001|Mississippi|Adams County|32297|31737
+28|003|Mississippi|Alcorn County|37057|37380
+28|005|Mississippi|Amite County|13131|12629
+28|007|Mississippi|Attala County|19564|19163
+28|009|Mississippi|Benton County|8729|8296
+28|011|Mississippi|Bolivar County|34145|33768
+28|013|Mississippi|Calhoun County|14962|14745
+28|015|Mississippi|Carroll County|10597|10254
+28|017|Mississippi|Chickasaw County|17392|17313
+28|019|Mississippi|Choctaw County|8547|8294
+28|021|Mississippi|Claiborne County|9604|9080
+28|023|Mississippi|Clarke County|16732|16299
+28|025|Mississippi|Clay County|20634|20225
+28|027|Mississippi|Coahoma County|26151|24807
+28|029|Mississippi|Copiah County|29449|28797
+28|031|Mississippi|Covington County|19568|19442
+28|033|Mississippi|DeSoto County|161252|170913
+28|035|Mississippi|Forrest County|74934|76330
+28|037|Mississippi|Franklin County|8118|7833
+28|039|Mississippi|George County|22578|23303
+28|041|Mississippi|Greene County|14400|14326
+28|043|Mississippi|Grenada County|21906|21666
+28|045|Mississippi|Hancock County|43929|45949
+28|047|Mississippi|Harrison County|187105|199058
+28|049|Mississippi|Hinds County|245285|243729
+28|051|Mississippi|Holmes County|19198|18459
+28|053|Mississippi|Humphreys County|9375|8741
+28|055|Mississippi|Issaquena County|1406|1397
+28|057|Mississippi|Itawamba County|23401|23527
+28|059|Mississippi|Jackson County|139668|141137
+28|061|Mississippi|Jasper County|17062|16601
+28|063|Mississippi|Jefferson County|7726|7599
+28|065|Mississippi|Jefferson Davis County|12487|11822
+28|067|Mississippi|Jones County|67761|68290
+28|069|Mississippi|Kemper County|10456|10163
+28|071|Mississippi|Lafayette County|47351|52930
+28|073|Mississippi|Lamar County|55658|60099
+28|075|Mississippi|Lauderdale County|80261|79739
+28|077|Mississippi|Lawrence County|12929|12502
+28|079|Mississippi|Leake County|23805|23193
+28|081|Mississippi|Lee County|82910|85246
+28|083|Mississippi|Leflore County|32317|31422
+28|085|Mississippi|Lincoln County|34869|34775
+28|087|Mississippi|Lowndes County|59779|59730
+28|089|Mississippi|Madison County|95203|101688
+28|091|Mississippi|Marion County|27088|25868
+28|093|Mississippi|Marshall County|37144|36234
+28|095|Mississippi|Monroe County|36989|36003
+28|097|Mississippi|Montgomery County|10925|10400
+28|099|Mississippi|Neshoba County|29676|29465
+28|101|Mississippi|Newton County|21720|21832
+28|103|Mississippi|Noxubee County|11545|11115
+28|105|Mississippi|Oktibbeha County|47671|49414
+28|107|Mississippi|Panola County|34707|34444
+28|109|Mississippi|Pearl River County|55834|55224
+28|111|Mississippi|Perry County|12250|12227
+28|113|Mississippi|Pike County|40404|40058
+28|115|Mississippi|Pontotoc County|29957|30950
+28|117|Mississippi|Prentiss County|25276|25428
+28|119|Mississippi|Quitman County|8223|7678
+28|121|Mississippi|Rankin County|141617|148070
+28|123|Mississippi|Scott County|28264|28461
+28|125|Mississippi|Sharkey County|4916|4647
+28|127|Mississippi|Simpson County|27503|27463
+28|129|Mississippi|Smith County|16491|16188
+28|131|Mississippi|Stone County|17786|17875
+28|133|Mississippi|Sunflower County|29450|27496
+28|135|Mississippi|Tallahatchie County|15378|14761
+28|137|Mississippi|Tate County|28886|28204
+28|139|Mississippi|Tippah County|22232|22039
+28|141|Mississippi|Tishomingo County|19593|19420
+28|143|Mississippi|Tunica County|10778|10598
+28|145|Mississippi|Union County|27134|28097
+28|147|Mississippi|Walthall County|15443|14859
+28|149|Mississippi|Warren County|48773|47983
+28|151|Mississippi|Washington County|51137|48958
+28|153|Mississippi|Wayne County|20747|20490
+28|155|Mississippi|Webster County|10253|9972
+28|157|Mississippi|Wilkinson County|9878|9191
+28|159|Mississippi|Winston County|19198|18478
+28|161|Mississippi|Yalobusha County|12678|12276
+28|163|Mississippi|Yazoo County|28065|27817
+29|000|Missouri|Missouri|5988927|6063589
+29|001|Missouri|Adair County|25607|25602
+29|003|Missouri|Andrew County|17291|17379
+29|005|Missouri|Atchison County|5685|5382
+29|007|Missouri|Audrain County|25529|25887
+29|009|Missouri|Barry County|35597|35662
+29|011|Missouri|Barton County|12402|12057
+29|013|Missouri|Bates County|17049|16584
+29|015|Missouri|Benton County|19056|18806
+29|017|Missouri|Bollinger County|12363|12394
+29|019|Missouri|Boone County|162642|172717
+29|021|Missouri|Buchanan County|89201|89486
+29|023|Missouri|Butler County|42794|42972
+29|025|Missouri|Caldwell County|9424|9034
+29|027|Missouri|Callaway County|44332|44750
+29|029|Missouri|Camden County|44002|44021
+29|031|Missouri|Cape Girardeau County|75674|78043
+29|033|Missouri|Carroll County|9295|9043
+29|035|Missouri|Carter County|6265|6258
+29|037|Missouri|Cass County|99478|100889
+29|039|Missouri|Cedar County|13982|13952
+29|041|Missouri|Chariton County|7831|7694
+29|043|Missouri|Christian County|77422|82101
+29|045|Missouri|Clark County|7139|6917
+29|047|Missouri|Clay County|221939|233682
+29|049|Missouri|Clinton County|20743|20299
+29|051|Missouri|Cole County|75990|76557
+29|053|Missouri|Cooper County|17601|17585
+29|055|Missouri|Crawford County|24696|24650
+29|057|Missouri|Dade County|7883|7628
+29|059|Missouri|Dallas County|16777|16389
+29|061|Missouri|Daviess County|8433|8297
+29|063|Missouri|DeKalb County|12892|12692
+29|065|Missouri|Dent County|15657|15655
+29|067|Missouri|Douglas County|13684|13546
+29|069|Missouri|Dunklin County|31953|31344
+29|071|Missouri|Franklin County|101492|102084
+29|073|Missouri|Gasconade County|15222|14866
+29|075|Missouri|Gentry County|6738|6826
+29|077|Missouri|Greene County|275174|285865
+29|079|Missouri|Grundy County|10261|10197
+29|081|Missouri|Harrison County|8957|8639
+29|083|Missouri|Henry County|22272|22028
+29|085|Missouri|Hickory County|9627|9219
+29|087|Missouri|Holt County|4912|4516
+29|089|Missouri|Howard County|10144|10159
+29|091|Missouri|Howell County|40400|40173
+29|093|Missouri|Iron County|10630|10267
+29|095|Missouri|Jackson County|674158|683191
+29|097|Missouri|Jasper County|117404|117543
+29|099|Missouri|Jefferson County|218733|222716
+29|101|Missouri|Johnson County|52595|54362
+29|103|Missouri|Knox County|4131|4000
+29|105|Missouri|Laclede County|35571|35439
+29|107|Missouri|Lafayette County|33381|32688
+29|109|Missouri|Lawrence County|38634|38023
+29|111|Missouri|Lewis County|10211|10138
+29|113|Missouri|Lincoln County|52566|54249
+29|115|Missouri|Linn County|12761|12311
+29|117|Missouri|Livingston County|15195|15053
+29|119|Missouri|McDonald County|23083|22800
+29|121|Missouri|Macon County|15566|15479
+29|123|Missouri|Madison County|12226|12368
+29|125|Missouri|Maries County|9176|9013
+29|127|Missouri|Marion County|28781|28920
+29|129|Missouri|Mercer County|3785|3719
+29|131|Missouri|Miller County|24748|25141
+29|133|Missouri|Mississippi County|14358|14232
+29|135|Missouri|Moniteau County|15607|15856
+29|137|Missouri|Monroe County|8840|8707
+29|139|Missouri|Montgomery County|12236|11841
+29|141|Missouri|Morgan County|20565|20240
+29|143|Missouri|New Madrid County|18956|18272
+29|145|Missouri|Newton County|58114|58598
+29|147|Missouri|Nodaway County|23370|23081
+29|149|Missouri|Oregon County|10881|10911
+29|151|Missouri|Osage County|13878|13703
+29|153|Missouri|Ozark County|9723|9492
+29|155|Missouri|Pemiscot County|18296|17650
+29|157|Missouri|Perry County|18971|19202
+29|159|Missouri|Pettis County|42201|42225
+29|161|Missouri|Phelps County|45156|44847
+29|163|Missouri|Pike County|18516|18541
+29|165|Missouri|Platte County|89322|94788
+29|167|Missouri|Polk County|31137|31054
+29|169|Missouri|Pulaski County|52274|53436
+29|171|Missouri|Putnam County|4979|4829
+29|173|Missouri|Ralls County|10167|10255
+29|175|Missouri|Randolph County|25414|25072
+29|177|Missouri|Ray County|23494|22949
+29|179|Missouri|Reynolds County|6696|6565
+29|181|Missouri|Ripley County|14100|13969
+29|183|Missouri|St. Charles County|360485|379493
+29|185|Missouri|St. Clair County|9805|9457
+29|186|Missouri|Ste. Genevieve County|18145|17914
+29|187|Missouri|St. Francois County|65359|65960
+29|189|Missouri|St. Louis County|998954|1001876
+29|195|Missouri|Saline County|23370|23347
+29|197|Missouri|Schuyler County|4431|4370
+29|199|Missouri|Scotland County|4843|4863
+29|201|Missouri|Scott County|39191|38903
+29|203|Missouri|Shannon County|8441|8329
+29|205|Missouri|Shelby County|6373|6108
+29|207|Missouri|Stoddard County|29968|29867
+29|209|Missouri|Stone County|32202|31104
+29|211|Missouri|Sullivan County|6714|6411
+29|213|Missouri|Taney County|51675|54230
+29|215|Missouri|Texas County|26008|25642
+29|217|Missouri|Vernon County|21159|21001
+29|219|Missouri|Warren County|32513|33253
+29|221|Missouri|Washington County|25195|25077
+29|223|Missouri|Wayne County|13521|13452
+29|225|Missouri|Webster County|36202|36888
+29|227|Missouri|Worth County|2171|2073
+29|229|Missouri|Wright County|18815|18291
+29|510|Missouri|St. Louis city|319294|317419
+30|000|Montana|Montana|989415|1023579
+30|001|Montana|Beaverhead County|9246|9345
+30|003|Montana|Big Horn County|12865|13282
+30|005|Montana|Blaine County|6491|6619
+30|007|Montana|Broadwater County|5612|5667
+30|009|Montana|Carbon County|10078|10399
+30|011|Montana|Carter County|1160|1169
+30|013|Montana|Cascade County|81327|82344
+30|015|Montana|Chouteau County|5813|5894
+30|017|Montana|Custer County|11699|12092
+30|019|Montana|Daniels County|1751|1793
+30|021|Montana|Dawson County|8966|9518
+30|023|Montana|Deer Lodge County|9298|9150
+30|025|Montana|Fallon County|2890|3108
+30|027|Montana|Fergus County|11586|11442
+30|029|Montana|Flathead County|90928|94924
+30|031|Montana|Gallatin County|89513|97308
+30|033|Montana|Garfield County|1206|1309
+30|035|Montana|Glacier County|13399|13696
+30|037|Montana|Golden Valley County|884|852
+30|039|Montana|Granite County|3079|3209
+30|041|Montana|Hill County|16096|16596
+30|043|Montana|Jefferson County|11406|11558
+30|045|Montana|Judith Basin County|2072|1991
+30|047|Montana|Lake County|28746|29099
+30|049|Montana|Lewis and Clark County|63395|65856
+30|051|Montana|Liberty County|2339|2359
+30|053|Montana|Lincoln County|19687|19125
+30|055|Montana|McCone County|1734|1694
+30|057|Montana|Madison County|7691|7820
+30|059|Montana|Meagher County|1891|1853
+30|061|Montana|Mineral County|4223|4257
+30|063|Montana|Missoula County|109299|112684
+30|065|Montana|Musselshell County|4538|4589
+30|067|Montana|Park County|15636|15880
+30|069|Montana|Petroleum County|494|485
+30|071|Montana|Phillips County|4253|4192
+30|073|Montana|Pondera County|6153|6219
+30|075|Montana|Powder River County|1743|1783
+30|077|Montana|Powell County|7027|6909
+30|079|Montana|Prairie County|1179|1148
+30|081|Montana|Ravalli County|40212|41030
+30|083|Montana|Richland County|9746|11576
+30|085|Montana|Roosevelt County|10425|11332
+30|087|Montana|Rosebud County|9233|9326
+30|089|Montana|Sanders County|11413|11364
+30|091|Montana|Sheridan County|3384|3696
+30|093|Montana|Silver Bow County|34200|34680
+30|095|Montana|Stillwater County|9117|9290
+30|097|Montana|Sweet Grass County|3651|3665
+30|099|Montana|Teton County|6073|6064
+30|101|Montana|Toole County|5324|5150
+30|103|Montana|Treasure County|718|692
+30|105|Montana|Valley County|7369|7640
+30|107|Montana|Wheatland County|2168|2102
+30|109|Montana|Wibaux County|1017|1121
+30|111|Montana|Yellowstone County|147972|155634
+31|000|Nebraska|Nebraska|1826341|1881503
+31|001|Nebraska|Adams County|31364|31457
+31|003|Nebraska|Antelope County|6685|6398
+31|005|Nebraska|Arthur County|460|453
+31|007|Nebraska|Banner County|690|764
+31|009|Nebraska|Blaine County|478|504
+31|011|Nebraska|Boone County|5505|5353
+31|013|Nebraska|Box Butte County|11308|11340
+31|015|Nebraska|Boyd County|2099|2033
+31|017|Nebraska|Brown County|3145|2941
+31|019|Nebraska|Buffalo County|46102|48224
+31|021|Nebraska|Burt County|6858|6573
+31|023|Nebraska|Butler County|8395|8249
+31|025|Nebraska|Cass County|25241|25524
+31|027|Nebraska|Cedar County|8852|8610
+31|029|Nebraska|Chase County|3966|3978
+31|031|Nebraska|Cherry County|5713|5762
+31|033|Nebraska|Cheyenne County|9998|10148
+31|035|Nebraska|Clay County|6542|6315
+31|037|Nebraska|Colfax County|10515|10504
+31|039|Nebraska|Cuming County|9139|9027
+31|041|Nebraska|Custer County|10939|10728
+31|043|Nebraska|Dakota County|21006|20850
+31|045|Nebraska|Dawes County|9182|9042
+31|047|Nebraska|Dawson County|24326|24096
+31|049|Nebraska|Deuel County|1941|1940
+31|051|Nebraska|Dixon County|6000|5782
+31|053|Nebraska|Dodge County|36691|36744
+31|055|Nebraska|Douglas County|517110|543244
+31|057|Nebraska|Dundy County|2008|1886
+31|059|Nebraska|Fillmore County|5890|5661
+31|061|Nebraska|Franklin County|3225|3076
+31|063|Nebraska|Frontier County|2756|2705
+31|065|Nebraska|Furnas County|4959|4888
+31|067|Nebraska|Gage County|22311|21663
+31|069|Nebraska|Garden County|2057|1911
+31|071|Nebraska|Garfield County|2049|2003
+31|073|Nebraska|Gosper County|2044|1970
+31|075|Nebraska|Grant County|614|619
+31|077|Nebraska|Greeley County|2538|2482
+31|079|Nebraska|Hall County|58607|61492
+31|081|Nebraska|Hamilton County|9124|9135
+31|083|Nebraska|Harlan County|3423|3492
+31|085|Nebraska|Hayes County|967|933
+31|087|Nebraska|Hitchcock County|2908|2901
+31|089|Nebraska|Holt County|10435|10403
+31|091|Nebraska|Hooker County|736|728
+31|093|Nebraska|Howard County|6274|6362
+31|095|Nebraska|Jefferson County|7547|7335
+31|097|Nebraska|Johnson County|5217|5185
+31|099|Nebraska|Kearney County|6489|6644
+31|101|Nebraska|Keith County|8368|8121
+31|103|Nebraska|Keya Paha County|824|810
+31|105|Nebraska|Kimball County|3821|3713
+31|107|Nebraska|Knox County|8701|8482
+31|109|Nebraska|Lancaster County|285407|301795
+31|111|Nebraska|Lincoln County|36288|35815
+31|113|Nebraska|Logan County|763|750
+31|115|Nebraska|Loup County|632|588
+31|117|Nebraska|McPherson County|539|498
+31|119|Nebraska|Madison County|34876|35174
+31|121|Nebraska|Merrick County|7845|7766
+31|123|Nebraska|Morrill County|5042|4862
+31|125|Nebraska|Nance County|3735|3570
+31|127|Nebraska|Nemaha County|7248|7175
+31|129|Nebraska|Nuckolls County|4500|4369
+31|131|Nebraska|Otoe County|15740|15797
+31|133|Nebraska|Pawnee County|2773|2702
+31|135|Nebraska|Perkins County|2970|2891
+31|137|Nebraska|Phelps County|9188|9187
+31|139|Nebraska|Pierce County|7266|7202
+31|141|Nebraska|Platte County|32237|32666
+31|143|Nebraska|Polk County|5406|5271
+31|145|Nebraska|Red Willow County|11055|10867
+31|147|Nebraska|Richardson County|8363|8128
+31|149|Nebraska|Rock County|1526|1443
+31|151|Nebraska|Saline County|14200|14252
+31|153|Nebraska|Sarpy County|158840|172193
+31|155|Nebraska|Saunders County|20780|20919
+31|157|Nebraska|Scotts Bluff County|36970|36465
+31|159|Nebraska|Seward County|16750|17150
+31|161|Nebraska|Sheridan County|5469|5259
+31|163|Nebraska|Sherman County|3152|3074
+31|165|Nebraska|Sioux County|1311|1303
+31|167|Nebraska|Stanton County|6129|6069
+31|169|Nebraska|Thayer County|5228|5230
+31|171|Nebraska|Thomas County|647|687
+31|173|Nebraska|Thurston County|6940|6969
+31|175|Nebraska|Valley County|4260|4204
+31|177|Nebraska|Washington County|20234|20258
+31|179|Nebraska|Wayne County|9595|9431
+31|181|Nebraska|Webster County|3812|3658
+31|183|Nebraska|Wheeler County|818|766
+31|185|Nebraska|York County|13665|13917
+32|000|Nevada|Nevada|2700551|2839099
+32|001|Nevada|Churchill County|24877|23989
+32|003|Nevada|Clark County|1951269|2069681
+32|005|Nevada|Douglas County|46997|47536
+32|007|Nevada|Elko County|48818|52766
+32|009|Nevada|Esmeralda County|783|822
+32|011|Nevada|Eureka County|1987|2018
+32|013|Nevada|Humboldt County|16528|17279
+32|015|Nevada|Lander County|5775|6009
+32|017|Nevada|Lincoln County|5345|5184
+32|019|Nevada|Lyon County|51980|51789
+32|021|Nevada|Mineral County|4772|4500
+32|023|Nevada|Nye County|43946|42282
+32|027|Nevada|Pershing County|6753|6698
+32|029|Nevada|Storey County|4010|3912
+32|031|Nevada|Washoe County|421407|440078
+32|033|Nevada|White Pine County|10030|10034
+32|510|Nevada|Carson City|55274|54522
+33|000|New Hampshire|New Hampshire|1316470|1326813
+33|001|New Hampshire|Belknap County|60088|60305
+33|003|New Hampshire|Carroll County|47818|47399
+33|005|New Hampshire|Cheshire County|77117|76115
+33|007|New Hampshire|Coos County|33055|31653
+33|009|New Hampshire|Grafton County|89118|89658
+33|011|New Hampshire|Hillsborough County|400721|405184
+33|013|New Hampshire|Merrimack County|146445|147171
+33|015|New Hampshire|Rockingham County|295223|300621
+33|017|New Hampshire|Strafford County|123143|125604
+33|019|New Hampshire|Sullivan County|43742|43103
+34|000|New Jersey|New Jersey|8791894|8938175
+34|001|New Jersey|Atlantic County|274549|275209
+34|003|New Jersey|Bergen County|905116|933572
+34|005|New Jersey|Burlington County|448734|449722
+34|007|New Jersey|Camden County|513657|511038
+34|009|New Jersey|Cape May County|97265|95344
+34|011|New Jersey|Cumberland County|156898|157389
+34|013|New Jersey|Essex County|783969|795723
+34|015|New Jersey|Gloucester County|288288|290951
+34|017|New Jersey|Hudson County|634266|669115
+34|019|New Jersey|Hunterdon County|128349|126067
+34|021|New Jersey|Mercer County|366513|371537
+34|023|New Jersey|Middlesex County|809858|836297
+34|025|New Jersey|Monmouth County|630380|629279
+34|027|New Jersey|Morris County|492276|499727
+34|029|New Jersey|Ocean County|576567|586301
+34|031|New Jersey|Passaic County|501226|508856
+34|033|New Jersey|Salem County|66083|64715
+34|035|New Jersey|Somerset County|323444|332568
+34|037|New Jersey|Sussex County|149265|144909
+34|039|New Jersey|Union County|536499|552939
+34|041|New Jersey|Warren County|108692|106917
+35|000|New Mexico|New Mexico|2059179|2085572
+35|001|New Mexico|Bernalillo County|662564|675551
+35|003|New Mexico|Catron County|3725|3556
+35|005|New Mexico|Chaves County|65645|65878
+35|006|New Mexico|Cibola County|27213|27349
+35|007|New Mexico|Colfax County|13750|12680
+35|009|New Mexico|Curry County|48376|50969
+35|011|New Mexico|De Baca County|2022|1825
+35|013|New Mexico|Doña Ana County|209233|213676
+35|015|New Mexico|Eddy County|53829|56395
+35|017|New Mexico|Grant County|29514|29096
+35|019|New Mexico|Guadalupe County|4687|4468
+35|021|New Mexico|Harding County|695|683
+35|023|New Mexico|Hidalgo County|4894|4560
+35|025|New Mexico|Lea County|64727|69999
+35|027|New Mexico|Lincoln County|20497|19706
+35|028|New Mexico|Los Alamos County|17950|17682
+35|029|New Mexico|Luna County|25095|24673
+35|031|New Mexico|McKinley County|71492|74098
+35|033|New Mexico|Mora County|4881|4592
+35|035|New Mexico|Otero County|63797|65082
+35|037|New Mexico|Quay County|9041|8501
+35|039|New Mexico|Rio Arriba County|40246|39777
+35|041|New Mexico|Roosevelt County|19846|19536
+35|043|New Mexico|Sandoval County|131561|137608
+35|045|New Mexico|San Juan County|130044|123785
+35|047|New Mexico|San Miguel County|29393|28239
+35|049|New Mexico|Santa Fe County|144170|148164
+35|051|New Mexico|Sierra County|11988|11325
+35|053|New Mexico|Socorro County|17866|17310
+35|055|New Mexico|Taos County|32937|33084
+35|057|New Mexico|Torrance County|16383|15611
+35|059|New Mexico|Union County|4549|4297
+35|061|New Mexico|Valencia County|76569|75817
+36|000|New York|New York|19378102|19746227
+36|001|New York|Albany County|304204|308171
+36|003|New York|Allegany County|48946|47736
+36|005|New York|Bronx County|1385108|1438159
+36|007|New York|Broome County|200600|197349
+36|009|New York|Cattaraugus County|80317|78600
+36|011|New York|Cayuga County|80026|78823
+36|013|New York|Chautauqua County|134905|132053
+36|015|New York|Chemung County|88830|87770
+36|017|New York|Chenango County|50477|49426
+36|019|New York|Clinton County|82128|81632
+36|021|New York|Columbia County|63096|62122
+36|023|New York|Cortland County|49336|49024
+36|025|New York|Delaware County|47980|46581
+36|027|New York|Dutchess County|297488|296579
+36|029|New York|Erie County|919040|922835
+36|031|New York|Essex County|39370|38679
+36|033|New York|Franklin County|51599|51262
+36|035|New York|Fulton County|55531|54105
+36|037|New York|Genesee County|60079|59162
+36|039|New York|Greene County|49221|47967
+36|041|New York|Hamilton County|4836|4715
+36|043|New York|Herkimer County|64519|63744
+36|045|New York|Jefferson County|116229|119103
+36|047|New York|Kings County|2504700|2621793
+36|049|New York|Lewis County|27087|27220
+36|051|New York|Livingston County|65393|64586
+36|053|New York|Madison County|73442|72369
+36|055|New York|Monroe County|744344|749857
+36|057|New York|Montgomery County|50219|49779
+36|059|New York|Nassau County|1339532|1358627
+36|061|New York|New York County|1585873|1636268
+36|063|New York|Niagara County|216469|213525
+36|065|New York|Oneida County|234878|232871
+36|067|New York|Onondaga County|467026|468196
+36|069|New York|Ontario County|107931|109707
+36|071|New York|Orange County|372813|376099
+36|073|New York|Orleans County|42883|41984
+36|075|New York|Oswego County|122109|120913
+36|077|New York|Otsego County|62259|61128
+36|079|New York|Putnam County|99710|99487
+36|081|New York|Queens County|2230722|2321580
+36|083|New York|Rensselaer County|159429|159774
+36|085|New York|Richmond County|468730|473279
+36|087|New York|Rockland County|311687|323866
+36|089|New York|St. Lawrence County|111944|111400
+36|091|New York|Saratoga County|219607|224921
+36|093|New York|Schenectady County|154727|155735
+36|095|New York|Schoharie County|32749|31566
+36|097|New York|Schuyler County|18343|18479
+36|099|New York|Seneca County|35251|34884
+36|101|New York|Steuben County|98990|98394
+36|103|New York|Suffolk County|1493350|1502968
+36|105|New York|Sullivan County|77547|75943
+36|107|New York|Tioga County|51125|49870
+36|109|New York|Tompkins County|101564|104691
+36|111|New York|Ulster County|182493|180445
+36|113|New York|Warren County|65707|64973
+36|115|New York|Washington County|63216|62372
+36|117|New York|Wayne County|93772|92051
+36|119|New York|Westchester County|949113|972634
+36|121|New York|Wyoming County|42155|41188
+36|123|New York|Yates County|25348|25208
+37|000|North Carolina|North Carolina|9535483|9943964
+37|001|North Carolina|Alamance County|151131|155792
+37|003|North Carolina|Alexander County|37198|37392
+37|005|North Carolina|Alleghany County|11155|10879
+37|007|North Carolina|Anson County|26948|25765
+37|009|North Carolina|Ashe County|27281|27126
+37|011|North Carolina|Avery County|17797|17773
+37|013|North Carolina|Beaufort County|47759|47585
+37|015|North Carolina|Bertie County|21282|20106
+37|017|North Carolina|Bladen County|35190|34657
+37|019|North Carolina|Brunswick County|107431|118836
+37|021|North Carolina|Buncombe County|238318|250539
+37|023|North Carolina|Burke County|90912|89486
+37|025|North Carolina|Cabarrus County|178011|192103
+37|027|North Carolina|Caldwell County|83029|81484
+37|029|North Carolina|Camden County|9980|10331
+37|031|North Carolina|Carteret County|66469|68811
+37|033|North Carolina|Caswell County|23719|23082
+37|035|North Carolina|Catawba County|154358|154534
+37|037|North Carolina|Chatham County|63505|68698
+37|039|North Carolina|Cherokee County|27444|27141
+37|041|North Carolina|Chowan County|14793|14572
+37|043|North Carolina|Clay County|10587|10581
+37|045|North Carolina|Cleveland County|98078|97076
+37|047|North Carolina|Columbus County|58098|56953
+37|049|North Carolina|Craven County|103505|104510
+37|051|North Carolina|Cumberland County|319431|326328
+37|053|North Carolina|Currituck County|23547|24976
+37|055|North Carolina|Dare County|33920|35104
+37|057|North Carolina|Davidson County|162878|164072
+37|059|North Carolina|Davie County|41240|41434
+37|061|North Carolina|Duplin County|58505|59882
+37|063|North Carolina|Durham County|267587|294460
+37|065|North Carolina|Edgecombe County|56552|54933
+37|067|North Carolina|Forsyth County|350670|365298
+37|069|North Carolina|Franklin County|60619|62860
+37|071|North Carolina|Gaston County|206086|211127
+37|073|North Carolina|Gates County|12197|11567
+37|075|North Carolina|Graham County|8861|8644
+37|077|North Carolina|Granville County|59916|58500
+37|079|North Carolina|Greene County|21362|21093
+37|081|North Carolina|Guilford County|488406|512119
+37|083|North Carolina|Halifax County|54691|52970
+37|085|North Carolina|Harnett County|114678|126666
+37|087|North Carolina|Haywood County|59036|59471
+37|089|North Carolina|Henderson County|106740|111149
+37|091|North Carolina|Hertford County|24669|24308
+37|093|North Carolina|Hoke County|46952|51611
+37|095|North Carolina|Hyde County|5810|5676
+37|097|North Carolina|Iredell County|159437|166675
+37|099|North Carolina|Jackson County|40271|40981
+37|101|North Carolina|Johnston County|168878|181423
+37|103|North Carolina|Jones County|10153|10076
+37|105|North Carolina|Lee County|57866|59662
+37|107|North Carolina|Lenoir County|59495|58485
+37|109|North Carolina|Lincoln County|78265|79829
+37|111|North Carolina|McDowell County|44996|44965
+37|113|North Carolina|Macon County|33922|33875
+37|115|North Carolina|Madison County|20764|21157
+37|117|North Carolina|Martin County|24505|23454
+37|119|North Carolina|Mecklenburg County|919628|1012539
+37|121|North Carolina|Mitchell County|15579|15311
+37|123|North Carolina|Montgomery County|27798|27395
+37|125|North Carolina|Moore County|88247|93077
+37|127|North Carolina|Nash County|95840|94357
+37|129|North Carolina|New Hanover County|202667|216298
+37|131|North Carolina|Northampton County|22099|20463
+37|133|North Carolina|Onslow County|177772|187589
+37|135|North Carolina|Orange County|133801|140420
+37|137|North Carolina|Pamlico County|13144|12948
+37|139|North Carolina|Pasquotank County|40661|39787
+37|141|North Carolina|Pender County|52217|56250
+37|143|North Carolina|Perquimans County|13453|13466
+37|145|North Carolina|Person County|39464|39132
+37|147|North Carolina|Pitt County|168148|175354
+37|149|North Carolina|Polk County|20510|20357
+37|151|North Carolina|Randolph County|141752|142778
+37|153|North Carolina|Richmond County|46639|45733
+37|155|North Carolina|Robeson County|134168|134760
+37|157|North Carolina|Rockingham County|93643|91696
+37|159|North Carolina|Rowan County|138428|138630
+37|161|North Carolina|Rutherford County|67810|66600
+37|163|North Carolina|Sampson County|63431|64050
+37|165|North Carolina|Scotland County|36157|35576
+37|167|North Carolina|Stanly County|60585|60600
+37|169|North Carolina|Stokes County|47401|46419
+37|171|North Carolina|Surry County|73673|72968
+37|173|North Carolina|Swain County|13981|14274
+37|175|North Carolina|Transylvania County|33090|33045
+37|177|North Carolina|Tyrrell County|4407|4115
+37|179|North Carolina|Union County|201292|218568
+37|181|North Carolina|Vance County|45422|44614
+37|183|North Carolina|Wake County|900993|998691
+37|185|North Carolina|Warren County|20972|20231
+37|187|North Carolina|Washington County|13228|12570
+37|189|North Carolina|Watauga County|51079|52560
+37|191|North Carolina|Wayne County|122623|124456
+37|193|North Carolina|Wilkes County|69340|68838
+37|195|North Carolina|Wilson County|81234|81401
+37|197|North Carolina|Yadkin County|38406|37792
+37|199|North Carolina|Yancey County|17818|17614
+38|000|North Dakota|North Dakota|672591|739482
+38|001|North Dakota|Adams County|2343|2384
+38|003|North Dakota|Barnes County|11066|11144
+38|005|North Dakota|Benson County|6660|6833
+38|007|North Dakota|Billings County|783|901
+38|009|North Dakota|Bottineau County|6429|6650
+38|011|North Dakota|Bowman County|3151|3247
+38|013|North Dakota|Burke County|1968|2245
+38|015|North Dakota|Burleigh County|81308|90503
+38|017|North Dakota|Cass County|149778|167005
+38|019|North Dakota|Cavalier County|3993|3855
+38|021|North Dakota|Dickey County|5289|5150
+38|023|North Dakota|Divide County|2071|2432
+38|025|North Dakota|Dunn County|3536|4399
+38|027|North Dakota|Eddy County|2385|2377
+38|029|North Dakota|Emmons County|3550|3422
+38|031|North Dakota|Foster County|3343|3362
+38|033|North Dakota|Golden Valley County|1680|1825
+38|035|North Dakota|Grand Forks County|66861|70138
+38|037|North Dakota|Grant County|2394|2361
+38|039|North Dakota|Griggs County|2420|2319
+38|041|North Dakota|Hettinger County|2477|2660
+38|043|North Dakota|Kidder County|2435|2424
+38|045|North Dakota|LaMoure County|4139|4149
+38|047|North Dakota|Logan County|1990|1944
+38|049|North Dakota|McHenry County|5395|5988
+38|051|North Dakota|McIntosh County|2809|2801
+38|053|North Dakota|McKenzie County|6360|10996
+38|055|North Dakota|McLean County|8962|9578
+38|057|North Dakota|Mercer County|8424|8746
+38|059|North Dakota|Morton County|27471|29822
+38|061|North Dakota|Mountrail County|7673|9782
+38|063|North Dakota|Nelson County|3126|3045
+38|065|North Dakota|Oliver County|1846|1850
+38|067|North Dakota|Pembina County|7413|7128
+38|069|North Dakota|Pierce County|4357|4404
+38|071|North Dakota|Ramsey County|11451|11564
+38|073|North Dakota|Ransom County|5457|5446
+38|075|North Dakota|Renville County|2470|2587
+38|077|North Dakota|Richland County|16321|16432
+38|079|North Dakota|Rolette County|13937|14616
+38|081|North Dakota|Sargent County|3829|3931
+38|083|North Dakota|Sheridan County|1321|1326
+38|085|North Dakota|Sioux County|4153|4422
+38|087|North Dakota|Slope County|727|765
+38|089|North Dakota|Stark County|24199|30372
+38|091|North Dakota|Steele County|1975|1955
+38|093|North Dakota|Stutsman County|21100|21129
+38|095|North Dakota|Towner County|2246|2310
+38|097|North Dakota|Traill County|8121|8082
+38|099|North Dakota|Walsh County|11119|10970
+38|101|North Dakota|Ward County|61675|69384
+38|103|North Dakota|Wells County|4207|4192
+38|105|North Dakota|Williams County|22398|32130
+39|000|Ohio|Ohio|11536504|11594163
+39|001|Ohio|Adams County|28550|28129
+39|003|Ohio|Allen County|106331|105040
+39|005|Ohio|Ashland County|53139|53035
+39|007|Ohio|Ashtabula County|101497|99175
+39|009|Ohio|Athens County|64757|64713
+39|011|Ohio|Auglaize County|45949|45841
+39|013|Ohio|Belmont County|70400|69461
+39|015|Ohio|Brown County|44846|44116
+39|017|Ohio|Butler County|368130|374158
+39|019|Ohio|Carroll County|28836|28187
+39|021|Ohio|Champaign County|40097|39128
+39|023|Ohio|Clark County|138333|136554
+39|025|Ohio|Clermont County|197363|201560
+39|027|Ohio|Clinton County|42040|41835
+39|029|Ohio|Columbiana County|107841|105686
+39|031|Ohio|Coshocton County|36901|36516
+39|033|Ohio|Crawford County|43784|42480
+39|035|Ohio|Cuyahoga County|1280122|1259828
+39|037|Ohio|Darke County|52959|52196
+39|039|Ohio|Defiance County|39037|38510
+39|041|Ohio|Delaware County|174214|189113
+39|043|Ohio|Erie County|77079|75828
+39|045|Ohio|Fairfield County|146156|150381
+39|047|Ohio|Fayette County|29030|28800
+39|049|Ohio|Franklin County|1163414|1231393
+39|051|Ohio|Fulton County|42698|42580
+39|053|Ohio|Gallia County|30934|30397
+39|055|Ohio|Geauga County|93389|94295
+39|057|Ohio|Greene County|161573|163820
+39|059|Ohio|Guernsey County|40087|39590
+39|061|Ohio|Hamilton County|802374|806631
+39|063|Ohio|Hancock County|74782|75337
+39|065|Ohio|Hardin County|32058|31796
+39|067|Ohio|Harrison County|15864|15543
+39|069|Ohio|Henry County|28215|27937
+39|071|Ohio|Highland County|43589|43045
+39|073|Ohio|Hocking County|29380|28725
+39|075|Ohio|Holmes County|42366|43898
+39|077|Ohio|Huron County|59626|58714
+39|079|Ohio|Jackson County|33225|32748
+39|081|Ohio|Jefferson County|69709|67694
+39|083|Ohio|Knox County|60921|61167
+39|085|Ohio|Lake County|230041|229230
+39|087|Ohio|Lawrence County|62450|61623
+39|089|Ohio|Licking County|166492|169390
+39|091|Ohio|Logan County|45858|45507
+39|093|Ohio|Lorain County|301356|304216
+39|095|Ohio|Lucas County|441815|435286
+39|097|Ohio|Madison County|43435|43918
+39|099|Ohio|Mahoning County|238823|233204
+39|101|Ohio|Marion County|66501|65720
+39|103|Ohio|Medina County|172332|176029
+39|105|Ohio|Meigs County|23770|23331
+39|107|Ohio|Mercer County|40814|40831
+39|109|Ohio|Miami County|102506|103900
+39|111|Ohio|Monroe County|14642|14465
+39|113|Ohio|Montgomery County|535153|533116
+39|115|Ohio|Morgan County|15054|14843
+39|117|Ohio|Morrow County|34827|35152
+39|119|Ohio|Muskingum County|86074|85818
+39|121|Ohio|Noble County|14645|14363
+39|123|Ohio|Ottawa County|41428|41154
+39|125|Ohio|Paulding County|19614|18989
+39|127|Ohio|Perry County|36058|35812
+39|129|Ohio|Pickaway County|55698|56876
+39|131|Ohio|Pike County|28709|28256
+39|133|Ohio|Portage County|161419|161882
+39|135|Ohio|Preble County|42270|41586
+39|137|Ohio|Putnam County|34499|34171
+39|139|Ohio|Richland County|124475|121942
+39|141|Ohio|Ross County|78064|77159
+39|143|Ohio|Sandusky County|60944|60179
+39|145|Ohio|Scioto County|79499|77258
+39|147|Ohio|Seneca County|56745|55669
+39|149|Ohio|Shelby County|49423|48951
+39|151|Ohio|Stark County|375586|375736
+39|153|Ohio|Summit County|541781|541943
+39|155|Ohio|Trumbull County|210312|205175
+39|157|Ohio|Tuscarawas County|92582|92788
+39|159|Ohio|Union County|52300|53776
+39|161|Ohio|Van Wert County|28744|28462
+39|163|Ohio|Vinton County|13435|13234
+39|165|Ohio|Warren County|212693|221659
+39|167|Ohio|Washington County|61778|61213
+39|169|Ohio|Wayne County|114520|115537
+39|171|Ohio|Williams County|37642|37291
+39|173|Ohio|Wood County|125488|129590
+39|175|Ohio|Wyandot County|22615|22353
+40|000|Oklahoma|Oklahoma|3751351|3878051
+40|001|Oklahoma|Adair County|22683|22186
+40|003|Oklahoma|Alfalfa County|5642|5790
+40|005|Oklahoma|Atoka County|14182|13796
+40|007|Oklahoma|Beaver County|5636|5486
+40|009|Oklahoma|Beckham County|22119|23691
+40|011|Oklahoma|Blaine County|11943|9917
+40|013|Oklahoma|Bryan County|42416|44486
+40|015|Oklahoma|Caddo County|29600|29317
+40|017|Oklahoma|Canadian County|115541|129582
+40|019|Oklahoma|Carter County|47557|48821
+40|021|Oklahoma|Cherokee County|46987|48341
+40|023|Oklahoma|Choctaw County|15205|15161
+40|025|Oklahoma|Cimarron County|2475|2294
+40|027|Oklahoma|Cleveland County|255755|269908
+40|029|Oklahoma|Coal County|5925|5807
+40|031|Oklahoma|Comanche County|124098|125033
+40|033|Oklahoma|Cotton County|6193|6150
+40|035|Oklahoma|Craig County|15029|14582
+40|037|Oklahoma|Creek County|69967|70632
+40|039|Oklahoma|Custer County|27469|29500
+40|041|Oklahoma|Delaware County|41487|41446
+40|043|Oklahoma|Dewey County|4810|4914
+40|045|Oklahoma|Ellis County|4151|4150
+40|047|Oklahoma|Garfield County|60580|63091
+40|049|Oklahoma|Garvin County|27576|27561
+40|051|Oklahoma|Grady County|52431|53854
+40|053|Oklahoma|Grant County|4527|4501
+40|055|Oklahoma|Greer County|6239|6151
+40|057|Oklahoma|Harmon County|2922|2798
+40|059|Oklahoma|Harper County|3685|3812
+40|061|Oklahoma|Haskell County|12769|12896
+40|063|Oklahoma|Hughes County|14003|13806
+40|065|Oklahoma|Jackson County|26446|25998
+40|067|Oklahoma|Jefferson County|6472|6292
+40|069|Oklahoma|Johnston County|10957|11103
+40|071|Oklahoma|Kay County|46562|45478
+40|073|Oklahoma|Kingfisher County|15034|15532
+40|075|Oklahoma|Kiowa County|9446|9336
+40|077|Oklahoma|Latimer County|11154|10693
+40|079|Oklahoma|Le Flore County|50384|49761
+40|081|Oklahoma|Lincoln County|34273|34619
+40|083|Oklahoma|Logan County|41848|45276
+40|085|Oklahoma|Love County|9423|9773
+40|087|Oklahoma|McClain County|34506|37313
+40|089|Oklahoma|McCurtain County|33151|33050
+40|091|Oklahoma|McIntosh County|20252|20088
+40|093|Oklahoma|Major County|7527|7750
+40|095|Oklahoma|Marshall County|15840|16182
+40|097|Oklahoma|Mayes County|41259|40816
+40|099|Oklahoma|Murray County|13488|13803
+40|101|Oklahoma|Muskogee County|70990|69966
+40|103|Oklahoma|Noble County|11561|11494
+40|105|Oklahoma|Nowata County|10536|10524
+40|107|Oklahoma|Okfuskee County|12191|12186
+40|109|Oklahoma|Oklahoma County|718633|766215
+40|111|Oklahoma|Okmulgee County|40069|39095
+40|113|Oklahoma|Osage County|47472|47981
+40|115|Oklahoma|Ottawa County|31848|32105
+40|117|Oklahoma|Pawnee County|16577|16401
+40|119|Oklahoma|Payne County|77350|80264
+40|121|Oklahoma|Pittsburg County|45837|44626
+40|123|Oklahoma|Pontotoc County|37492|38005
+40|125|Oklahoma|Pottawatomie County|69442|71811
+40|127|Oklahoma|Pushmataha County|11572|11125
+40|129|Oklahoma|Roger Mills County|3647|3761
+40|131|Oklahoma|Rogers County|86905|89815
+40|133|Oklahoma|Seminole County|25482|25421
+40|135|Oklahoma|Sequoyah County|42391|41358
+40|137|Oklahoma|Stephens County|45048|44493
+40|139|Oklahoma|Texas County|20640|21853
+40|141|Oklahoma|Tillman County|7992|7628
+40|143|Oklahoma|Tulsa County|603403|629598
+40|145|Oklahoma|Wagoner County|73085|75702
+40|147|Oklahoma|Washington County|50976|51937
+40|149|Oklahoma|Washita County|11629|11547
+40|151|Oklahoma|Woods County|8878|9288
+40|153|Oklahoma|Woodward County|20081|21529
+41|000|Oregon|Oregon|3831074|3970239
+41|001|Oregon|Baker County|16134|16059
+41|003|Oregon|Benton County|85579|86316
+41|005|Oregon|Clackamas County|375992|394972
+41|007|Oregon|Clatsop County|37039|37474
+41|009|Oregon|Columbia County|49351|49459
+41|011|Oregon|Coos County|63043|62475
+41|013|Oregon|Crook County|20978|20998
+41|015|Oregon|Curry County|22364|22335
+41|017|Oregon|Deschutes County|157733|170388
+41|019|Oregon|Douglas County|107667|106972
+41|021|Oregon|Gilliam County|1871|1932
+41|023|Oregon|Grant County|7445|7180
+41|025|Oregon|Harney County|7422|7126
+41|027|Oregon|Hood River County|22346|22885
+41|029|Oregon|Jackson County|203206|210287
+41|031|Oregon|Jefferson County|21720|22192
+41|033|Oregon|Josephine County|82713|83599
+41|035|Oregon|Klamath County|66380|65455
+41|037|Oregon|Lake County|7895|7838
+41|039|Oregon|Lane County|351715|358337
+41|041|Oregon|Lincoln County|46034|46406
+41|043|Oregon|Linn County|116672|119356
+41|045|Oregon|Malheur County|31313|30359
+41|047|Oregon|Marion County|315335|326110
+41|049|Oregon|Morrow County|11173|11187
+41|051|Oregon|Multnomah County|735334|776712
+41|053|Oregon|Polk County|75403|77916
+41|055|Oregon|Sherman County|1765|1710
+41|057|Oregon|Tillamook County|25250|25342
+41|059|Oregon|Umatilla County|75889|76705
+41|061|Oregon|Union County|25748|25691
+41|063|Oregon|Wallowa County|7008|6820
+41|065|Oregon|Wasco County|25213|25515
+41|067|Oregon|Washington County|529710|562998
+41|069|Oregon|Wheeler County|1441|1375
+41|071|Oregon|Yamhill County|99193|101758
+42|000|Pennsylvania|Pennsylvania|12702379|12787209
+42|001|Pennsylvania|Adams County|101407|101714
+42|003|Pennsylvania|Allegheny County|1223348|1231255
+42|005|Pennsylvania|Armstrong County|68941|67785
+42|007|Pennsylvania|Beaver County|170539|169392
+42|009|Pennsylvania|Bedford County|49762|48946
+42|011|Pennsylvania|Berks County|411442|413691
+42|013|Pennsylvania|Blair County|127089|125955
+42|015|Pennsylvania|Bradford County|62622|61784
+42|017|Pennsylvania|Bucks County|625249|626685
+42|019|Pennsylvania|Butler County|183862|185943
+42|021|Pennsylvania|Cambria County|143679|137732
+42|023|Pennsylvania|Cameron County|5085|4805
+42|025|Pennsylvania|Carbon County|65249|64441
+42|027|Pennsylvania|Centre County|153990|158742
+42|029|Pennsylvania|Chester County|498886|512784
+42|031|Pennsylvania|Clarion County|39988|38821
+42|033|Pennsylvania|Clearfield County|81642|81191
+42|035|Pennsylvania|Clinton County|39238|39745
+42|037|Pennsylvania|Columbia County|67295|67122
+42|039|Pennsylvania|Crawford County|88765|87175
+42|041|Pennsylvania|Cumberland County|235406|243762
+42|043|Pennsylvania|Dauphin County|268100|271453
+42|045|Pennsylvania|Delaware County|558979|562960
+42|047|Pennsylvania|Elk County|31946|31194
+42|049|Pennsylvania|Erie County|280566|278443
+42|051|Pennsylvania|Fayette County|136606|134086
+42|053|Pennsylvania|Forest County|7716|7518
+42|055|Pennsylvania|Franklin County|149618|152892
+42|057|Pennsylvania|Fulton County|14845|14632
+42|059|Pennsylvania|Greene County|38686|37843
+42|061|Pennsylvania|Huntingdon County|45913|45750
+42|063|Pennsylvania|Indiana County|88880|87706
+42|065|Pennsylvania|Jefferson County|45200|44638
+42|067|Pennsylvania|Juniata County|24636|24796
+42|069|Pennsylvania|Lackawanna County|214437|212719
+42|071|Pennsylvania|Lancaster County|519445|533320
+42|073|Pennsylvania|Lawrence County|91108|88771
+42|075|Pennsylvania|Lebanon County|133568|136359
+42|077|Pennsylvania|Lehigh County|349497|357823
+42|079|Pennsylvania|Luzerne County|320918|318829
+42|081|Pennsylvania|Lycoming County|116111|116508
+42|083|Pennsylvania|McKean County|43450|42554
+42|085|Pennsylvania|Mercer County|116638|114884
+42|087|Pennsylvania|Mifflin County|46682|46552
+42|089|Pennsylvania|Monroe County|169842|166314
+42|091|Pennsylvania|Montgomery County|799874|816857
+42|093|Pennsylvania|Montour County|18267|18641
+42|095|Pennsylvania|Northampton County|297735|300654
+42|097|Pennsylvania|Northumberland County|94528|93944
+42|099|Pennsylvania|Perry County|45969|45634
+42|101|Pennsylvania|Philadelphia County|1526006|1560297
+42|103|Pennsylvania|Pike County|57369|56191
+42|105|Pennsylvania|Potter County|17457|17206
+42|107|Pennsylvania|Schuylkill County|148289|145797
+42|109|Pennsylvania|Snyder County|39702|40323
+42|111|Pennsylvania|Somerset County|77742|76218
+42|113|Pennsylvania|Sullivan County|6428|6339
+42|115|Pennsylvania|Susquehanna County|43356|41920
+42|117|Pennsylvania|Tioga County|41981|42274
+42|119|Pennsylvania|Union County|44947|44874
+42|121|Pennsylvania|Venango County|54984|53529
+42|123|Pennsylvania|Warren County|41815|40703
+42|125|Pennsylvania|Washington County|207820|208187
+42|127|Pennsylvania|Wayne County|52822|51401
+42|129|Pennsylvania|Westmoreland County|365169|359320
+42|131|Pennsylvania|Wyoming County|28276|28131
+42|133|Pennsylvania|York County|434972|440755
+44|000|Rhode Island|Rhode Island|1052567|1055173
+44|001|Rhode Island|Bristol County|49875|49060
+44|003|Rhode Island|Kent County|166158|165128
+44|005|Rhode Island|Newport County|82888|82358
+44|007|Rhode Island|Providence County|626667|631974
+44|009|Rhode Island|Washington County|126979|126653
+45|000|South Carolina|South Carolina|4625364|4832482
+45|001|South Carolina|Abbeville County|25417|24965
+45|003|South Carolina|Aiken County|160099|164753
+45|005|South Carolina|Allendale County|10419|9695
+45|007|South Carolina|Anderson County|187126|192810
+45|009|South Carolina|Bamberg County|15987|15182
+45|011|South Carolina|Barnwell County|22621|21959
+45|013|South Carolina|Beaufort County|162233|175852
+45|015|South Carolina|Berkeley County|177843|198205
+45|017|South Carolina|Calhoun County|15175|14878
+45|019|South Carolina|Charleston County|350209|381015
+45|021|South Carolina|Cherokee County|55342|56024
+45|023|South Carolina|Chester County|33140|32337
+45|025|South Carolina|Chesterfield County|46734|46125
+45|027|South Carolina|Clarendon County|34971|34113
+45|029|South Carolina|Colleton County|38892|37771
+45|031|South Carolina|Darlington County|68681|67799
+45|033|South Carolina|Dillon County|32062|31127
+45|035|South Carolina|Dorchester County|136555|148469
+45|037|South Carolina|Edgefield County|26985|26553
+45|039|South Carolina|Fairfield County|23956|22976
+45|041|South Carolina|Florence County|136885|139231
+45|043|South Carolina|Georgetown County|60158|60773
+45|045|South Carolina|Greenville County|451225|482752
+45|047|South Carolina|Greenwood County|69661|69520
+45|049|South Carolina|Hampton County|21090|20405
+45|051|South Carolina|Horry County|269291|298832
+45|053|South Carolina|Jasper County|24777|27170
+45|055|South Carolina|Kershaw County|61697|63161
+45|057|South Carolina|Lancaster County|76652|83160
+45|059|South Carolina|Laurens County|66537|66533
+45|061|South Carolina|Lee County|19220|18343
+45|063|South Carolina|Lexington County|262391|277888
+45|065|South Carolina|McCormick County|10233|9846
+45|067|South Carolina|Marion County|33062|31933
+45|069|South Carolina|Marlboro County|28933|27924
+45|071|South Carolina|Newberry County|37508|37783
+45|073|South Carolina|Oconee County|74273|75192
+45|075|South Carolina|Orangeburg County|92501|90090
+45|077|South Carolina|Pickens County|119224|120368
+45|079|South Carolina|Richland County|384504|401566
+45|081|South Carolina|Saluda County|19875|20026
+45|083|South Carolina|Spartanburg County|284307|293542
+45|085|South Carolina|Sumter County|107456|107919
+45|087|South Carolina|Union County|28961|27876
+45|089|South Carolina|Williamsburg County|34423|32695
+45|091|South Carolina|York County|226073|245346
+46|000|South Dakota|South Dakota|814180|853175
+46|003|South Dakota|Aurora County|2710|2745
+46|005|South Dakota|Beadle County|17398|18169
+46|007|South Dakota|Bennett County|3431|3430
+46|009|South Dakota|Bon Homme County|7070|7023
+46|011|South Dakota|Brookings County|31965|33314
+46|013|South Dakota|Brown County|36531|38408
+46|015|South Dakota|Brule County|5255|5309
+46|017|South Dakota|Buffalo County|1912|2077
+46|019|South Dakota|Butte County|10110|10298
+46|021|South Dakota|Campbell County|1466|1386
+46|023|South Dakota|Charles Mix County|9129|9287
+46|025|South Dakota|Clark County|3691|3645
+46|027|South Dakota|Clay County|13864|13932
+46|029|South Dakota|Codington County|27227|27938
+46|031|South Dakota|Corson County|4050|4182
+46|033|South Dakota|Custer County|8216|8445
+46|035|South Dakota|Davison County|19504|19885
+46|037|South Dakota|Day County|5710|5588
+46|039|South Dakota|Deuel County|4364|4312
+46|041|South Dakota|Dewey County|5301|5662
+46|043|South Dakota|Douglas County|3002|2973
+46|045|South Dakota|Edmunds County|4071|3983
+46|047|South Dakota|Fall River County|7094|6845
+46|049|South Dakota|Faulk County|2364|2357
+46|051|South Dakota|Grant County|7356|7241
+46|053|South Dakota|Gregory County|4271|4217
+46|055|South Dakota|Haakon County|1937|1847
+46|057|South Dakota|Hamlin County|5903|5989
+46|059|South Dakota|Hand County|3431|3345
+46|061|South Dakota|Hanson County|3331|3419
+46|063|South Dakota|Harding County|1255|1250
+46|065|South Dakota|Hughes County|17022|17642
+46|067|South Dakota|Hutchinson County|7343|7200
+46|069|South Dakota|Hyde County|1420|1396
+46|071|South Dakota|Jackson County|3031|3274
+46|073|South Dakota|Jerauld County|2071|2007
+46|075|South Dakota|Jones County|1006|975
+46|077|South Dakota|Kingsbury County|5148|5075
+46|079|South Dakota|Lake County|11200|12368
+46|081|South Dakota|Lawrence County|24097|24657
+46|083|South Dakota|Lincoln County|44828|51548
+46|085|South Dakota|Lyman County|3755|3877
+46|087|South Dakota|McCook County|5618|5649
+46|089|South Dakota|McPherson County|2459|2429
+46|091|South Dakota|Marshall County|4656|4683
+46|093|South Dakota|Meade County|25434|26951
+46|095|South Dakota|Mellette County|2048|2100
+46|097|South Dakota|Miner County|2389|2316
+46|099|South Dakota|Minnehaha County|169468|182882
+46|101|South Dakota|Moody County|6486|6367
+46|103|South Dakota|Pennington County|100948|108242
+46|105|South Dakota|Perkins County|2982|3033
+46|107|South Dakota|Potter County|2329|2340
+46|109|South Dakota|Roberts County|10149|10374
+46|111|South Dakota|Sanborn County|2355|2336
+46|113|South Dakota|Shannon County|13586|14218
+46|115|South Dakota|Spink County|6415|6598
+46|117|South Dakota|Stanley County|2966|2983
+46|119|South Dakota|Sully County|1373|1438
+46|121|South Dakota|Todd County|9612|9882
+46|123|South Dakota|Tripp County|5644|5512
+46|125|South Dakota|Turner County|8347|8272
+46|127|South Dakota|Union County|14399|15029
+46|129|South Dakota|Walworth County|5438|5511
+46|135|South Dakota|Yankton County|22438|22684
+46|137|South Dakota|Ziebach County|2801|2826
+47|000|Tennessee|Tennessee|6346105|6549352
+47|001|Tennessee|Anderson County|75129|75528
+47|003|Tennessee|Bedford County|45058|46627
+47|005|Tennessee|Benton County|16489|16145
+47|007|Tennessee|Bledsoe County|12876|13931
+47|009|Tennessee|Blount County|123010|126339
+47|011|Tennessee|Bradley County|98963|102975
+47|013|Tennessee|Campbell County|40716|39918
+47|015|Tennessee|Cannon County|13801|13757
+47|017|Tennessee|Carroll County|28522|28370
+47|019|Tennessee|Carter County|57424|56886
+47|021|Tennessee|Cheatham County|39105|39764
+47|023|Tennessee|Chester County|17131|17379
+47|025|Tennessee|Claiborne County|32213|31592
+47|027|Tennessee|Clay County|7861|7765
+47|029|Tennessee|Cocke County|35662|35374
+47|031|Tennessee|Coffee County|52796|53623
+47|033|Tennessee|Crockett County|14586|14668
+47|035|Tennessee|Cumberland County|56053|57985
+47|037|Tennessee|Davidson County|626681|668347
+47|039|Tennessee|Decatur County|11757|11666
+47|041|Tennessee|DeKalb County|18723|19268
+47|043|Tennessee|Dickson County|49666|50575
+47|045|Tennessee|Dyer County|38335|37935
+47|047|Tennessee|Fayette County|38413|39011
+47|049|Tennessee|Fentress County|17959|17855
+47|051|Tennessee|Franklin County|41052|41402
+47|053|Tennessee|Gibson County|49683|49472
+47|055|Tennessee|Giles County|29485|28853
+47|057|Tennessee|Grainger County|22657|22864
+47|059|Tennessee|Greene County|68831|68335
+47|061|Tennessee|Grundy County|13703|13425
+47|063|Tennessee|Hamblen County|62544|63036
+47|065|Tennessee|Hamilton County|336463|351220
+47|067|Tennessee|Hancock County|6819|6657
+47|069|Tennessee|Hardeman County|27253|25965
+47|071|Tennessee|Hardin County|26026|25870
+47|073|Tennessee|Hawkins County|56833|56735
+47|075|Tennessee|Haywood County|18787|18185
+47|077|Tennessee|Henderson County|27769|28009
+47|079|Tennessee|Henry County|32330|32204
+47|081|Tennessee|Hickman County|24690|24384
+47|083|Tennessee|Houston County|8426|8267
+47|085|Tennessee|Humphreys County|18538|18135
+47|087|Tennessee|Jackson County|11638|11568
+47|089|Tennessee|Jefferson County|51407|52677
+47|091|Tennessee|Johnson County|18244|17859
+47|093|Tennessee|Knox County|432226|448644
+47|095|Tennessee|Lake County|7832|7631
+47|097|Tennessee|Lauderdale County|27815|27382
+47|099|Tennessee|Lawrence County|41869|42274
+47|101|Tennessee|Lewis County|12161|11906
+47|103|Tennessee|Lincoln County|33361|33637
+47|105|Tennessee|Loudon County|48556|50771
+47|107|Tennessee|McMinn County|52266|52626
+47|109|Tennessee|McNairy County|26075|26267
+47|111|Tennessee|Macon County|22248|23003
+47|113|Tennessee|Madison County|98294|98178
+47|115|Tennessee|Marion County|28237|28407
+47|117|Tennessee|Marshall County|30617|31269
+47|119|Tennessee|Maury County|80956|85515
+47|121|Tennessee|Meigs County|11753|11701
+47|123|Tennessee|Monroe County|44519|45233
+47|125|Tennessee|Montgomery County|172331|189961
+47|127|Tennessee|Moore County|6362|6319
+47|129|Tennessee|Morgan County|21987|21660
+47|131|Tennessee|Obion County|31807|30941
+47|133|Tennessee|Overton County|22083|22028
+47|135|Tennessee|Perry County|7915|7822
+47|137|Tennessee|Pickett County|5077|5124
+47|139|Tennessee|Polk County|16825|16730
+47|141|Tennessee|Putnam County|72321|74165
+47|143|Tennessee|Rhea County|31809|32641
+47|145|Tennessee|Roane County|54181|52748
+47|147|Tennessee|Robertson County|66283|68079
+47|149|Tennessee|Rutherford County|262604|288906
+47|151|Tennessee|Scott County|22228|21987
+47|153|Tennessee|Sequatchie County|14112|14704
+47|155|Tennessee|Sevier County|89889|95110
+47|157|Tennessee|Shelby County|927644|938803
+47|159|Tennessee|Smith County|19166|19009
+47|161|Tennessee|Stewart County|13324|13279
+47|163|Tennessee|Sullivan County|156823|157047
+47|165|Tennessee|Sumner County|160645|172706
+47|167|Tennessee|Tipton County|61081|61623
+47|169|Tennessee|Trousdale County|7870|8002
+47|171|Tennessee|Unicoi County|18313|17963
+47|173|Tennessee|Union County|19109|19113
+47|175|Tennessee|Van Buren County|5548|5633
+47|177|Tennessee|Warren County|39839|39969
+47|179|Tennessee|Washington County|122979|126242
+47|181|Tennessee|Wayne County|17021|16913
+47|183|Tennessee|Weakley County|35021|34373
+47|185|Tennessee|White County|25841|26301
+47|187|Tennessee|Williamson County|183182|205226
+47|189|Tennessee|Wilson County|113993|125376
+48|000|Texas|Texas|25145561|26956958
+48|001|Texas|Anderson County|58458|57627
+48|003|Texas|Andrews County|14786|17477
+48|005|Texas|Angelina County|86771|87750
+48|007|Texas|Aransas County|23158|24972
+48|009|Texas|Archer County|9054|8811
+48|011|Texas|Armstrong County|1901|1955
+48|013|Texas|Atascosa County|44911|47774
+48|015|Texas|Austin County|28417|29114
+48|017|Texas|Bailey County|7165|6910
+48|019|Texas|Bandera County|20485|20892
+48|021|Texas|Bastrop County|74171|78069
+48|023|Texas|Baylor County|3726|3592
+48|025|Texas|Bee County|31861|32863
+48|027|Texas|Bell County|310235|329140
+48|029|Texas|Bexar County|1714773|1855866
+48|031|Texas|Blanco County|10497|10812
+48|033|Texas|Borden County|641|652
+48|035|Texas|Bosque County|18212|17780
+48|037|Texas|Bowie County|92565|93275
+48|039|Texas|Brazoria County|313166|338124
+48|041|Texas|Brazos County|194851|209152
+48|043|Texas|Brewster County|9232|9173
+48|045|Texas|Briscoe County|1637|1536
+48|047|Texas|Brooks County|7223|7194
+48|049|Texas|Brown County|38106|37653
+48|051|Texas|Burleson County|17187|17253
+48|053|Texas|Burnet County|42750|44943
+48|055|Texas|Caldwell County|38066|39810
+48|057|Texas|Calhoun County|21381|21797
+48|059|Texas|Callahan County|13544|13513
+48|061|Texas|Cameron County|406220|420392
+48|063|Texas|Camp County|12401|12621
+48|065|Texas|Carson County|6182|6013
+48|067|Texas|Cass County|30464|30261
+48|069|Texas|Castro County|8062|7781
+48|071|Texas|Chambers County|35096|38145
+48|073|Texas|Cherokee County|50845|50902
+48|075|Texas|Childress County|7041|7089
+48|077|Texas|Clay County|10752|10370
+48|079|Texas|Cochran County|3127|2935
+48|081|Texas|Coke County|3320|3254
+48|083|Texas|Coleman County|8895|8430
+48|085|Texas|Collin County|782341|885241
+48|087|Texas|Collingsworth County|3057|3017
+48|089|Texas|Colorado County|20874|20719
+48|091|Texas|Comal County|108472|123694
+48|093|Texas|Comanche County|13974|13550
+48|095|Texas|Concho County|4087|4050
+48|097|Texas|Cooke County|38437|38761
+48|099|Texas|Coryell County|75388|75562
+48|101|Texas|Cottle County|1505|1415
+48|103|Texas|Crane County|4375|4950
+48|105|Texas|Crockett County|3719|3812
+48|107|Texas|Crosby County|6059|5899
+48|109|Texas|Culberson County|2398|2266
+48|111|Texas|Dallam County|6703|7135
+48|113|Texas|Dallas County|2368139|2518638
+48|115|Texas|Dawson County|13833|13372
+48|117|Texas|Deaf Smith County|19372|19195
+48|119|Texas|Delta County|5231|5238
+48|121|Texas|Denton County|662614|753363
+48|123|Texas|DeWitt County|20097|20684
+48|125|Texas|Dickens County|2444|2218
+48|127|Texas|Dimmit County|9996|11089
+48|129|Texas|Donley County|3677|3543
+48|131|Texas|Duval County|11782|11533
+48|133|Texas|Eastland County|18583|18176
+48|135|Texas|Ector County|137130|153904
+48|137|Texas|Edwards County|2002|1879
+48|139|Texas|Ellis County|149610|159317
+48|141|Texas|El Paso County|800647|833487
+48|143|Texas|Erath County|37890|40147
+48|145|Texas|Falls County|17866|16989
+48|147|Texas|Fannin County|33915|33752
+48|149|Texas|Fayette County|24554|24833
+48|151|Texas|Fisher County|3974|3831
+48|153|Texas|Floyd County|6446|5949
+48|155|Texas|Foard County|1336|1275
+48|157|Texas|Fort Bend County|585375|685345
+48|159|Texas|Franklin County|10605|10600
+48|161|Texas|Freestone County|19816|19762
+48|163|Texas|Frio County|17217|18531
+48|165|Texas|Gaines County|17526|19425
+48|167|Texas|Galveston County|291309|314198
+48|169|Texas|Garza County|6461|6435
+48|171|Texas|Gillespie County|24837|25520
+48|173|Texas|Glasscock County|1226|1291
+48|175|Texas|Goliad County|7210|7549
+48|177|Texas|Gonzales County|19807|20462
+48|179|Texas|Gray County|22535|23044
+48|181|Texas|Grayson County|120877|123534
+48|183|Texas|Gregg County|121730|123204
+48|185|Texas|Grimes County|26604|27172
+48|187|Texas|Guadalupe County|131533|147250
+48|189|Texas|Hale County|36273|34720
+48|191|Texas|Hall County|3353|3147
+48|193|Texas|Hamilton County|8517|8199
+48|195|Texas|Hansford County|5613|5509
+48|197|Texas|Hardeman County|4139|3928
+48|199|Texas|Hardin County|54635|55621
+48|201|Texas|Harris County|4092459|4441370
+48|203|Texas|Harrison County|65631|67336
+48|205|Texas|Hartley County|6062|6089
+48|207|Texas|Haskell County|5899|5769
+48|209|Texas|Hays County|157107|185025
+48|211|Texas|Hemphill County|3807|4180
+48|213|Texas|Henderson County|78532|79290
+48|215|Texas|Hidalgo County|774769|831073
+48|217|Texas|Hill County|35089|34848
+48|219|Texas|Hockley County|22935|23577
+48|221|Texas|Hood County|51182|53921
+48|223|Texas|Hopkins County|35161|35921
+48|225|Texas|Houston County|23732|22741
+48|227|Texas|Howard County|35012|36651
+48|229|Texas|Hudspeth County|3476|3211
+48|231|Texas|Hunt County|86129|88493
+48|233|Texas|Hutchinson County|22150|21773
+48|235|Texas|Irion County|1599|1574
+48|237|Texas|Jack County|9044|8855
+48|239|Texas|Jackson County|14075|14739
+48|241|Texas|Jasper County|35710|35552
+48|243|Texas|Jeff Davis County|2342|2204
+48|245|Texas|Jefferson County|252273|252235
+48|247|Texas|Jim Hogg County|5300|5255
+48|249|Texas|Jim Wells County|40838|41353
+48|251|Texas|Johnson County|150934|157456
+48|253|Texas|Jones County|20202|19936
+48|255|Texas|Karnes County|14824|14906
+48|257|Texas|Kaufman County|103350|111236
+48|259|Texas|Kendall County|33410|38880
+48|261|Texas|Kenedy County|416|400
+48|263|Texas|Kent County|808|785
+48|265|Texas|Kerr County|49625|50562
+48|267|Texas|Kimble County|4607|4438
+48|269|Texas|King County|286|262
+48|271|Texas|Kinney County|3598|3526
+48|273|Texas|Kleberg County|32061|32190
+48|275|Texas|Knox County|3719|3858
+48|277|Texas|Lamar County|49793|49523
+48|279|Texas|Lamb County|13977|13574
+48|281|Texas|Lampasas County|19677|20156
+48|283|Texas|La Salle County|6886|7474
+48|285|Texas|Lavaca County|19263|19721
+48|287|Texas|Lee County|16612|16742
+48|289|Texas|Leon County|16801|16861
+48|291|Texas|Liberty County|75643|78117
+48|293|Texas|Limestone County|23384|23524
+48|295|Texas|Lipscomb County|3302|3553
+48|297|Texas|Live Oak County|11531|12091
+48|299|Texas|Llano County|19301|19510
+48|301|Texas|Loving County|82|86
+48|303|Texas|Lubbock County|278831|293974
+48|305|Texas|Lynn County|5915|5771
+48|307|Texas|McCulloch County|8283|8199
+48|309|Texas|McLennan County|234906|243441
+48|311|Texas|McMullen County|707|805
+48|313|Texas|Madison County|13664|13861
+48|315|Texas|Marion County|10546|10149
+48|317|Texas|Martin County|4799|5460
+48|319|Texas|Mason County|4012|4071
+48|321|Texas|Matagorda County|36702|36519
+48|323|Texas|Maverick County|54258|57023
+48|325|Texas|Medina County|46006|47894
+48|327|Texas|Menard County|2242|2147
+48|329|Texas|Midland County|136872|155830
+48|331|Texas|Milam County|24757|24256
+48|333|Texas|Mills County|4936|4870
+48|335|Texas|Mitchell County|9403|9076
+48|337|Texas|Montague County|19719|19416
+48|339|Texas|Montgomery County|455746|518947
+48|341|Texas|Moore County|21904|22148
+48|343|Texas|Morris County|12934|12743
+48|345|Texas|Motley County|1210|1153
+48|347|Texas|Nacogdoches County|64524|65301
+48|349|Texas|Navarro County|47735|48195
+48|351|Texas|Newton County|14445|14138
+48|353|Texas|Nolan County|15216|15093
+48|355|Texas|Nueces County|340223|356221
+48|357|Texas|Ochiltree County|10223|10758
+48|359|Texas|Oldham County|2052|2070
+48|361|Texas|Orange County|81837|83433
+48|363|Texas|Palo Pinto County|28111|28096
+48|365|Texas|Panola County|23796|23769
+48|367|Texas|Parker County|116927|123164
+48|369|Texas|Parmer County|10269|9908
+48|371|Texas|Pecos County|15507|15893
+48|373|Texas|Polk County|45413|46079
+48|375|Texas|Potter County|121073|121627
+48|377|Texas|Presidio County|7818|6976
+48|379|Texas|Rains County|10914|11032
+48|381|Texas|Randall County|120725|128220
+48|383|Texas|Reagan County|3367|3755
+48|385|Texas|Real County|3309|3371
+48|387|Texas|Red River County|12860|12446
+48|389|Texas|Reeves County|13783|14349
+48|391|Texas|Refugio County|7383|7302
+48|393|Texas|Roberts County|929|928
+48|395|Texas|Robertson County|16622|16500
+48|397|Texas|Rockwall County|78337|87809
+48|399|Texas|Runnels County|10501|10416
+48|401|Texas|Rusk County|53330|53923
+48|403|Texas|Sabine County|10834|10350
+48|405|Texas|San Augustine County|8865|8610
+48|407|Texas|San Jacinto County|26384|27099
+48|409|Texas|San Patricio County|64804|66915
+48|411|Texas|San Saba County|6131|5622
+48|413|Texas|Schleicher County|3461|3162
+48|415|Texas|Scurry County|16921|17328
+48|417|Texas|Shackelford County|3378|3343
+48|419|Texas|Shelby County|25448|25515
+48|421|Texas|Sherman County|3034|3084
+48|423|Texas|Smith County|209714|218842
+48|425|Texas|Somervell County|8490|8694
+48|427|Texas|Starr County|60968|62955
+48|429|Texas|Stephens County|9630|9405
+48|431|Texas|Sterling County|1143|1339
+48|433|Texas|Stonewall County|1490|1403
+48|435|Texas|Sutton County|4128|3972
+48|437|Texas|Swisher County|7854|7581
+48|439|Texas|Tarrant County|1809034|1945360
+48|441|Texas|Taylor County|131506|135143
+48|443|Texas|Terrell County|984|927
+48|445|Texas|Terry County|12651|12739
+48|447|Texas|Throckmorton County|1641|1608
+48|449|Texas|Titus County|32334|32506
+48|451|Texas|Tom Green County|110224|116608
+48|453|Texas|Travis County|1024266|1151145
+48|455|Texas|Trinity County|14585|14224
+48|457|Texas|Tyler County|21766|21418
+48|459|Texas|Upshur County|39309|40354
+48|461|Texas|Upton County|3355|3454
+48|463|Texas|Uvalde County|26405|27117
+48|465|Texas|Val Verde County|48879|48974
+48|467|Texas|Van Zandt County|52579|52910
+48|469|Texas|Victoria County|86793|91081
+48|471|Texas|Walker County|67861|69789
+48|473|Texas|Waller County|43205|46820
+48|475|Texas|Ward County|10658|11625
+48|477|Texas|Washington County|33718|34438
+48|479|Texas|Webb County|250304|266673
+48|481|Texas|Wharton County|41280|41168
+48|483|Texas|Wheeler County|5410|5714
+48|485|Texas|Wichita County|131500|132355
+48|487|Texas|Wilbarger County|13535|12973
+48|489|Texas|Willacy County|22134|21903
+48|491|Texas|Williamson County|422679|489250
+48|493|Texas|Wilson County|42918|46402
+48|495|Texas|Winkler County|7110|7821
+48|497|Texas|Wise County|59127|61638
+48|499|Texas|Wood County|41964|42852
+48|501|Texas|Yoakum County|7879|8286
+48|503|Texas|Young County|18550|18350
+48|505|Texas|Zapata County|14018|14319
+48|507|Texas|Zavala County|11677|12267
+49|000|Utah|Utah|2763885|2942902
+49|001|Utah|Beaver County|6629|6461
+49|003|Utah|Box Elder County|49975|51518
+49|005|Utah|Cache County|112656|118343
+49|007|Utah|Carbon County|21403|20660
+49|009|Utah|Daggett County|1059|1117
+49|011|Utah|Davis County|306479|329692
+49|013|Utah|Duchesne County|18607|20380
+49|015|Utah|Emery County|10976|10631
+49|017|Utah|Garfield County|5172|5024
+49|019|Utah|Grand County|9225|9429
+49|021|Utah|Iron County|46163|47269
+49|023|Utah|Juab County|10246|10486
+49|025|Utah|Kane County|7125|7254
+49|027|Utah|Millard County|12503|12606
+49|029|Utah|Morgan County|9469|10608
+49|031|Utah|Piute County|1556|1484
+49|033|Utah|Rich County|2264|2293
+49|035|Utah|Salt Lake County|1029655|1091742
+49|037|Utah|San Juan County|14746|15251
+49|039|Utah|Sanpete County|27822|28477
+49|041|Utah|Sevier County|20802|20773
+49|043|Utah|Summit County|36324|39105
+49|045|Utah|Tooele County|58218|61598
+49|047|Utah|Uintah County|32588|36867
+49|049|Utah|Utah County|516564|560974
+49|051|Utah|Wasatch County|23530|27714
+49|053|Utah|Washington County|138115|151948
+49|055|Utah|Wayne County|2778|2723
+49|057|Utah|Weber County|231236|240475
+50|000|Vermont|Vermont|625741|626562
+50|001|Vermont|Addison County|36821|37009
+50|003|Vermont|Bennington County|37125|36445
+50|005|Vermont|Caledonia County|31227|30981
+50|007|Vermont|Chittenden County|156545|160531
+50|009|Vermont|Essex County|6306|6125
+50|011|Vermont|Franklin County|47746|48642
+50|013|Vermont|Grand Isle County|6970|6994
+50|015|Vermont|Lamoille County|24475|25082
+50|017|Vermont|Orange County|28936|28859
+50|019|Vermont|Orleans County|27231|27082
+50|021|Vermont|Rutland County|61642|60086
+50|023|Vermont|Washington County|59534|58998
+50|025|Vermont|Windham County|44513|43714
+50|027|Vermont|Windsor County|56670|56014
+51|000|Virginia|Virginia|8001024|8326289
+51|001|Virginia|Accomack County|33164|33021
+51|003|Virginia|Albemarle County|98970|104489
+51|005|Virginia|Alleghany County|16250|15820
+51|007|Virginia|Amelia County|12690|12855
+51|009|Virginia|Amherst County|32353|32041
+51|011|Virginia|Appomattox County|14973|15279
+51|013|Virginia|Arlington County|207627|226908
+51|015|Virginia|Augusta County|73750|73862
+51|017|Virginia|Bath County|4731|4563
+51|019|Virginia|Bedford County|68676|76583
+51|021|Virginia|Bland County|6824|6625
+51|023|Virginia|Botetourt County|33148|33100
+51|025|Virginia|Brunswick County|17434|16498
+51|027|Virginia|Buchanan County|24098|23106
+51|029|Virginia|Buckingham County|17146|16913
+51|031|Virginia|Campbell County|54842|54885
+51|033|Virginia|Caroline County|28545|29778
+51|035|Virginia|Carroll County|30042|29621
+51|036|Virginia|Charles City County|7256|7023
+51|037|Virginia|Charlotte County|12586|12225
+51|041|Virginia|Chesterfield County|316236|332499
+51|043|Virginia|Clarke County|14034|14423
+51|045|Virginia|Craig County|5190|5234
+51|047|Virginia|Culpeper County|46689|49166
+51|049|Virginia|Cumberland County|10052|9827
+51|051|Virginia|Dickenson County|15903|15308
+51|053|Virginia|Dinwiddie County|28001|27859
+51|057|Virginia|Essex County|11151|11103
+51|059|Virginia|Fairfax County|1081726|1137538
+51|061|Virginia|Fauquier County|65203|68248
+51|063|Virginia|Floyd County|15279|15578
+51|065|Virginia|Fluvanna County|25691|26092
+51|067|Virginia|Franklin County|56159|56358
+51|069|Virginia|Frederick County|78305|82377
+51|071|Virginia|Giles County|17286|16815
+51|073|Virginia|Gloucester County|36858|37141
+51|075|Virginia|Goochland County|21717|21936
+51|077|Virginia|Grayson County|15533|15093
+51|079|Virginia|Greene County|18403|19031
+51|081|Virginia|Greensville County|12243|11681
+51|083|Virginia|Halifax County|36241|35200
+51|085|Virginia|Hanover County|99863|101918
+51|087|Virginia|Henrico County|306935|321924
+51|089|Virginia|Henry County|54151|52081
+51|091|Virginia|Highland County|2321|2248
+51|093|Virginia|Isle of Wight County|35270|36007
+51|095|Virginia|James City County|67009|72583
+51|097|Virginia|King and Queen County|6945|7175
+51|099|Virginia|King George County|23584|25371
+51|101|Virginia|King William County|15935|16186
+51|103|Virginia|Lancaster County|11391|11044
+51|105|Virginia|Lee County|25587|24951
+51|107|Virginia|Loudoun County|312311|363050
+51|109|Virginia|Louisa County|33153|34348
+51|111|Virginia|Lunenburg County|12914|12466
+51|113|Virginia|Madison County|13308|13157
+51|115|Virginia|Mathews County|8978|8836
+51|117|Virginia|Mecklenburg County|32727|31192
+51|119|Virginia|Middlesex County|10959|10696
+51|121|Virginia|Montgomery County|94392|97244
+51|125|Virginia|Nelson County|15020|14850
+51|127|Virginia|New Kent County|18429|20021
+51|131|Virginia|Northampton County|12389|12121
+51|133|Virginia|Northumberland County|12330|12251
+51|135|Virginia|Nottoway County|15853|15579
+51|137|Virginia|Orange County|33481|35026
+51|139|Virginia|Page County|24042|23848
+51|141|Virginia|Patrick County|18490|18264
+51|143|Virginia|Pittsylvania County|63506|62383
+51|145|Virginia|Powhatan County|28046|28449
+51|147|Virginia|Prince Edward County|23368|23074
+51|149|Virginia|Prince George County|35725|37333
+51|153|Virginia|Prince William County|402002|446094
+51|155|Virginia|Pulaski County|34872|34322
+51|157|Virginia|Rappahannock County|7373|7361
+51|159|Virginia|Richmond County|9254|8902
+51|161|Virginia|Roanoke County|92376|93785
+51|163|Virginia|Rockbridge County|22307|22327
+51|165|Virginia|Rockingham County|76314|78171
+51|167|Virginia|Russell County|28897|28023
+51|169|Virginia|Scott County|23177|22384
+51|171|Virginia|Shenandoah County|41993|43021
+51|173|Virginia|Smyth County|32208|31555
+51|175|Virginia|Southampton County|18570|18059
+51|177|Virginia|Spotsylvania County|122397|129188
+51|179|Virginia|Stafford County|128961|139992
+51|181|Virginia|Surry County|7058|6790
+51|183|Virginia|Sussex County|12087|11767
+51|185|Virginia|Tazewell County|45078|43452
+51|187|Virginia|Warren County|37575|38987
+51|191|Virginia|Washington County|54876|54729
+51|193|Virginia|Westmoreland County|17454|17477
+51|195|Virginia|Wise County|41452|39935
+51|197|Virginia|Wythe County|29235|29121
+51|199|Virginia|York County|65464|66342
+51|510|Virginia|Alexandria city|139966|150575
+51|520|Virginia|Bristol city|17835|17184
+51|530|Virginia|Buena Vista city|6650|6603
+51|540|Virginia|Charlottesville city|43475|45593
+51|550|Virginia|Chesapeake city|222209|233371
+51|570|Virginia|Colonial Heights city|17411|17731
+51|580|Virginia|Covington city|5961|5802
+51|590|Virginia|Danville city|43055|42444
+51|595|Virginia|Emporia city|5927|5462
+51|600|Virginia|Fairfax city|22565|24483
+51|610|Virginia|Falls Church city|12332|13601
+51|620|Virginia|Franklin city|8582|8526
+51|630|Virginia|Fredericksburg city|24286|28350
+51|640|Virginia|Galax city|7042|7014
+51|650|Virginia|Hampton city|137436|136879
+51|660|Virginia|Harrisonburg city|48914|52478
+51|670|Virginia|Hopewell city|22591|22196
+51|678|Virginia|Lexington city|7042|7311
+51|680|Virginia|Lynchburg city|75568|79047
+51|683|Virginia|Manassas city|37821|42081
+51|685|Virginia|Manassas Park city|14273|15174
+51|690|Virginia|Martinsville city|13821|13711
+51|700|Virginia|Newport News city|180719|182965
+51|710|Virginia|Norfolk city|242803|245428
+51|720|Virginia|Norton city|3958|4031
+51|730|Virginia|Petersburg city|32420|32701
+51|735|Virginia|Poquoson city|12150|12048
+51|740|Virginia|Portsmouth city|95535|96004
+51|750|Virginia|Radford city|16408|17646
+51|760|Virginia|Richmond city|204214|217853
+51|770|Virginia|Roanoke city|97032|99428
+51|775|Virginia|Salem city|24802|25483
+51|790|Virginia|Staunton city|23746|24538
+51|800|Virginia|Suffolk city|84585|86806
+51|810|Virginia|Virginia Beach city|437994|450980
+51|820|Virginia|Waynesboro city|21006|21366
+51|830|Virginia|Williamsburg city|14068|14691
+51|840|Virginia|Winchester city|26203|27543
+53|000|Washington|Washington|6724540|7061530
+53|001|Washington|Adams County|18728|19179
+53|003|Washington|Asotin County|21623|22189
+53|005|Washington|Benton County|175177|186486
+53|007|Washington|Chelan County|72453|74588
+53|009|Washington|Clallam County|71404|72715
+53|011|Washington|Clark County|425363|451008
+53|013|Washington|Columbia County|4078|3985
+53|015|Washington|Cowlitz County|102410|102133
+53|017|Washington|Douglas County|38431|39804
+53|019|Washington|Ferry County|7551|7667
+53|021|Washington|Franklin County|78163|87809
+53|023|Washington|Garfield County|2266|2215
+53|025|Washington|Grant County|89120|93147
+53|027|Washington|Grays Harbor County|72797|70818
+53|029|Washington|Island County|78506|79275
+53|031|Washington|Jefferson County|29872|30228
+53|033|Washington|King County|1931249|2079967
+53|035|Washington|Kitsap County|251133|254183
+53|037|Washington|Kittitas County|40915|42522
+53|039|Washington|Klickitat County|20318|20861
+53|041|Washington|Lewis County|75455|75128
+53|043|Washington|Lincoln County|10570|10250
+53|045|Washington|Mason County|60699|60711
+53|047|Washington|Okanogan County|41120|41290
+53|049|Washington|Pacific County|20920|20561
+53|051|Washington|Pend Oreille County|13001|12985
+53|053|Washington|Pierce County|795225|831928
+53|055|Washington|San Juan County|15769|16015
+53|057|Washington|Skagit County|116901|120365
+53|059|Washington|Skamania County|11066|11340
+53|061|Washington|Snohomish County|713335|759583
+53|063|Washington|Spokane County|471221|484318
+53|065|Washington|Stevens County|43531|43650
+53|067|Washington|Thurston County|252264|265851
+53|069|Washington|Wahkiakum County|3978|4067
+53|071|Washington|Walla Walla County|58781|59844
+53|073|Washington|Whatcom County|201140|208351
+53|075|Washington|Whitman County|44776|46827
+53|077|Washington|Yakima County|243231|247687
+54|000|West Virginia|West Virginia|1852994|1850326
+54|001|West Virginia|Barbour County|16589|16766
+54|003|West Virginia|Berkeley County|104169|110497
+54|005|West Virginia|Boone County|24629|23714
+54|007|West Virginia|Braxton County|14523|14463
+54|009|West Virginia|Brooke County|24069|23530
+54|011|West Virginia|Cabell County|96319|97109
+54|013|West Virginia|Calhoun County|7627|7513
+54|015|West Virginia|Clay County|9386|8941
+54|017|West Virginia|Doddridge County|8202|8391
+54|019|West Virginia|Fayette County|46039|45132
+54|021|West Virginia|Gilmer County|8693|8618
+54|023|West Virginia|Grant County|11937|11687
+54|025|West Virginia|Greenbrier County|35480|35450
+54|027|West Virginia|Hampshire County|23964|23483
+54|029|West Virginia|Hancock County|30676|30112
+54|031|West Virginia|Hardy County|14025|13923
+54|033|West Virginia|Harrison County|69099|68761
+54|035|West Virginia|Jackson County|29211|29126
+54|037|West Virginia|Jefferson County|53498|55713
+54|039|West Virginia|Kanawha County|193063|190223
+54|041|West Virginia|Lewis County|16372|16414
+54|043|West Virginia|Lincoln County|21720|21561
+54|045|West Virginia|Logan County|36743|35348
+54|047|West Virginia|McDowell County|22113|20448
+54|049|West Virginia|Marion County|56418|56803
+54|051|West Virginia|Marshall County|33107|32416
+54|053|West Virginia|Mason County|27324|27016
+54|055|West Virginia|Mercer County|62264|61785
+54|057|West Virginia|Mineral County|28212|27578
+54|059|West Virginia|Mingo County|26839|25716
+54|061|West Virginia|Monongalia County|96189|103463
+54|063|West Virginia|Monroe County|13502|13582
+54|065|West Virginia|Morgan County|17541|17453
+54|067|West Virginia|Nicholas County|26233|25827
+54|069|West Virginia|Ohio County|44443|43328
+54|071|West Virginia|Pendleton County|7695|7371
+54|073|West Virginia|Pleasants County|7605|7634
+54|075|West Virginia|Pocahontas County|8719|8662
+54|077|West Virginia|Preston County|33520|33788
+54|079|West Virginia|Putnam County|55486|56770
+54|081|West Virginia|Raleigh County|78859|78241
+54|083|West Virginia|Randolph County|29405|29429
+54|085|West Virginia|Ritchie County|10449|10011
+54|087|West Virginia|Roane County|14926|14664
+54|089|West Virginia|Summers County|13927|13417
+54|091|West Virginia|Taylor County|16895|17069
+54|093|West Virginia|Tucker County|7141|6927
+54|095|West Virginia|Tyler County|9208|9098
+54|097|West Virginia|Upshur County|24254|24731
+54|099|West Virginia|Wayne County|42481|41122
+54|101|West Virginia|Webster County|9154|8834
+54|103|West Virginia|Wetzel County|16583|15988
+54|105|West Virginia|Wirt County|5717|5845
+54|107|West Virginia|Wood County|86956|86237
+54|109|West Virginia|Wyoming County|23796|22598
+55|000|Wisconsin|Wisconsin|5686986|5757564
+55|001|Wisconsin|Adams County|20875|20215
+55|003|Wisconsin|Ashland County|16157|16103
+55|005|Wisconsin|Barron County|45870|45455
+55|007|Wisconsin|Bayfield County|15014|14985
+55|009|Wisconsin|Brown County|248007|256670
+55|011|Wisconsin|Buffalo County|13587|13188
+55|013|Wisconsin|Burnett County|15457|15328
+55|015|Wisconsin|Calumet County|48971|49491
+55|017|Wisconsin|Chippewa County|62415|63460
+55|019|Wisconsin|Clark County|34690|34423
+55|021|Wisconsin|Columbia County|56833|56615
+55|023|Wisconsin|Crawford County|16644|16392
+55|025|Wisconsin|Dane County|488073|516284
+55|027|Wisconsin|Dodge County|88759|88574
+55|029|Wisconsin|Door County|27785|27766
+55|031|Wisconsin|Douglas County|44159|43698
+55|033|Wisconsin|Dunn County|43857|44305
+55|035|Wisconsin|Eau Claire County|98736|101564
+55|037|Wisconsin|Florence County|4423|4481
+55|039|Wisconsin|Fond du Lac County|101633|101759
+55|041|Wisconsin|Forest County|9304|9127
+55|043|Wisconsin|Grant County|51208|51829
+55|045|Wisconsin|Green County|36842|37063
+55|047|Wisconsin|Green Lake County|19051|18836
+55|049|Wisconsin|Iowa County|23687|23825
+55|051|Wisconsin|Iron County|5916|5917
+55|053|Wisconsin|Jackson County|20449|20652
+55|055|Wisconsin|Jefferson County|83686|84395
+55|057|Wisconsin|Juneau County|26664|26395
+55|059|Wisconsin|Kenosha County|166426|168068
+55|061|Wisconsin|Kewaunee County|20574|20444
+55|063|Wisconsin|La Crosse County|114638|118011
+55|065|Wisconsin|Lafayette County|16836|16853
+55|067|Wisconsin|Langlade County|19977|19410
+55|069|Wisconsin|Lincoln County|28743|28493
+55|071|Wisconsin|Manitowoc County|81442|80160
+55|073|Wisconsin|Marathon County|134063|135780
+55|075|Wisconsin|Marinette County|41749|41298
+55|077|Wisconsin|Marquette County|15404|15050
+55|078|Wisconsin|Menominee County|4232|4522
+55|079|Wisconsin|Milwaukee County|947735|956406
+55|081|Wisconsin|Monroe County|44673|45379
+55|083|Wisconsin|Oconto County|37660|37417
+55|085|Wisconsin|Oneida County|35998|35563
+55|087|Wisconsin|Outagamie County|176695|182006
+55|089|Wisconsin|Ozaukee County|86395|87470
+55|091|Wisconsin|Pepin County|7469|7335
+55|093|Wisconsin|Pierce County|41019|40958
+55|095|Wisconsin|Polk County|44205|43437
+55|097|Wisconsin|Portage County|70019|70482
+55|099|Wisconsin|Price County|14159|13675
+55|101|Wisconsin|Racine County|195408|195163
+55|103|Wisconsin|Richland County|18021|17662
+55|105|Wisconsin|Rock County|160331|161188
+55|107|Wisconsin|Rusk County|14755|14333
+55|109|Wisconsin|St. Croix County|84345|86759
+55|111|Wisconsin|Sauk County|61976|63379
+55|113|Wisconsin|Sawyer County|16557|16437
+55|115|Wisconsin|Shawano County|41949|41579
+55|117|Wisconsin|Sheboygan County|115507|115290
+55|119|Wisconsin|Taylor County|20689|20540
+55|121|Wisconsin|Trempealeau County|28816|29509
+55|123|Wisconsin|Vernon County|29773|30362
+55|125|Wisconsin|Vilas County|21430|21398
+55|127|Wisconsin|Walworth County|102228|103527
+55|129|Wisconsin|Washburn County|15911|15694
+55|131|Wisconsin|Washington County|131887|133251
+55|133|Wisconsin|Waukesha County|389891|395118
+55|135|Wisconsin|Waupaca County|52410|52066
+55|137|Wisconsin|Waushara County|24496|24178
+55|139|Wisconsin|Winnebago County|166994|169511
+55|141|Wisconsin|Wood County|74749|73608
+56|000|Wyoming|Wyoming|563626|584153
+56|001|Wyoming|Albany County|36299|37811
+56|003|Wyoming|Big Horn County|11668|11930
+56|005|Wyoming|Campbell County|46133|48320
+56|007|Wyoming|Carbon County|15885|15854
+56|009|Wyoming|Converse County|13833|14097
+56|011|Wyoming|Crook County|7083|7248
+56|013|Wyoming|Fremont County|40123|40703
+56|015|Wyoming|Goshen County|13249|13514
+56|017|Wyoming|Hot Springs County|4812|4816
+56|019|Wyoming|Johnson County|8569|8573
+56|021|Wyoming|Laramie County|91738|96389
+56|023|Wyoming|Lincoln County|18106|18567
+56|025|Wyoming|Natrona County|75450|81624
+56|027|Wyoming|Niobrara County|2484|2463
+56|029|Wyoming|Park County|28205|28989
+56|031|Wyoming|Platte County|8667|8799
+56|033|Wyoming|Sheridan County|29116|30032
+56|035|Wyoming|Sublette County|10247|10057
+56|037|Wyoming|Sweetwater County|43806|45010
+56|039|Wyoming|Teton County|21294|22930
+56|041|Wyoming|Uinta County|21118|20904
+56|043|Wyoming|Washakie County|8533|8322
+56|045|Wyoming|Weston County|7208|7201
