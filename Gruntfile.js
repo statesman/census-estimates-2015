@@ -6,11 +6,20 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
 
-    // Copy FontAwesome files to the fonts/ directory
+    // Copy FontAwesome files to the fonts/ directory and jquery ui theme images to images/ directory
     copy: {
       fonts: {
         src: 'bower_components/font-awesome/fonts/**',
         dest: 'public/fonts/',
+        flatten: true,
+        expand: true
+      },
+      images: {
+        src: [
+            'bower_components/jquery-ui/themes/base/images/**',
+            'bower_components/jquery-ui/themes/hot-sneaks/images/**'
+        ],
+        dest: 'public/dist/images/',
         flatten: true,
         expand: true
       }
@@ -28,7 +37,11 @@ module.exports = function(grunt) {
           cleancss: false
         },
         files: {
-          "public/dist/style.css": "src/less/style.less"
+          "public/dist/style.css": [
+              "src/less/style.less",
+              "bower_components/jquery-ui/themes/hot-sneaks/jquery-ui.css",
+              "bower_components/jquery-ui/themes/hot-sneaks/theme.css",
+          ]
         }
       }
     },
@@ -57,6 +70,8 @@ module.exports = function(grunt) {
             'bower_components/bootstrap/js/collapse.js',
             'bower_components/bootstrap/js/dropdown.js',
             'bower_components/bootstrap/js/transition.js',
+            'bower_components/jquery-ui/jquery-ui.js',
+            'bower_components/jquery-ui/ui/slider.js',
             'src/js/main.js'
           ]
         }

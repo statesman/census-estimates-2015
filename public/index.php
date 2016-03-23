@@ -6,7 +6,7 @@
   <?php
   $meta = array(
     "title" => "2016 Census population estimates | Statesman.com",
-    "description" => "Austin continues to grow XXXXXXXX.",
+    "description" => "XXXXXXXXXXXXXXXXXXXXXXXXX.",
     "thumbnail" => "http://projects.statesman.com/news/census-population-2016/assets/share.png", // needs update
     "shortcut_icon" => "http://media.cmgdigital.com/shared/media/2015-11-16-11-32-05/web/site/www_mystatesman_com/images/favicon.ico",
     "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_fa2d2d6e73614535b997734c7e7d2287.png",
@@ -66,8 +66,6 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="./">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
         <li class="visible-xs small-social"><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
       </ul>
         <ul class="nav navbar-nav navbar-right social hidden-xs">
@@ -81,60 +79,67 @@
 
   <article>
 
+      <div class="interactive-header white">
       <div class="container">
-
-    <div class="row">
-      <div class="col-lg-12 interactive-header">
-      <h1 id="pagetitle">Title</h1>
-      <p class="author">By So Andso</p>
+          <h4>Census</h4>
+      <h1 id="pagetitle">Population changes in 2015</h1>
+      <p class="author">Interactive by Cody Winchester, American-Statesman
+          <br>
+          Published March 24, 2016
+      </p>
       <p>
 
-net migration into Austin MSA, 2015 compared to 2014
+Austin over 2M
+"Four Texas metro areas together added more people last year than any state in the country except for Texas as a whole, according to new U.S. Census Bureau population estimates released today. The population in these four metro areas increased by more than 400,000 people from July 1, 2014, to July 1, 2015."
 
-growth rate rank among large metro areas - growth, 2014-15, or whatever -- bar chart
+"Five Texas metros ─ Midland, Odessa, Austin, College Station-Bryan and Houston ─ were also among the 20 fastest growing between 2014 and 2015."
 
+"Houston, Austin and Orlando were the only three metro areas nationwide to be among both the 20 with the largest numeric gains and the 20 fastest growing (percentage gain) between 2014 and 2015."
 
-png - dot for every person?
-
-density compared with other MSAs -- also, how has that changed over time? are we able to say anything interesting about this?
-
+Among metropolitan areas with more than 1 million people
 
       </p>
 
-      <a href="/" class="btn btn-primary" role="button" style="background-color:#395271;">Read more&emsp;<i class="fa fa-chevron-right"></i></a>
-      </div>
-    </div>
+      <a href="#" target="_blank" class="bold">Related: XXXXXXXXXXX &raquo;</a>
+</div>
+</div>
 
-<div id="chart_div">
-    <h3>Some sort of headline here</h3>
-    <p>blah blah blah leads the way among large metro areas in the U.S.</p>
+
+<div id="chart_div" class="interactive-header">
+<div class="container">
+    <h3 class="bold">Austin: XXXXXXXXX</h3>
+    <p>For at least the fifth year in a row, the Austin-Round Rock metropolitan area had the highest growth rate among U.S. metropolitan areas of more than 1 million people, according to new Census Bureau estimates. The Austin area posted a population gain of nearly 3 percent from 2014 to 2015, bringing the total count to more than 2 million people.</p>
+    <p>Select two years on the slider to compare the growth rates of America's fastest-growing large metropolitan areas.</p>
+    <div class="clearfix"></div>
+    <div class="slider" id="msa_slider"></div>
+    <div class="clearfix"></div>
+    <h4 id="year_hed">Growth from 2014-2015</h4>
     <div id="chart"></div>
     <p class="small note">Source: U.S. Census Bureau</p>
 </div>
-
 </div>
 
 
 <script type="text/html" id="chart_template">
     <div class="row barscale_wrap">
-        <div class="col-md-4 col-md-offset-3 barscale">
+        <div class="col-md-4 col-md-offset-5 barscale">
             <p class="small pull-left barscale_text">
                 0%
             </p>
-            <p class="small pull-right barscale_text">
+            <p class="small pull-right barscale_text" style="margin-right:-10px;">
                 <%= t_data.barscale %>
             </p>
         </div>
     </div>
     <% _.each(t_data, function(d) { %>
           <div class="row bar-wrapper">
-              <div class="col-xs-12 col-md-3">
-                  <span class="city_deets"><%= d.city %>: <%= d.pct %></span>
+              <div class="col-xs-12 col-md-5">
+                  <span class="city_deets<% if ( d.msa.toUpperCase() === 'AUSTIN-ROUND ROCK, TX' ) { %> bold<% }; %>"><%= d.msa %>: <%= d.pct_change %></span>
               </div>
               <div class="col-xs-12 col-md-4 barchart">
                     <div class="row">
                         <div class="bar-container">
-                            <div class="bar" style="width:<%= d.barwidth %>%;"></div>
+                            <div class="bar <% if ( d.msa.toUpperCase() === 'AUSTIN-ROUND ROCK, TX' ) { %>bar-austin<% } else { %>bar-reg<% }; %>" style="width:<%= d.barwidth %>%;"></div>
                         </div>
                     </div>
               </div>
@@ -142,30 +147,14 @@ density compared with other MSAs -- also, how has that changed over time? are we
     <% }); %>
 </script>
 
-<div id="us_map_div">
+<div id="tx_map_div" class="interactive-header">
     <div class="container">
-    <h3>Some sort of headline here</h3>
-    <p>blah blah blah leads the way among large metro areas in the U.S. Hover or tap on a county to see XXXX.</p>
-        <div class="row">
-            <div class="col-xs-12 col-md-9">
-                <div id="us_legend">
-                    <small>Population change, 2010-2014</small>
-                </div>
-                <div id="us_map"></div>
-            </div>
-            <div class="col-xs-12 col-md-3">
-                <div id="us_hover_output"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="tx_map_div">
-    <div class="container">
+        <h3 class="bold">Texas: XXXXXXXXXXXXX</h3>
+        <p>In Texas, blah blah blah. Hover or tap on a county to see XXXX.</p>
         <div class="row">
             <div class="col-xs-12 col-md-9">
                 <div id="tx_legend">
-                    <small>Percent change in population, 2010-2014</small>
+                    <small>Population change, 2010-2014</small>
                 </div>
                 <div id="tx_map"></div>
             </div>
@@ -173,6 +162,29 @@ density compared with other MSAs -- also, how has that changed over time? are we
                 <div id="tx_hover_output"></div>
             </div>
         </div>
+    <p class="small">Source: U.S. Census Bureau</p>
+    </div>
+</div>
+
+
+<div id="us_map_div" class="interactive-header">
+    <div class="container">
+    <h3 class="bold">U.S.: </h3>
+    <p>Use the slider to compare growth rates between years. Hover or tap on a county to show more details.</p>
+        <div class="row">
+            <div class="col-xs-12 col-md-9">
+                <div class="slider" id="us_slider"></div>
+                <div class="clearfix"></div>
+                <div id="us_legend">
+                    <span id="us_legend_note" class="small">Population change, 2010-2015</span>
+                </div>
+                <div id="us_map"></div>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <div id="us_hover_output"></div>
+            </div>
+        </div>
+    <p class="small">Source: U.S. Census Bureau. Population numbers for Shannon County, South Dakota, were not included in the data.</p>
     </div>
 </div>
 

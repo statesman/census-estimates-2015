@@ -21,10 +21,25 @@
   background: white;
 }
 
+.whitetext {
+    color:white;
+}
+
+.bold {
+    font-weight:bold;
+}
+
 .counties {
     fill:none;
     stroke: #fafafa;
     stroke-linejoin: round;
+}
+
+.texas-border {
+  fill: none;
+  stroke: #aaa;
+  stroke-width: 1.5;
+  stroke-linejoin: round;
 }
 
 #us_map {
@@ -51,7 +66,7 @@
 }
 
 #tx_map_div {
-    background: white;
+    background: #ddd;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -77,7 +92,7 @@ li.key {
 }
 
 #chart_div {
-    padding-bottom:30px;
+    background:#f7f7f7;
 }
 
 .bar-wrapper {
@@ -93,7 +108,14 @@ li.key {
 
 .bar {
     height:100%;
+}
+
+.bar-reg {
     background:#b0c1d7;
+}
+
+.bar-austin {
+    background: #395271
 }
 
 .barscale {
@@ -115,6 +137,35 @@ li.key {
     color:#aaa;
 }
 
-.city_deets {
-    cursor: default;
+#year_hed {
+    font-family: @font-family-sans-serif;
+    font-size:120%;
+    color:black;
+}
+
+.notouchy {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#msa_slider {
+    margin:20px 30px 40px 20px;
+}
+
+#us_slider {
+    margin:20px 100px 60px 10px;
+}
+
+.slider label {
+  position: absolute;
+  width: 10px;
+  margin-top: 20px;
+  margin-left: -10px;
+  text-align: center;
+  font-weight:normal;
+  font-size:100%;
 }
