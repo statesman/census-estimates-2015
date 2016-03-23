@@ -90,7 +90,7 @@
       <p>
           A glance across our skyline or a drive up MoPac (good luck with that!) is all we need to see that Central Texas is growing like a playful Labrador puppy. But today, the U.S. Census Bureau released new statistics that confirm what those big puppy paws told us would happen: We're growing awfully fast.
       </p>
-      <a href="#" target="_blank" class="bold">Related: XXXXXXXXXXX &raquo;</a>
+      <!--<a href="#" target="_blank" class="bold">Related: XXXXXXXXXXX &raquo;</a>-->
 </div>
 </div>
 
