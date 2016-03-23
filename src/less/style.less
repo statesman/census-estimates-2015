@@ -55,17 +55,18 @@
 div.col-xs-12.col-md-6.msa_deet_wrap {
     margin-top:2px;
     text-align:right;
+    @media (max-width: @screen-md-min) {
+        text-align:left;
+    }
+
 }
 
-@media (max-width: @screen-sm-min) {
+@media (max-width: @screen-md-min) {
     #us_map {
         margin-left:0px;
     }
     .states {
         stroke-width: 1px;
-    }
-    div.col-xs-12.col-md-6.msa_deet_wrap {
-        text-align:left;
     }
 }
 
@@ -111,7 +112,7 @@ li.key {
     font-size: 90%;
     color: #395271;
     margin-bottom:5px;
-    @media (max-width: 700px) {
+    @media (max-width: @screen-md-min) {
         margin-bottom:10px;
     }
 }
@@ -141,14 +142,14 @@ li.key {
 
 #tx_table {
     margin-top:300px;
-    @media (max-width: 700px) {
+    @media (max-width: @screen-md-min) {
         margin-top:20px;
     }
 }
 
 #us_hover_output {
     margin-top:150px;
-    @media (max-width: 700px) {
+    @media (max-width: @screen-md-min) {
         margin-top:20px;
     }
 }
@@ -175,7 +176,7 @@ li.key {
     margin-bottom:5px;
     padding-left:35px;
     padding-right:10px;
-        @media (max-width: 700px) {
+        @media (max-width: @screen-md-min) {
         padding-left:15px;
         padding-right:20px;
     }
