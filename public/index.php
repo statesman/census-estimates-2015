@@ -88,9 +88,8 @@
           Published March 24, 2016
       </p>
       <p>
-          A glance across our skyline or a drive up Mopac (harumph!) is all we need to see that Central Texas is growing like a playful Labrador puppy, but today the U.S. Census Bureau released new statistics that confirm what those big puppy paws told us would happen: We're growing awfully fast.
+          A glance across our skyline or a drive up MoPac (harumph!) is all we need to see that Central Texas is growing like a playful Labrador puppy, but today the U.S. Census Bureau released new statistics that confirm what those big puppy paws told us would happen: We're growing awfully fast.
       </p>
-
       <a href="#" target="_blank" class="bold">Related: XXXXXXXXXXX &raquo;</a>
 </div>
 </div>
@@ -101,22 +100,20 @@
         <div class="row">
             <div class="col-xs-12">
 
-    <h3 class="bold">Austin: Strong, steady growth</h3>
+    <h3 class="bold">Austin</h3>
     <div class="row">
     <div class="col-md-8">
-    <p>The Austin metro area is officially home to more than 2 million people, according to U.S. Census Bureau estimates released today. And while that puts us at No. 32 in the rankings of most populous major metros (more than 1 million), the Austin area has been the fastest growing each of the past five years.</p>
+    <p>The Austin metro area is officially home to more than 2 million people, according to U.S. Census Bureau estimates released today. And while that puts us at No. 32 in the rankings of most populous major metros (more than 1 million), the Austin area has been the fastest-growing each of the past five years.</p>
     <p>From July 2014 to July 2015, the Austin-Round Rock metropolitan statistical area, which includes Travis, Williamson, Hays, Bastrop and Caldwell counties, grew from 1,943,465 to 2,000,860, or 3 percent. Since 2010, the five-county area has grown by 15.8 percent.<p>
+            <div class="slider" id="msa_slider"></div>
     </div>
     <div class="col-md-4">
         <div class="well callout whitetext">
             <p class="lead bold"><i class="fa fa-bar-chart"></i>&ensp;Slider</p>
-            <p>Select two years to compare growth rates among large metropolitan areas.</p>
+            <p>Use the slider to compare growth rates between years.</p>
         </div>
     </div>
 </div>
-    <div class="clearfix"></div>
-    <div class="slider" id="msa_slider"></div>
-    <div class="clearfix"></div>
     <h4 id="year_hed">Growth from 2014-2015</h4>
     <div id="chart"></div>
     <p class="small note">Source: U.S. Census Bureau</p>
@@ -187,14 +184,18 @@
         <h3 class="bold">Texas</h3>
         <div class="row">
             <div class="col-md-8">
-                <p>Austin isn't the only Texas area seeing phenomenal growth. Texas' four largest metro areas (Houston, Dallas/Fort Worth, San Antonio and Austin areas) added more people than any other state as whole, other than Texas. From July 2014 to July 2015, five Texas counties were among the fastest-growing large counties (100,000+) in the country: Hays (2), Fort Bend (3), Comal (6), Montgomery (8), Williamson (9). Loving County was the fastest growing county in America in 2015, adding 25 people for a whopping total of 112. Hey, that's 35 percent growth!</p>
+                <p>Austin isn't the only Texas area seeing phenomenal growth. Texas' four largest metro areas (Houston, Dallas/Fort Worth, San Antonio and Austin areas) added more people than any other state as whole, other than Texas. From July 2014 to July 2015, five Texas counties were among the fastest-growing large counties (100,000+) in the country: Hays (2), Fort Bend (3), Comal (6), Montgomery (8), Williamson (9). Loving County, in West Texas, was the fastest growing county in America in 2015, adding 25 people for a whopping total of 112. Hey, that's 35 percent growth!</p>
 <div class="slider" id="tx_slider"></div>
 <div class="clearfix"></div>
             </div>
         <div class="col-md-4">
                 <div class="well callout whitetext">
                     <p class="lead bold"><i class="fa fa-bar-chart"></i>&ensp;Slider</p>
-                    <p>Use the slider to compare growth rates between years. Hover or tap on a county to show more details.</p>
+                    <p>Use the slider to compare growth rates between years.</p>
+                </div>
+                <div class="well callout whitetext">
+                    <p class="lead bold"><i class="fa fa-map-marker"></i>&ensp;Map</p>
+                    <p>Hover or tap on a county to show more details.</p>
                 </div>
         </div>
         </div>
@@ -224,10 +225,14 @@
             <div class="slider" id="us_slider"></div>
         </div>
     <div class="col-md-4">
-            <div class="well callout whitetext">
-                <p class="lead bold"><i class="fa fa-bar-chart"></i>&ensp;Slider</p>
-                <p>Use the slider to compare growth rates between years. Hover or tap on a county to show more details.</p>
-            </div>
+                <div class="well callout-lite whitetext">
+                    <p class="lead bold"><i class="fa fa-bar-chart"></i>&ensp;Slider</p>
+                    <p>Use the slider to compare growth rates between years.</p>
+                </div>
+                <div class="well callout-lite whitetext">
+                    <p class="lead bold"><i class="fa fa-map-marker"></i>&ensp;Map</p>
+                    <p>Hover or tap on a county to show more details.</p>
+                </div>
     </div>
     </div>
         <div class="row">
