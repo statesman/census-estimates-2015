@@ -106,9 +106,12 @@ Among metropolitan areas with more than 1 million people
 
 
 <div id="chart_div" class="interactive-header">
-<div class="container">
-    <h3 class="bold">Austin: XXXXXXXXX</h3>
-    <p>For at least the fifth year in a row, the Austin-Round Rock metropolitan area had the highest growth rate among U.S. metropolitan areas of more than 1 million people, according to new Census Bureau estimates. The Austin area posted a population gain of nearly 3 percent from 2014 to 2015, bringing the total count to more than 2 million people.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-9">
+
+    <h3 class="bold">Austin: Strong, steady growth</h3>
+    <p>For the past five years, the Austin-Round Rock metropolitan area has posted the highest growth rate among U.S. metropolitan areas of more than 1 million people. According to new Census Bureau estimates, the Austin area's population grew nearly 3 percent from 2014 to 2015, bringing the total count to more than 2 million people.</p>
     <p>Select two years on the slider to compare the growth rates of America's fastest-growing large metropolitan areas.</p>
     <div class="clearfix"></div>
     <div class="slider" id="msa_slider"></div>
@@ -118,11 +121,13 @@ Among metropolitan areas with more than 1 million people
     <p class="small note">Source: U.S. Census Bureau</p>
 </div>
 </div>
+</div>
+</div>
 
 
 <script type="text/html" id="chart_template">
     <div class="row barscale_wrap">
-        <div class="col-md-4 col-md-offset-5 barscale">
+        <div class="col-md-4 col-md-offset-8 barscale">
             <p class="small pull-left barscale_text">
                 0%
             </p>
@@ -133,7 +138,7 @@ Among metropolitan areas with more than 1 million people
     </div>
     <% _.each(t_data, function(d) { %>
           <div class="row bar-wrapper">
-              <div class="col-xs-12 col-md-5">
+              <div class="col-xs-12 col-md-8">
                   <span class="city_deets<% if ( d.msa.toUpperCase() === 'AUSTIN-ROUND ROCK, TX' ) { %> bold<% }; %>"><%= d.msa %>: <%= d.pct_change %></span>
               </div>
               <div class="col-xs-12 col-md-4 barchart">
@@ -147,12 +152,32 @@ Among metropolitan areas with more than 1 million people
     <% }); %>
 </script>
 
+<script type="text/html" id="map_table_template">
+    <h4><%= t_data.county %></h4>
+    <table class="table table-condensed">
+        <thead>
+        <tr>
+            <th><%= t_data.oldyear.year %></th>
+            <th><%= t_data.newyear.year %></th>
+            <th>Change</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><%= t_data.oldyear.val %></td>
+            <td><%= t_data.newyear.val %></td>
+            <td><%= t_data.pct_change %></td>
+        </tr>
+        </tbody>
+    </table>
+</script>
+
 <div id="tx_map_div" class="interactive-header">
     <div class="container">
-        <h3 class="bold">Texas: XXXXXXXXXXXXX</h3>
-        <p>Use the slider to compare growth rates between years. Hover or tap on a county to show more details.</p>
         <div class="row">
             <div class="col-xs-12 col-md-9">
+        <h3 class="bold">Texas: XXXXXXXXXXXXX</h3>
+        <p>Use the slider to compare growth rates between years. Hover or tap on a county to show more details.</p>
                 <div class="slider" id="tx_slider"></div>
                 <div class="clearfix"></div>
                 <div id="tx_legend">

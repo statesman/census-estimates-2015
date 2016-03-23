@@ -3,13 +3,13 @@
 
     // settings
     var viz_config = {
-      us_counties: "/data/us-counties.json",
-      tx_counties: "/data/texas-counties.json",
-      us_county_data: "/data/us_county_pop_2015.csv",
-      tx_county_data: "/data/tx_county_pop_2015.csv",
-      state_county_data: "/data/state_county_pop_2015.csv",
-      us_msa_data: "/data/us_msa_pop_2015.csv",
-      tx_msa_data: "/data/tx_msa_pop_2015.csv",
+      us_counties: "data/us-counties.json",
+      tx_counties: "data/texas-counties.json",
+      us_county_data: "data/us_county_pop_2015.csv",
+      tx_county_data: "data/tx_county_pop_2015.csv",
+      state_county_data: "data/state_county_pop_2015.csv",
+      us_msa_data: "data/us_msa_pop_2015.csv",
+      tx_msa_data: "data/tx_msa_pop_2015.csv",
       map_colors: ['#238b45', '#74c476', '#bae4b3', '#edf8e9', '#fafafa', '#fee5d9', '#fcae91', '#fb6a4a', '#cb181d'].reverse(),
       min_year: 2010,
       max_year: 2015,
@@ -20,27 +20,26 @@
           2013: "pop13",
           2014: "pop14",
           2015: "pop15"
-      }
-    };
+      },
+      pct_format: d3.format('.2%'),
+      comma_format: d3.format('0,000')
+      };
 
     // helper function to return % change
     function pct_change(new_num, old_num) {
         return (+new_num - +old_num) / +old_num;
     }
 
+    // global template settings
+    _.templateSettings.variable = "t_data";
+    var chart_template = _.template($("#chart_template").html());
+    var map_template = _.template($("#map_table_template").html());
 
     // draw the graph
     (function() {
         // cache dom references
         var $chart = $("#chart");
         var $msa_slider = $("#msa_slider");
-
-        // percent formatter
-        var pct = d3.format('.2%');
-
-        // set up template
-        _.templateSettings.variable = "t_data";
-        var template = _.template($("#chart_template").html());
 
         // from csv, pass json to chart template
         d3.csv(viz_config.us_msa_data, function(error, data) {
@@ -65,22 +64,23 @@
 
                 // get the next integer up from the hightest pct change value, for scale
                 var max = Math.ceil((_.max(data_with_pct, "pct_change").pct_change * 100)) / 100;
-                data_with_pct.barscale = pct(max).replace(".00", "");
+                data_with_pct.barscale = viz_config.pct_format(max).replace(".00", "");
 
                 // another loop to add bar width and format % change
-                // might be better to do this as a global template function?
+                // probably a better to do this - global template function?
                 _.each(data_with_pct, function(d) {
                     d.barwidth = (d.pct_change / max) * 100;
-                    d.pct_change = pct(+d.pct_change).replace(".00","");
+                    d.pct_change = viz_config.pct_format(+d.pct_change).replace(".00","");
                 });
 
                 // pass to template
-                $chart.html(template(data_with_pct));
+                $chart.html(chart_template(data_with_pct));
             }
 
             // initial view = year over year
             makeChart('pop14', 'pop15');
 
+            // instantiate slider
             $msa_slider.slider({
               range: true,
               min: viz_config.min_year,
@@ -95,6 +95,7 @@
               }
           });
 
+          // add labels
             var opt = $msa_slider.data()['ui-slider'].options;
             var vals = opt.max - opt.min;
             for (var i = 0; i <= vals; i++) {
@@ -194,14 +195,26 @@
                         // get pct change
                         var pct_ch = pct_change(rec.pop15, rec.pop14);
 
-                        // format text color and prefix
-                        var pre = "", col="#f55";
+                        // format prefix
+                        var pre = "";
                         if (pct_ch > 0) {
                             pre = "+";
-                            col = "lime";
                         }
-                        // populate the div
-                        $us_hover_output.html('<h4>' + rec.county + ", " + rec.state + "</h4><span style='color: " + col + "'>" + pre + (pct_ch * 100).toFixed(2) + "%</span>");
+
+                        var data_to_template = {
+                            county: rec.county + ", " + rec.state,
+                            oldyear: {
+                                year: 2014,
+                                val: viz_config.comma_format(rec.pop14)
+                            },
+                            newyear: {
+                                year: 2015,
+                                val: viz_config.comma_format(rec.pop15)
+                            },
+                            pct_change: pre + viz_config.pct_format(pct_ch)
+                        };
+
+                        $us_hover_output.html(map_template(data_to_template));
                     }
                 })
                 .on('mouseout', function(d) {
@@ -239,7 +252,7 @@
                 });
 
 
-            // draw the slider
+            // instantiate the slider
             $us_slider.slider({
               range: true,
               min: viz_config.min_year,
@@ -248,12 +261,13 @@
               values: [viz_config.max_year - 1, viz_config.max_year],
               slide: function( event, ui ) {
                 if ( ui.values[0] !== ui.values[1] ) {
-                    redrawUsMap(viz_config.year_map[ui.values[0]], viz_config.year_map[ui.values[1]]);
+                    redrawUsMap(ui.values[0], ui.values[1]);
                     $("#us_legend_note" ).html("Population change, " + ui.values[0] + "-" + ui.values[1]);
                 }
               }
             });
 
+            // draw the labels
             var opt = $us_slider.data()['ui-slider'].options;
             var vals = opt.max - opt.min;
             for (var i = 0; i <= vals; i++) {
@@ -261,14 +275,17 @@
                 $us_slider.append(el);
             }
 
-            // function to change map data
+            // function to change map data on slider change
             function redrawUsMap(minyear, maxyear) {
+                var min_year_var = viz_config.year_map[minyear];
+                var max_year_var = viz_config.year_map[maxyear];
+
                 d3.selectAll('.counties path')
                     .style("fill", function(d) {
                         // fill color, if it exists
                         if(typeof fipsDict[+d.id] !== "undefined") {
                             var rec = fipsDict[+d.id];
-                            var pct_ch = pct_change(rec[maxyear], rec[minyear]);
+                            var pct_ch = pct_change(rec[max_year_var], rec[min_year_var]);
                             return color(pct_ch);
                         }
                     })
@@ -285,16 +302,29 @@
                             var rec = fipsDict[+d.id];
 
                             // get pct change
-                            var pct_ch = pct_change(rec[maxyear], rec[minyear]);
+                            var pct_ch = pct_change(rec[max_year_var], rec[min_year_var]);
 
                             // format text color and prefix
-                            var pre = "", col="#f55";
+                            var pre = "";
                             if (pct_ch > 0) {
                                 pre = "+";
-                                col = "lime";
                             }
-                            // populate the div
-                            $us_hover_output.html('<h4>' + rec.county + ", " + rec.state + "</h4><span style='color: " + col + "'>" + pre + (pct_ch * 100).toFixed(2) + "%</span>");
+
+                            var data_to_template = {
+                                county: rec.county + ", " + rec.state,
+                                oldyear: {
+                                    year: minyear,
+                                    val: viz_config.comma_format(rec[min_year_var])
+                                },
+                                newyear: {
+                                    year: maxyear,
+                                    val: viz_config.comma_format(rec[max_year_var])
+                                },
+                                pct_change: pre + viz_config.pct_format(pct_ch)
+                            };
+
+                            $us_hover_output.html(map_template(data_to_template));
+
                         }
                     })
                     .on('mouseout', function(d) {
@@ -409,7 +439,7 @@
                         // highlight the county border
                         d3.select(this).style({
                             "stroke": "#aaa",
-                            "stroke-width": 3
+                            "stroke-width": 4
                         });
                         // retrieve the correct record
                         var rec = fipsDict[d.id];
@@ -418,13 +448,26 @@
                         var pct_ch = pct_change(rec.pop15, rec.pop14);
 
                         // format text color and prefix
-                        var pre = "", col="red";
+                        var pre = "";
                         if (pct_ch > 0) {
                             pre = "+";
-                            col = "green";
                         }
-                        // populate the div
-                        $tx_hover_output.html('<h4>' + rec.county + "</h4><span style='color: " + col + "'>" + pre + (pct_ch * 100).toFixed(2) + "%</span>");
+
+                        var data_to_template = {
+                            county: rec.county,
+                            oldyear: {
+                                year: 2014,
+                                val: viz_config.comma_format(rec.pop14)
+                            },
+                            newyear: {
+                                year: 2015,
+                                val: viz_config.comma_format(rec.pop15)
+                            },
+                            pct_change: pre + viz_config.pct_format(pct_ch)
+                        };
+
+                        $tx_hover_output.html(map_template(data_to_template));
+
                     }
                 })
                 .on('mouseout', function(d) {
@@ -472,7 +515,7 @@
               values: [viz_config.max_year - 1, viz_config.max_year],
               slide: function( event, ui ) {
                 if ( ui.values[0] !== ui.values[1] ) {
-                    redrawTxMap(viz_config.year_map[ui.values[0]], viz_config.year_map[ui.values[1]]);
+                    redrawTxMap(ui.values[0], ui.values[1]);
                     $("#tx_legend_note" ).html("Population change, " + ui.values[0] + "-" + ui.values[1]);
                 }
               }
@@ -486,12 +529,15 @@
             }
 
             function redrawTxMap(minyear, maxyear) {
+                var min_year_var = viz_config.year_map[minyear];
+                var max_year_var = viz_config.year_map[maxyear];
+
                 d3.selectAll('.texas-counties path')
                     .style("fill", function(d) {
                         // fill color, if it exists
                         if(typeof fipsDict[d.id] !== "undefined") {
                             var rec = fipsDict[d.id];
-                            var pct_ch = pct_change(rec[maxyear], rec[minyear]);
+                            var pct_ch = pct_change(rec[max_year_var], rec[min_year_var]);
                             return color(pct_ch);
                         }
                     })
@@ -502,22 +548,35 @@
                             // highlight the county border
                             d3.select(this).style({
                                 "stroke": "#aaa",
-                                "stroke-width": 3
+                                "stroke-width": 4
                             });
                             // retrieve the correct record
                             var rec = fipsDict[d.id];
 
                             // get pct change
-                            var pct_ch = pct_change(rec[maxyear], rec[minyear]);
+                            var pct_ch = pct_change(rec[max_year_var], rec[min_year_var]);
 
                             // format text color and prefix
-                            var pre = "", col="red";
+                            var pre = "";
                             if (pct_ch > 0) {
                                 pre = "+";
-                                col = "green";
                             }
-                            // populate the div
-                            $tx_hover_output.html('<h4>' + rec.county + ", " + rec.state + "</h4><span style='color: " + col + "'>" + pre + (pct_ch * 100).toFixed(2) + "%</span>");
+
+                            var data_to_template = {
+                                county: rec.county,
+                                oldyear: {
+                                    year: minyear,
+                                    val: viz_config.comma_format(rec[min_year_var])
+                                },
+                                newyear: {
+                                    year: maxyear,
+                                    val: viz_config.comma_format(rec[max_year_var])
+                                },
+                                pct_change: pre + viz_config.pct_format(pct_ch)
+                            };
+
+                            $tx_hover_output.html(map_template(data_to_template));
+                            
                         }
                     })
                     .on('mouseout', function(d) {
