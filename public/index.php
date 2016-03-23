@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <?php
   $meta = array(
-    "title" => "2016 Census population estimates | Statesman.com",
-    "description" => "XXXXXXXXXXXXXXXXXXXXXXXXX.",
+    "title" => "2015 Census estimates | Statesman.com",
+    "description" => "Austin and other Texas cities are still growing like weeds.",
     "thumbnail" => "http://projects.statesman.com/news/census-population-2016/assets/share.png", // needs update
     "shortcut_icon" => "http://media.cmgdigital.com/shared/media/2015-11-16-11-32-05/web/site/www_mystatesman_com/images/favicon.ico",
     "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_fa2d2d6e73614535b997734c7e7d2287.png",
@@ -88,7 +88,7 @@
           Published March 24, 2016
       </p>
       <p>
-          A glance across our skyline or a drive up MoPac (good luck with that!) is all we need to see that Central Texas is growing like a playful Labrador puppy. But today, the U.S. Census Bureau released new statistics that confirm what those big puppy paws told us would happen: We're growing awfully fast.
+          A glance across our skyline or a drive up MoPac (good luck with that!) is all we need to see that Central Texas is growing like a playful Labrador puppy. But today, the U.S. Census Bureau released new statistics confirming what those big puppy paws told us would happen: We're growing awfully fast.
       </p>
       <!--<a href="#" target="_blank" class="bold">Related: XXXXXXXXXXX &raquo;</a>-->
 </div>
@@ -102,7 +102,7 @@
 
     <h3 class="bold">Austin 2.0 (million)</h3>
 
-    <p>The Austin metro area is now home to more than 2 million people, according to Census Bureau estimates. By population, we're only the 32nd largest metro area in the United States. But among metro areas with more than 1 million people, the Austin area was the fastest-growing in each of the past five years.</p>
+    <p>The Austin metro area is now home to more than 2 million people, according to the Census Bureau estimates. By population, we're only the 32nd largest metro area in the United States. But among metro areas with more than 1 million people, we've been the fastest-growing metro area five years running.</p>
 
     <p>From July 2014 to July 2015, the Austin-Round Rock metropolitan statistical area, which includes Travis, Williamson, Hays, Bastrop and Caldwell counties, grew from 1,943,465 to 2,000,860 people, a 3 percent bump. Since 2010, the five-county area has grown by 15.8 percent.<p>
         <div class="alert alert-custom bold" role="alert">Use the slider to compare growth rates between years.</div>
@@ -214,8 +214,8 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-    <h3 class="bold">North Dakota still drawing nationally</h3>
-            <p>Florida rivals Texas for having the most fastest-growing counties &mdash; the Sunshine State had three counties in the top 10 from July 2014 to July 2015. And despite the tanking oil market, there's still a lot of green in oil-producing regions like North Dakota, which has been the fastest-growing state for the past couple of years.</p>
+    <h3 class="bold">U.S.: North Dakota still growing</h3>
+            <p>Florida added 365,703 people between July 2014 to July 2015, outpaced only by Texas with 490,036. The Sunshine State also has three counties in the top 10 list of fastest-growing large counties (100,000 or more). And despite the tanking oil market, there's still a lot of green in oil-producing regions like North Dakota, which has been the fastest-growing state for the past couple of years.</p>
         <div class="alert alert-custom bold" role="alert">Use the slider to compare growth rates between years. Hover or tap on a county to show more details.</div>
             <div class="slider" id="us_slider"></div>
         </div>
