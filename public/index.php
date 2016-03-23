@@ -82,22 +82,13 @@
       <div class="interactive-header white">
       <div class="container">
           <h4>Census</h4>
-      <h1 id="pagetitle">Population changes in 2015</h1>
-      <p class="author">Interactive by Cody Winchester, American-Statesman
+      <h1 id="pagetitle">Population data show rapid growth rate</h1>
+      <p class="author">Interactive by Cody Winchester and Christian McDonald, American-Statesman
           <br>
           Published March 24, 2016
       </p>
       <p>
-
-Austin over 2M
-"Four Texas metro areas together added more people last year than any state in the country except for Texas as a whole, according to new U.S. Census Bureau population estimates released today. The population in these four metro areas increased by more than 400,000 people from July 1, 2014, to July 1, 2015."
-
-"Five Texas metros ─ Midland, Odessa, Austin, College Station-Bryan and Houston ─ were also among the 20 fastest growing between 2014 and 2015."
-
-"Houston, Austin and Orlando were the only three metro areas nationwide to be among both the 20 with the largest numeric gains and the 20 fastest growing (percentage gain) between 2014 and 2015."
-
-Among metropolitan areas with more than 1 million people
-
+          A glance across our skyline or a drive up Mopac (harumph!) is all we need to see that Central Texas is growing like a playful Labrador puppy, but today the U.S. Census Bureau released new statistics that confirm what those big puppy paws told us would happen: We're growing awfully fast.
       </p>
 
       <a href="#" target="_blank" class="bold">Related: XXXXXXXXXXX &raquo;</a>
@@ -108,11 +99,21 @@ Among metropolitan areas with more than 1 million people
 <div id="chart_div" class="interactive-header">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-md-9">
+            <div class="col-xs-12">
 
     <h3 class="bold">Austin: Strong, steady growth</h3>
-    <p>For the past five years, the Austin-Round Rock metropolitan area has posted the highest growth rate among U.S. metropolitan areas of more than 1 million people. According to new Census Bureau estimates, the Austin area's population grew nearly 3 percent from 2014 to 2015, bringing the total count to more than 2 million people.</p>
-    <p>Select two years on the slider to compare the growth rates of America's fastest-growing large metropolitan areas.</p>
+    <div class="row">
+    <div class="col-md-8">
+    <p>The Austin metro area is officially home to more than 2 million people, according to U.S. Census Bureau estimates released today. And while that puts us at No. 32 in the rankings of most populous major metros (more than 1 million), the Austin area has been the fastest growing each of the past five years.</p>
+    <p>From July 2014 to July 2015, the Austin-Round Rock metropolitan statistical area, which includes Travis, Williamson, Hays, Bastrop and Caldwell counties, grew from 1,943,465 to 2,000,860, or 3 percent. Since 2010, the five-county area has grown by 15.8 percent.<p>
+    </div>
+    <div class="col-md-4">
+        <div class="well callout whitetext">
+            <p class="lead bold"><i class="fa fa-bar-chart"></i>&ensp;Slider</p>
+            <p>Select two years to compare growth rates among large metropolitan areas.</p>
+        </div>
+    </div>
+</div>
     <div class="clearfix"></div>
     <div class="slider" id="msa_slider"></div>
     <div class="clearfix"></div>
@@ -127,7 +128,7 @@ Among metropolitan areas with more than 1 million people
 
 <script type="text/html" id="chart_template">
     <div class="row barscale_wrap">
-        <div class="col-md-4 col-md-offset-8 barscale">
+        <div class="col-md-4 col-md-offset-6 barscale">
             <p class="small pull-left barscale_text">
                 0%
             </p>
@@ -138,13 +139,13 @@ Among metropolitan areas with more than 1 million people
     </div>
     <% _.each(t_data, function(d) { %>
           <div class="row bar-wrapper">
-              <div class="col-xs-12 col-md-8">
-                  <span class="city_deets<% if ( d.msa.toUpperCase() === 'AUSTIN-ROUND ROCK, TX' ) { %> bold<% }; %>"><%= d.msa %>: <%= d.pct_change %></span>
+              <div class="col-xs-12 col-md-6 msa_deet_wrap">
+                  <span class="city_deets<% if ( d.msa.toUpperCase() === 'AUSTIN-ROUND ROCK, TX' ) { %> bold<% }; %> pull-right"><%= d.msa %></span>
               </div>
               <div class="col-xs-12 col-md-4 barchart">
                     <div class="row">
                         <div class="bar-container">
-                            <div class="bar <% if ( d.msa.toUpperCase() === 'AUSTIN-ROUND ROCK, TX' ) { %>bar-austin<% } else { %>bar-reg<% }; %>" style="width:<%= d.barwidth %>%;"></div>
+                            <div class="bar whitetext <% if ( d.msa.toUpperCase() === 'AUSTIN-ROUND ROCK, TX' ) { %>bar-austin<% } else { %>bar-reg<% }; %>" style="width:<%= d.barwidth %>%;"><%= d.pct_change %></div>
                         </div>
                     </div>
               </div>
@@ -153,10 +154,10 @@ Among metropolitan areas with more than 1 million people
 </script>
 
 <script type="text/html" id="map_table_template">
-    <h4><%= t_data.county %></h4>
     <table class="table table-condensed">
         <thead>
         <tr>
+            <th></th>
             <th><%= t_data.oldyear.year %></th>
             <th><%= t_data.newyear.year %></th>
             <th>Change</th>
@@ -164,29 +165,47 @@ Among metropolitan areas with more than 1 million people
         </thead>
         <tbody>
         <tr>
+            <th class="bold"><%= t_data.county %></th>
             <td><%= t_data.oldyear.val %></td>
             <td><%= t_data.newyear.val %></td>
             <td><%= t_data.pct_change %></td>
         </tr>
+        <% if (t_data.texas) { %>
+        <tr>
+            <th class="bold">Texas</th>
+            <td><%= t_data.texas.oldyear %></td>
+            <td><%= t_data.texas.newyear %></td>
+            <td><%= t_data.texas.pct_change %></td>
+        </tr>
+        <% }; %>
         </tbody>
     </table>
 </script>
 
 <div id="tx_map_div" class="interactive-header">
     <div class="container">
+        <h3 class="bold">Texas</h3>
         <div class="row">
-            <div class="col-xs-12 col-md-9">
-        <h3 class="bold">Texas: XXXXXXXXXXXXX</h3>
-        <p>Use the slider to compare growth rates between years. Hover or tap on a county to show more details.</p>
-                <div class="slider" id="tx_slider"></div>
-                <div class="clearfix"></div>
-                <div id="tx_legend">
-                    <span id="tx_legend_note" class="small">Population change, 2014-2015</span>
+            <div class="col-md-8">
+                <p>Austin isn't the only Texas area seeing phenomenal growth. Texas' four largest metro areas (Houston, Dallas/Fort Worth, San Antonio and Austin areas) added more people than any other state as whole, other than Texas. From July 2014 to July 2015, five Texas counties were among the fastest-growing large counties (100,000+) in the country: Hays (2), Fort Bend (3), Comal (6), Montgomery (8), Williamson (9). Loving County was the fastest growing county in America in 2015, adding 25 people for a whopping total of 112. Hey, that's 35 percent growth!</p>
+<div class="slider" id="tx_slider"></div>
+<div class="clearfix"></div>
+            </div>
+        <div class="col-md-4">
+                <div class="well callout whitetext">
+                    <p class="lead bold"><i class="fa fa-bar-chart"></i>&ensp;Slider</p>
+                    <p>Use the slider to compare growth rates between years. Hover or tap on a county to show more details.</p>
                 </div>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-8">
+                <span id="tx_legend_note" class="small">Population change, 2014-2015</span>
+                <div id="tx_legend"></div>
                 <div class="clearfix"></div>
                 <div id="tx_map"></div>
             </div>
-            <div class="col-xs-12 col-md-3">
+            <div class="col-xs-12 col-md-4">
                 <div id="tx_hover_output"></div>
             </div>
         </div>
@@ -197,18 +216,28 @@ Among metropolitan areas with more than 1 million people
 
 <div id="us_map_div" class="interactive-header">
     <div class="container">
-    <h3 class="bold">U.S.: </h3>
-    <p>Use the slider to compare growth rates between years. Hover or tap on a county to show more details.</p>
+    <h3 class="bold">National</h3>
+    <div class="row">
+        <div class="col-md-8">
+            <p>Florida rivals Texas for having the most fastest-growing counties &mdash; the Sunshine State had three counties in the top 10 from July 2014 to July 2015. But there's still a lot of green in oil-producing regions like North Dakota, which has been the fastest-growing state for the past couple of years.</p>
+            <div class="clearfix"></div>
+            <div class="slider" id="us_slider"></div>
+        </div>
+    <div class="col-md-4">
+            <div class="well callout whitetext">
+                <p class="lead bold"><i class="fa fa-bar-chart"></i>&ensp;Slider</p>
+                <p>Use the slider to compare growth rates between years. Hover or tap on a county to show more details.</p>
+            </div>
+    </div>
+    </div>
         <div class="row">
-            <div class="col-xs-12 col-md-9">
-                <div class="slider" id="us_slider"></div>
+            <div class="col-xs-12 col-md-8">
                 <div class="clearfix"></div>
-                <div id="us_legend">
-                    <span id="us_legend_note" class="small">Population change, 2014-2015</span>
-                </div>
+                <span id="us_legend_note" class="small">Population change, 2014-2015</span>
+                <div id="us_legend"></div>
                 <div id="us_map"></div>
             </div>
-            <div class="col-xs-12 col-md-3">
+            <div class="col-xs-12 col-md-4">
                 <div id="us_hover_output"></div>
             </div>
         </div>

@@ -114,7 +114,7 @@ module.exports = function(grunt) {
           authKey: 'cmg'
         },
         src: 'public',
-        dest: '/stage_aas/projects/news/census-population-2016/',
+        dest: '/stage_aas/projects/news/census-population-2015/',
         exclusions: ['dist/tmp','Thumbs.db','.DS_Store'],
         simple: false,
         useList: false
@@ -127,7 +127,7 @@ module.exports = function(grunt) {
           authKey: 'cmg'
         },
         src: 'public',
-        dest: '/stage_aas/projects/news/census-population-2016/',
+        dest: '/stage_aas/projects/news/census-population-2015/',
         exclusions: ['dist/tmp','Thumbs.db','.DS_Store'],
         simple: false,
         useList: false
@@ -143,10 +143,10 @@ module.exports = function(grunt) {
           icon_url: 'http://vermilion1.github.io/presentations/grunt/images/grunt-logo.png'
         },
         stage: {
-          text: 'Project published to stage: http://stage.host.coxmediagroup.com/aas/projects/news/census-population-2016/ {{message}}'
+          text: 'Project published to stage: http://stage.host.coxmediagroup.com/aas/projects/news/census-population-2015/ {{message}}'
         },
         prod: {
-          text: 'Project published to prod: http://projects.statesman.com/news/census-population-2016/ {{message}}'
+          text: 'Project published to prod: http://projects.statesman.com/news/census-population-2015/ {{message}}'
         }
     }
 

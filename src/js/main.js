@@ -21,6 +21,13 @@
           2014: "pop14",
           2015: "pop15"
       },
+      color_domain: {
+          1: 0.1,
+          2: 0.1,
+          3: 0.15,
+          4: 0.15,
+          5: 0.2
+      },
       pct_format: d3.format('.2%'),
       comma_format: d3.format('0,000')
       };
@@ -28,6 +35,12 @@
     // helper function to return % change
     function pct_change(new_num, old_num) {
         return (+new_num - +old_num) / +old_num;
+    }
+
+    // helper function to return color scale range
+    function get_color_scale_range(minyear, maxyear) {
+        var diff = +maxyear - +minyear;
+        return viz_config.color_domain[diff];
     }
 
     // global template settings
@@ -120,11 +133,6 @@
         var width = d3_map.node().getBoundingClientRect().width;
         var height = width / aspect;
 
-        // quantize color scale
-        var color = d3.scale.quantize()
-            .domain([-0.05, 0, 0.05])
-            .range(viz_config.map_colors);
-
         // set up the projection
         var projection = d3.geo.albersUsa()
             .scale(width)
@@ -145,21 +153,34 @@
         // the object to hold the data reference
         var fipsDict = {};
 
+        var min_domain = 0, max_domain = 0;
+
+        var col_domain = get_color_scale_range(2014, 2015);
+
+        // quantize color scale
+        var color = d3.scale.quantize()
+            .domain([-col_domain, 0, col_domain])
+            .range(viz_config.map_colors);
+
         // load the data (async) and populate the object
         d3_queue.queue()
             .defer(d3.json, viz_config.us_counties)
             .defer(d3.csv, viz_config.us_county_data, function(d) {
-                var id = d.statefips + d.countyfips;
-                var rate = pct_change(d.pop15, d.pop14);
-                // https://github.com/mbostock/d3/wiki/Arrays#map_set
-                rateById.set(+id, rate);
-                fipsDict[+id] = d;
+                if (d.countyfips !== "000") {
+                    var id = d.statefips + d.countyfips;
+                    var rate = pct_change(d.pop15, d.pop14);
+                    // https://github.com/mbostock/d3/wiki/Arrays#map_set
+                    rateById.set(+id, rate);
+                    fipsDict[+id] = d;
+                }
             })
         .await(ready);
 
         // when the data's loaded, draw the map
         function ready(error, us) {
             if (error) throw error;
+
+            console.log(min_domain, max_domain);
 
             // define the gis data
             var counties = topojson.feature(us, us.objects.counties);
@@ -280,6 +301,31 @@
                 var min_year_var = viz_config.year_map[minyear];
                 var max_year_var = viz_config.year_map[maxyear];
 
+                var col_domain = get_color_scale_range(minyear, maxyear);
+
+                // quantize color scale
+                var color = d3.scale.quantize()
+                    .domain([-col_domain, 0, col_domain])
+                    .range(viz_config.map_colors);
+
+                $("#us_legend").html("");
+
+                var d3_legend = d3.select('#us_legend')
+                    .append('ul')
+                    .attr('class', 'list-inline');
+
+                var keys = d3_legend.selectAll('li.key')
+                    .data(color.range());
+
+                keys.enter().append('li')
+                    .attr('class', 'key')
+                    .style('border-top-color', String)
+                    .text(function(d) {
+                        var r = color.invertExtent(d);
+                        var pct = d3.format('%');
+                        return pct(r[0]);
+                    });
+
                 d3.selectAll('.counties path')
                     .style("fill", function(d) {
                         // fill color, if it exists
@@ -372,9 +418,11 @@
         var width = d3_map.node().getBoundingClientRect().width;
         var height = width / aspect;
 
+        var col_domain = get_color_scale_range(2014, 2015);
+
         // quantize color scale
         var color = d3.scale.quantize()
-            .domain([-0.1, 0, 0.1])
+            .domain([-col_domain, 0, col_domain])
             .range(viz_config.map_colors);
 
         // set up the projection
@@ -399,15 +447,21 @@
         // the object to hold the data reference
         var fipsDict = {};
 
+        var txdata;
+
         // load the data (async) and populate the object
         d3_queue.queue()
             .defer(d3.json, viz_config.tx_counties)
             .defer(d3.csv, viz_config.tx_county_data, function(d) {
-                var county = d.county;
-                var rate = pct_change(d.pop15, d.pop14);
-                // https://github.com/mbostock/d3/wiki/Arrays#map_set
-                rateById.set(county, rate);
-                fipsDict[county] = d;
+                if (d.countyfips !== "000") {
+                    var county = d.county;
+                    var rate = pct_change(d.pop15, d.pop14);
+                    // https://github.com/mbostock/d3/wiki/Arrays#map_set
+                    rateById.set(county, rate);
+                    fipsDict[county] = d;
+                } else {
+                    txdata = d;
+                }
             })
         .await(ready);
 
@@ -463,7 +517,12 @@
                                 year: 2015,
                                 val: viz_config.comma_format(rec.pop15)
                             },
-                            pct_change: pre + viz_config.pct_format(pct_ch)
+                            pct_change: pre + viz_config.pct_format(pct_ch),
+                            texas: {
+                                oldyear: viz_config.comma_format(txdata.pop14),
+                                newyear: viz_config.comma_format(txdata.pop15),
+                                pct_change: "+" + viz_config.pct_format(pct_change(txdata.pop15, txdata.pop14))
+                            }
                         };
 
                         $tx_hover_output.html(map_template(data_to_template));
@@ -532,6 +591,31 @@
                 var min_year_var = viz_config.year_map[minyear];
                 var max_year_var = viz_config.year_map[maxyear];
 
+                var col_domain = get_color_scale_range(minyear, maxyear);
+
+                // quantize color scale
+                var color = d3.scale.quantize()
+                    .domain([-col_domain, 0, col_domain])
+                    .range(viz_config.map_colors);
+
+                $("#tx_legend").html("");
+
+                var d3_legend = d3.select('#tx_legend')
+                    .append('ul')
+                    .attr('class', 'list-inline');
+
+                var keys = d3_legend.selectAll('li.key')
+                    .data(color.range());
+
+                keys.enter().append('li')
+                    .attr('class', 'key')
+                    .style('border-top-color', String)
+                    .text(function(d) {
+                        var r = color.invertExtent(d);
+                        var pct = d3.format('%');
+                        return pct(r[0]);
+                    });
+
                 d3.selectAll('.texas-counties path')
                     .style("fill", function(d) {
                         // fill color, if it exists
@@ -572,11 +656,16 @@
                                     year: maxyear,
                                     val: viz_config.comma_format(rec[max_year_var])
                                 },
-                                pct_change: pre + viz_config.pct_format(pct_ch)
-                            };
+                                pct_change: pre + viz_config.pct_format(pct_ch),
+                                texas: {
+                                    oldyear: viz_config.comma_format(txdata[min_year_var]),
+                                    newyear: viz_config.comma_format(txdata[max_year_var]),
+                                    pct_change: "+" + viz_config.pct_format(pct_change(txdata[max_year_var], txdata[min_year_var]))
+                                }
+                                };
 
                             $tx_hover_output.html(map_template(data_to_template));
-                            
+
                         }
                     })
                     .on('mouseout', function(d) {
@@ -594,7 +683,6 @@
             $(window).resize(_.debounce(redraw, 500));
 
             function redraw() {
-                console.log('here');
                 var width = d3_map.node().getBoundingClientRect().width;
                 var height = width / aspect;
 
