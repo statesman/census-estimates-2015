@@ -409,7 +409,6 @@
     // draw the Texas map
     (function() {
         // cache dom references
-        var $tx_hover_output = $('#tx_hover_output');
         var d3_map = d3.select('#tx_map');
         var $tx_slider = $("#tx_slider");
 
@@ -472,6 +471,24 @@
             // define the gis data
             var countyGeo = topojson.feature(counties, counties.objects.tl_2014_us_county_texas).features;
 
+            $("#tx_table_header_row").html(
+                "<th></th>" +
+                "<th>2014</th>" +
+                "<th>2015</th>" +
+                "<th>Change</th>"
+            );
+
+            $("#tx_table_row").html(
+                "<td>Texas</td>" +
+                "<td>" + viz_config.comma_format(txdata.pop14) + "</td>" +
+                "<td>" + viz_config.comma_format(txdata.pop15) + "</td>" +
+                "<td>" + "+" + viz_config.pct_format(pct_change(txdata.pop15, txdata.pop14)) + "</td>"
+            );
+
+            $("#tx_county_table_row").html(
+                "<td colspan=4 class='muted'>Hover or tap on a county</td>"
+            );
+
             // draw the counties
             svg.append('g')
                 .attr('class', 'texas-counties')
@@ -507,26 +524,12 @@
                             pre = "+";
                         }
 
-                        var data_to_template = {
-                            county: rec.county,
-                            oldyear: {
-                                year: 2014,
-                                val: viz_config.comma_format(rec.pop14)
-                            },
-                            newyear: {
-                                year: 2015,
-                                val: viz_config.comma_format(rec.pop15)
-                            },
-                            pct_change: pre + viz_config.pct_format(pct_ch),
-                            texas: {
-                                oldyear: viz_config.comma_format(txdata.pop14),
-                                newyear: viz_config.comma_format(txdata.pop15),
-                                pct_change: "+" + viz_config.pct_format(pct_change(txdata.pop15, txdata.pop14))
-                            }
-                        };
-
-                        $tx_hover_output.html(map_template(data_to_template));
-
+                        $("#tx_county_table_row").html(
+                            "<td>" + rec.county + "</td>" +
+                            "<td>" + viz_config.comma_format(rec.pop14) + "</td>" +
+                            "<td>" + viz_config.comma_format(rec.pop15) + "</td>" +
+                            "<td>" + viz_config.pct_format(pct_change(rec.pop15, rec.pop14)) + "</td>"
+                        );
                     }
                 })
                 .on('mouseout', function(d) {
@@ -536,7 +539,9 @@
                         "stroke-width": 1
                     });
                     // clear the div
-                    $tx_hover_output.html('');
+                    $("#tx_county_table_row").html(
+                        "<td colspan=4 class='muted'>Hover or tap on a county</td>"
+                    );
                 });
 
             // draw the state outline
@@ -593,6 +598,26 @@
 
                 var col_domain = get_color_scale_range(minyear, maxyear);
 
+            $("#tx_table_header_row").html(
+                "<th></th>" +
+                "<th>" + minyear + "</th>" +
+                "<th>" + maxyear + "</th>" +
+                "<th>Change</th>"
+            );
+
+
+            $("#tx_table_row").html(
+                "<td>Texas</td>" +
+                "<td>" + viz_config.comma_format(txdata[min_year_var]) + "</td>" +
+                "<td>" + viz_config.comma_format(txdata[max_year_var]) + "</td>" +
+                "<td>" + "+" + viz_config.pct_format(pct_change(txdata[max_year_var], txdata[min_year_var])) + "</td>"
+            );
+
+            $("#tx_county_table_row").html(
+                "<td colspan=4 class='muted'>Hover or tap on a county</td>"
+            );
+
+
                 // quantize color scale
                 var color = d3.scale.quantize()
                     .domain([-col_domain, 0, col_domain])
@@ -640,32 +665,12 @@
                             // get pct change
                             var pct_ch = pct_change(rec[max_year_var], rec[min_year_var]);
 
-                            // format text color and prefix
-                            var pre = "";
-                            if (pct_ch > 0) {
-                                pre = "+";
-                            }
-
-                            var data_to_template = {
-                                county: rec.county,
-                                oldyear: {
-                                    year: minyear,
-                                    val: viz_config.comma_format(rec[min_year_var])
-                                },
-                                newyear: {
-                                    year: maxyear,
-                                    val: viz_config.comma_format(rec[max_year_var])
-                                },
-                                pct_change: pre + viz_config.pct_format(pct_ch),
-                                texas: {
-                                    oldyear: viz_config.comma_format(txdata[min_year_var]),
-                                    newyear: viz_config.comma_format(txdata[max_year_var]),
-                                    pct_change: "+" + viz_config.pct_format(pct_change(txdata[max_year_var], txdata[min_year_var]))
-                                }
-                                };
-
-                            $tx_hover_output.html(map_template(data_to_template));
-
+                            $("#tx_county_table_row").html(
+                                "<td>" + rec.county + "</td>" +
+                                "<td>" + viz_config.comma_format(rec[min_year_var]) + "</td>" +
+                                "<td>" + viz_config.comma_format(rec[max_year_var]) + "</td>" +
+                                "<td>" + viz_config.pct_format(pct_ch) + "</td>"
+                            );
                         }
                     })
                     .on('mouseout', function(d) {
@@ -674,8 +679,9 @@
                             "stroke": "#aaa",
                             "stroke-width": 1
                         });
-                        // clear the div
-                        $tx_hover_output.html('');
+            $("#tx_county_table_row").html(
+                "<td colspan=4 class='muted'>Hover or tap on a county</td>"
+            );
                     });
             }
 

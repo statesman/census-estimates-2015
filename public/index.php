@@ -88,7 +88,7 @@
           Published March 24, 2016
       </p>
       <p>
-          A glance across our skyline or a drive up MoPac (harumph!) is all we need to see that Central Texas is growing like a playful Labrador puppy, but today the U.S. Census Bureau released new statistics that confirm what those big puppy paws told us would happen: We're growing awfully fast.
+          A glance across our skyline or a drive up MoPac (good luck with that!) is all we need to see that Central Texas is growing like a playful Labrador puppy. But today, the U.S. Census Bureau released new statistics that confirm what those big puppy paws told us would happen: We're growing awfully fast.
       </p>
       <a href="#" target="_blank" class="bold">Related: XXXXXXXXXXX &raquo;</a>
 </div>
@@ -100,20 +100,13 @@
         <div class="row">
             <div class="col-xs-12">
 
-    <h3 class="bold">Austin</h3>
-    <div class="row">
-    <div class="col-md-8">
-    <p>The Austin metro area is officially home to more than 2 million people, according to U.S. Census Bureau estimates released today. And while that puts us at No. 32 in the rankings of most populous major metros (more than 1 million), the Austin area has been the fastest-growing each of the past five years.</p>
-    <p>From July 2014 to July 2015, the Austin-Round Rock metropolitan statistical area, which includes Travis, Williamson, Hays, Bastrop and Caldwell counties, grew from 1,943,465 to 2,000,860, or 3 percent. Since 2010, the five-county area has grown by 15.8 percent.<p>
+    <h3 class="bold">Austin 2.0 (million)</h3>
+
+    <p>The Austin metro area is now home to more than 2 million people, according to Census Bureau estimates. By population, we're only the 32nd largest metro area in the United States. But among metro areas with more than 1 million people, the Austin area was the fastest-growing in each of the past five years.</p>
+
+    <p>From July 2014 to July 2015, the Austin-Round Rock metropolitan statistical area, which includes Travis, Williamson, Hays, Bastrop and Caldwell counties, grew from 1,943,465 to 2,000,860 people, a 3 percent bump. Since 2010, the five-county area has grown by 15.8 percent.<p>
+        <div class="alert alert-custom bold" role="alert">Use the slider to compare growth rates between years.</div>
             <div class="slider" id="msa_slider"></div>
-    </div>
-    <div class="col-md-4">
-        <div class="well callout whitetext">
-            <p class="lead bold"><i class="fa fa-bar-chart"></i>&ensp;Slider</p>
-            <p>Use the slider to compare growth rates between years.</p>
-        </div>
-    </div>
-</div>
     <h4 id="year_hed">Growth from 2014-2015</h4>
     <div id="chart"></div>
     <p class="small note">Source: U.S. Census Bureau</p>
@@ -125,25 +118,24 @@
 
 <script type="text/html" id="chart_template">
     <div class="row barscale_wrap">
-        <div class="col-md-4 col-md-offset-6 barscale">
+        <div class="col-xs-12 col-md-4 col-md-offset-6 barscale">
             <p class="small pull-left barscale_text">
                 0%
             </p>
             <p class="small pull-right barscale_text" style="margin-right:-10px;">
                 <%= t_data.barscale %>
             </p>
-        </div>
+            <div class="clearfix"></div>
+    </div>
     </div>
     <% _.each(t_data, function(d) { %>
           <div class="row bar-wrapper">
               <div class="col-xs-12 col-md-6 msa_deet_wrap">
-                  <span class="city_deets<% if ( d.msa.toUpperCase() === 'AUSTIN-ROUND ROCK, TX' ) { %> bold<% }; %> pull-right"><%= d.msa %></span>
+                  <span class="city_deets<% if ( d.msa.toUpperCase() === 'AUSTIN-ROUND ROCK, TX' ) { %> bold<% }; %>"><%= d.msa %></span>
               </div>
               <div class="col-xs-12 col-md-4 barchart">
-                    <div class="row">
-                        <div class="bar-container">
-                            <div class="bar whitetext <% if ( d.msa.toUpperCase() === 'AUSTIN-ROUND ROCK, TX' ) { %>bar-austin<% } else { %>bar-reg<% }; %>" style="width:<%= d.barwidth %>%;"><%= d.pct_change %></div>
-                        </div>
+                    <div class="bar-container">
+                        <div class="bar whitetext <% if ( d.msa.toUpperCase() === 'AUSTIN-ROUND ROCK, TX' ) { %>bar-austin<% } else { %>bar-reg<% }; %>" style="width:<%= d.barwidth %>%;"><%= d.pct_change %></div>
                     </div>
               </div>
           </div>
@@ -181,24 +173,18 @@
 
 <div id="tx_map_div" class="interactive-header">
     <div class="container">
-        <h3 class="bold">Texas</h3>
         <div class="row">
-            <div class="col-md-8">
-                <p>Austin isn't the only Texas area seeing phenomenal growth. Texas' four largest metro areas (Houston, Dallas/Fort Worth, San Antonio and Austin areas) added more people than any other state as whole, other than Texas. From July 2014 to July 2015, five Texas counties were among the fastest-growing large counties (100,000+) in the country: Hays (2), Fort Bend (3), Comal (6), Montgomery (8), Williamson (9). Loving County, in West Texas, was the fastest growing county in America in 2015, adding 25 people for a whopping total of 112. Hey, that's 35 percent growth!</p>
-<div class="slider" id="tx_slider"></div>
-<div class="clearfix"></div>
+            <div class="col-xs-12">
+        <h3 class="bold">Texas tops in total growth</h3>
+                <p>Austin isn't the only Texas area seeing phenomenal growth. The state's four largest metro areas (Houston, Dallas/Fort Worth, San Antonio and Austin areas) added more people than any other state as whole (other than Texas, of course).</p>
+
+                <p>From July 2014 to July 2015, five Texas counties were among the fastest-growing large counties (100,000+) in the country: Hays (2), Fort Bend (3), Comal (6), Montgomery (8), Williamson (9). Loving County, in West Texas, was the fastest growing county in America in 2015, adding 25 people for a whopping total of 112. Hey, that's 35 percent growth!</p>
+        <div class="alert alert-custom bold" role="alert">Use the slider to compare growth rates between years. Hover or tap on a county to show more details.</div>
+
+                <div class="slider" id="tx_slider"></div>
             </div>
-        <div class="col-md-4">
-                <div class="well callout whitetext">
-                    <p class="lead bold"><i class="fa fa-bar-chart"></i>&ensp;Slider</p>
-                    <p>Use the slider to compare growth rates between years.</p>
-                </div>
-                <div class="well callout whitetext">
-                    <p class="lead bold"><i class="fa fa-map-marker"></i>&ensp;Map</p>
-                    <p>Hover or tap on a county to show more details.</p>
-                </div>
         </div>
-        </div>
+
         <div class="row">
             <div class="col-xs-12 col-md-8">
                 <span id="tx_legend_note" class="small">Population change, 2014-2015</span>
@@ -207,7 +193,16 @@
                 <div id="tx_map"></div>
             </div>
             <div class="col-xs-12 col-md-4">
-                <div id="tx_hover_output"></div>
+                <table id="tx_table" class="table table-condensed">
+                    <thead>
+                        <tr id="tx_table_header_row">
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="tx_table_row"></tr>
+                        <tr id="tx_county_table_row"></tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     <p class="small">Source: U.S. Census Bureau</p>
@@ -217,24 +212,14 @@
 
 <div id="us_map_div" class="interactive-header">
     <div class="container">
-    <h3 class="bold">National</h3>
-    <div class="row">
-        <div class="col-md-8">
-            <p>Florida rivals Texas for having the most fastest-growing counties &mdash; the Sunshine State had three counties in the top 10 from July 2014 to July 2015. But there's still a lot of green in oil-producing regions like North Dakota, which has been the fastest-growing state for the past couple of years.</p>
-            <div class="clearfix"></div>
+        <div class="row">
+            <div class="col-xs-12">
+    <h3 class="bold">North Dakota still drawing nationally</h3>
+            <p>Florida rivals Texas for having the most fastest-growing counties &mdash; the Sunshine State had three counties in the top 10 from July 2014 to July 2015. And despite the tanking oil market, there's still a lot of green in oil-producing regions like North Dakota, which has been the fastest-growing state for the past couple of years.</p>
+        <div class="alert alert-custom bold" role="alert">Use the slider to compare growth rates between years. Hover or tap on a county to show more details.</div>
             <div class="slider" id="us_slider"></div>
         </div>
-    <div class="col-md-4">
-                <div class="well callout-lite whitetext">
-                    <p class="lead bold"><i class="fa fa-bar-chart"></i>&ensp;Slider</p>
-                    <p>Use the slider to compare growth rates between years.</p>
-                </div>
-                <div class="well callout-lite whitetext">
-                    <p class="lead bold"><i class="fa fa-map-marker"></i>&ensp;Map</p>
-                    <p>Hover or tap on a county to show more details.</p>
-                </div>
-    </div>
-    </div>
+        </div>
         <div class="row">
             <div class="col-xs-12 col-md-8">
                 <div class="clearfix"></div>
