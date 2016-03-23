@@ -150,12 +150,15 @@ Among metropolitan areas with more than 1 million people
 <div id="tx_map_div" class="interactive-header">
     <div class="container">
         <h3 class="bold">Texas: XXXXXXXXXXXXX</h3>
-        <p>In Texas, blah blah blah. Hover or tap on a county to see XXXX.</p>
+        <p>Use the slider to compare growth rates between years. Hover or tap on a county to show more details.</p>
         <div class="row">
             <div class="col-xs-12 col-md-9">
+                <div class="slider" id="tx_slider"></div>
+                <div class="clearfix"></div>
                 <div id="tx_legend">
-                    <small>Population change, 2010-2014</small>
+                    <span id="tx_legend_note" class="small">Population change, 2014-2015</span>
                 </div>
+                <div class="clearfix"></div>
                 <div id="tx_map"></div>
             </div>
             <div class="col-xs-12 col-md-3">
@@ -176,7 +179,7 @@ Among metropolitan areas with more than 1 million people
                 <div class="slider" id="us_slider"></div>
                 <div class="clearfix"></div>
                 <div id="us_legend">
-                    <span id="us_legend_note" class="small">Population change, 2010-2015</span>
+                    <span id="us_legend_note" class="small">Population change, 2014-2015</span>
                 </div>
                 <div id="us_map"></div>
             </div>

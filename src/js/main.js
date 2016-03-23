@@ -23,6 +23,11 @@
       }
     };
 
+    // helper function to return % change
+    function pct_change(new_num, old_num) {
+        return (+new_num - +old_num) / +old_num;
+    }
+
 
     // draw the graph
     (function() {
@@ -74,7 +79,7 @@
             }
 
             // initial view = year over year
-            makeChart('pop10', 'pop11');
+            makeChart('pop14', 'pop15');
 
             $msa_slider.slider({
               range: true,
@@ -108,11 +113,6 @@
         var $us_hover_output = $('#us_hover_output');
         var d3_map = d3.select('#us_map');
         var $us_slider = $("#us_slider");
-
-        // helper function to return % change
-        function pct_change(new_num, old_num) {
-            return (+new_num - +old_num) / +old_num;
-        }
 
         // define height, width, aspect ratio
         var aspect = 960 / 500;
@@ -342,20 +342,16 @@
         var width = d3_map.node().getBoundingClientRect().width;
         var height = width / aspect;
 
-        var scale = function() {
-            return 5.5 * width;
-          };
-
         // quantize color scale
         var color = d3.scale.quantize()
-            .domain([-0.25, 0, 0.25])
+            .domain([-0.1, 0, 0.1])
             .range(viz_config.map_colors);
 
         // set up the projection
         var projection = d3.geo.conicConformal()
             .center([2, 31.15])
             .rotate([102, 0])
-            .scale(scale())
+            .scale(5.5 * width)
             .translate([width / 2, height / 2]);
 
         // set up the path
@@ -376,11 +372,12 @@
         // load the data (async) and populate the object
         d3_queue.queue()
             .defer(d3.json, viz_config.tx_counties)
-            .defer(d3.csv, viz_config.tx_data, function(d) {
-                var id = d.statefp + d.countyfp;
+            .defer(d3.csv, viz_config.tx_county_data, function(d) {
+                var county = d.county;
+                var rate = pct_change(d.pop15, d.pop14);
                 // https://github.com/mbostock/d3/wiki/Arrays#map_set
-                rateById.set(+id, +d.rate);
-                fipsDict[+id] = d;
+                rateById.set(county, rate);
+                fipsDict[county] = d;
             })
         .await(ready);
 
@@ -393,41 +390,47 @@
 
             // draw the counties
             svg.append('g')
-                .attr('class', 'counties')
-                .selectAll('.counties')
+                .attr('class', 'texas-counties')
+                .selectAll('.texas-counties')
                 .data(countyGeo)
                 .enter().append('path')
                 .style("fill", function(d) {
                     // fill color, if it exists
-                    if(typeof fipsDict[+d.id] !== "undefined") {
-                        return color(fipsDict[+d.id].rate);
+                    if(typeof fipsDict[d.id] !== "undefined") {
+                        var rec = fipsDict[d.id];
+                        var pct_ch = pct_change(rec.pop15, rec.pop14);
+                        return color(pct_ch);
                     }
                 })
                 .attr('d', path)
                 // bind the mouseover event
                 .on('mouseover', function(d) {
-                    if(typeof fipsDict[+d.id] !== "undefined") {
+                    if(typeof fipsDict[d.id] !== "undefined") {
                         // highlight the county border
                         d3.select(this).style({
                             "stroke": "#aaa",
                             "stroke-width": 3
                         });
                         // retrieve the correct record
-                        var rec = fipsDict[+d.id];
+                        var rec = fipsDict[d.id];
+
+                        // get pct change
+                        var pct_ch = pct_change(rec.pop15, rec.pop14);
+
                         // format text color and prefix
-                        var pre = "", col="#f55";
-                        if (rec.rate > 0) {
+                        var pre = "", col="red";
+                        if (pct_ch > 0) {
                             pre = "+";
-                            col = "lime";
+                            col = "green";
                         }
                         // populate the div
-                        $tx_hover_output.html('<h4>' + rec.countyname + "</h4><span style='color: " + col + "'>" + pre + (rec.rate * 100).toFixed(2) + "%</span>");
+                        $tx_hover_output.html('<h4>' + rec.county + "</h4><span style='color: " + col + "'>" + pre + (pct_ch * 100).toFixed(2) + "%</span>");
                     }
                 })
                 .on('mouseout', function(d) {
                     // reset county border style
                     d3.select(this).style({
-                        "stroke": "#eee",
+                        "stroke": "#aaa",
                         "stroke-width": 1
                     });
                     // clear the div
@@ -460,21 +463,90 @@
                     return pct(r[0]);
                 });
 
+            // draw the slider
+            $tx_slider.slider({
+              range: true,
+              min: viz_config.min_year,
+              max: viz_config.max_year,
+              step: 1,
+              values: [viz_config.max_year - 1, viz_config.max_year],
+              slide: function( event, ui ) {
+                if ( ui.values[0] !== ui.values[1] ) {
+                    redrawTxMap(viz_config.year_map[ui.values[0]], viz_config.year_map[ui.values[1]]);
+                    $("#tx_legend_note" ).html("Population change, " + ui.values[0] + "-" + ui.values[1]);
+                }
+              }
+            });
+
+            var opt = $tx_slider.data()['ui-slider'].options;
+            var vals = opt.max - opt.min;
+            for (var i = 0; i <= vals; i++) {
+                var el = $('<label class="notouchy">' + (i + opt.min) + '</label>').css('left', (i/vals*100) + '%');
+                $tx_slider.append(el);
+            }
+
+            function redrawTxMap(minyear, maxyear) {
+                d3.selectAll('.texas-counties path')
+                    .style("fill", function(d) {
+                        // fill color, if it exists
+                        if(typeof fipsDict[d.id] !== "undefined") {
+                            var rec = fipsDict[d.id];
+                            var pct_ch = pct_change(rec[maxyear], rec[minyear]);
+                            return color(pct_ch);
+                        }
+                    })
+                    .attr('d', path)
+                    // bind the mouseover event
+                    .on('mouseover', function(d) {
+                        if(typeof fipsDict[d.id] !== "undefined") {
+                            // highlight the county border
+                            d3.select(this).style({
+                                "stroke": "#aaa",
+                                "stroke-width": 3
+                            });
+                            // retrieve the correct record
+                            var rec = fipsDict[d.id];
+
+                            // get pct change
+                            var pct_ch = pct_change(rec[maxyear], rec[minyear]);
+
+                            // format text color and prefix
+                            var pre = "", col="red";
+                            if (pct_ch > 0) {
+                                pre = "+";
+                                col = "green";
+                            }
+                            // populate the div
+                            $tx_hover_output.html('<h4>' + rec.county + ", " + rec.state + "</h4><span style='color: " + col + "'>" + pre + (pct_ch * 100).toFixed(2) + "%</span>");
+                        }
+                    })
+                    .on('mouseout', function(d) {
+                        // reset county border style
+                        d3.select(this).style({
+                            "stroke": "#aaa",
+                            "stroke-width": 1
+                        });
+                        // clear the div
+                        $tx_hover_output.html('');
+                    });
+            }
+
             // bind redraw function on resize
-            d3.select(window).on("resize", _.debounce(redraw, 500));
+            $(window).resize(_.debounce(redraw, 500));
 
             function redraw() {
+                console.log('here');
                 var width = d3_map.node().getBoundingClientRect().width;
                 var height = width / aspect;
 
                 svg.attr('width', width)
-                    .attr('height', height);
+                  .attr('height', height);
 
                 projection
-                    .scale(scale())
-                    .translate([width / 2, height / 2]);
+                  .scale(5.5 * width)
+                  .translate([width / 2, height / 2]);
 
-                d3.selectAll('.counties path')
+                d3.selectAll('.texas-counties path')
                     .attr('d', path);
 
                 d3.select('path.county-borders')
