@@ -90,7 +90,6 @@
       <p>
           A glance across our skyline or a drive up MoPac (good luck with that!) is all we need to see that Central Texas is growing like a playful Labrador puppy. But today, the U.S. Census Bureau released new statistics confirming what those big puppy paws told us would happen: We're growing awfully fast.
       </p>
-      <!--<a href="#" target="_blank" class="bold">Related: XXXXXXXXXXX &raquo;</a>-->
 </div>
 </div>
 
@@ -105,6 +104,7 @@
     <p>The Austin metro area is now home to more than 2 million people, according to the Census Bureau estimates. By population, we're only the 32nd largest metro area in the United States. But among metro areas with more than 1 million people, we've been the fastest-growing metro area five years running.</p>
 
     <p>From July 2014 to July 2015, the Austin-Round Rock metropolitan statistical area, which includes Travis, Williamson, Hays, Bastrop and Caldwell counties, grew from 1,943,465 to 2,000,860 people, a 3 percent bump. Since 2010, the five-county area has grown by 15.8 percent.<p>
+    <p><a href="http://www.mystatesman.com/news/news/local/austin-metro-area-surpasses-2-million-residents/nqrQF/" target="_blank" class="bold"> &raquo; Related: Austin metro area surpasses 2 million residents</a></p>
         <div class="alert alert-custom bold" role="alert">Use the slider to compare growth rates between years.</div>
             <div class="slider" id="msa_slider"></div>
     <h4 id="year_hed">Growth from 2014-2015</h4>
@@ -176,9 +176,10 @@
         <div class="row">
             <div class="col-xs-12">
         <h3 class="bold">Texas tops in total growth</h3>
-                <p>Austin isn't the only Texas area seeing phenomenal growth. The state's four largest metro areas (Houston, Dallas/Fort Worth, San Antonio and Austin areas) added more people than any other state as whole (other than Texas, of course).</p>
+            <p>Austin isn't the only Texas area seeing phenomenal growth. The state's four largest metro areas (Houston, Dallas/Fort Worth, San Antonio and Austin areas) added more people than any other state as whole (other than Texas, of course).</p>
 
-                <p>From July 2014 to July 2015, five Texas counties were among the fastest-growing large counties (100,000+) in the country: Hays (2), Fort Bend (3), Comal (6), Montgomery (8), Williamson (9). Loving County, in West Texas, was the fastest growing county in America in 2015, adding 25 people for a whopping total of 112. Hey, that's 35 percent growth!</p>
+            <p>From July 2014 to July 2015, five Texas counties were among the fastest-growing large counties (100,000+) in the country: Hays (2), Fort Bend (3), Comal (6), Montgomery (8), Williamson (9). Loving County, in West Texas, was the fastest growing county in America in 2015, adding 25 people for a whopping total of 112. Hey, that's 35 percent growth!</p>
+            <p><a href="http://www.mystatesman.com/news/news/local/will-austin-san-antonio-become-the-next-dfw/nqrFw/" target="_blank" class="bold"> &raquo; Related: Will Austin-San Antonio become the next DFW?</a></p>
         <div class="alert alert-custom bold" role="alert">Use the slider to compare growth rates between years. Hover or tap on a county to show more details.</div>
 
                 <div class="slider" id="tx_slider"></div>
