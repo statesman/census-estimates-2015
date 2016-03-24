@@ -528,7 +528,7 @@
                             "<td>" + rec.county + "</td>" +
                             "<td>" + viz_config.comma_format(rec.pop14) + "</td>" +
                             "<td>" + viz_config.comma_format(rec.pop15) + "</td>" +
-                            "<td>" + viz_config.pct_format(pct_change(rec.pop15, rec.pop14)) + "</td>"
+                            "<td>" + pre + viz_config.pct_format(pct_change(rec.pop15, rec.pop14)) + "</td>"
                         );
                     }
                 })
