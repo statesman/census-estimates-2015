@@ -81,7 +81,7 @@
 
       <div class="interactive-header white">
       <div class="container">
-          <h4>Census</h4>
+          <h4>2015 Census estimates</h4>
       <h1 id="pagetitle">Population data show rapid growth rate</h1>
       <p class="author">Interactive by Cody Winchester and Christian McDonald, American-Statesman
           <br>
