@@ -7,10 +7,10 @@
   $meta = array(
     "title" => "2015 Census estimates | Statesman.com",
     "description" => "Austin and other Texas cities are still growing like weeds.",
-    "thumbnail" => "http://projects.statesman.com/news/census-population-2015/assets/sharegif.gif",
+    "thumbnail" => "http://projects.statesman.com/news/census/estimates-2015/assets/sharegif.gif",
     "shortcut_icon" => "http://media.cmgdigital.com/shared/media/2015-11-16-11-32-05/web/site/www_mystatesman_com/images/favicon.ico",
     "apple_touch_icon" => "http://media.cmgdigital.com/shared/theme-assets/242014/www.statesman.com_fa2d2d6e73614535b997734c7e7d2287.png",
-    "url" => "http://projects.statesman.com/news/census-population-2015/",
+    "url" => "http://projects.statesman.com/news/census/estimates-2015/",
     "twitter" => "statesman"
   );
 ?>
